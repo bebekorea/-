@@ -173,7 +173,8 @@ export default function Page() {
       // ScrollHero / Location handlers run first and call preventDefault +
       // stopImmediatePropagation when intercepting a stage transition. So if
       // we get here, the user wants a section-level jump.
-      if (Math.abs(e.deltaY) < 5) return;
+      // Mac 트랙패드 미세 입력 호환 — 임계값을 5 → 1로 완화.
+      if (Math.abs(e.deltaY) < 1) return;
       if (isMobileScroll()) return;
       e.preventDefault();
       jump(e.deltaY > 0 ? 1 : -1);

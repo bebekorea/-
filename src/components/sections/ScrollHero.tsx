@@ -359,7 +359,10 @@ export default function ScrollHero({ isActive = true, onStageChange, resetTick }
 
     const isInView = () => {
       const r = sec.getBoundingClientRect();
-      return r.top <= 1 && r.bottom >= window.innerHeight - 1;
+      // Mac 레티나 sub-pixel 렌더링 + 브라우저 줌(100% 아닌 경우)에서 r.top이
+      // 0.5~3px 정도 비정수로 나오면 ≤1 검사로는 false → stage 2/3로 전환이
+      // 영영 안 됨. tolerance를 10px로 풀어 같은 화면 안에 있으면 in-view.
+      return r.top <= 10 && r.bottom >= window.innerHeight - 10;
     };
 
     const tryAdvance = (dir: 1 | -1, ev: Event) => {
@@ -426,7 +429,10 @@ export default function ScrollHero({ isActive = true, onStageChange, resetTick }
       window.matchMedia("(max-width: 767px)").matches;
 
     const onWheel = (e: WheelEvent) => {
-      if (Math.abs(e.deltaY) < 5) return;
+      // Mac 트랙패드는 가벼운 손가락 터치에서 deltaY가 1~3 정도로 미세하게
+      // 들어와 5 임계값으로 무시되면 사용자는 "스크롤이 먹지 않는다"고 느낌.
+      // 1 미만은 거의 의도 없는 값으로 보고 무시.
+      if (Math.abs(e.deltaY) < 1) return;
       if (!isInView()) return;
       if (skipForMobile()) return;
       const now = Date.now();
