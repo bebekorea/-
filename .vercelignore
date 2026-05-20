@@ -1,0 +1,10 @@
+# Local backups of original Hero videos before compression — kept on
+# disk for archival but excluded from the Vercel upload.
+public/videos/*-original.mp4
+
+# Build artifacts (also covered by Vercel's defaults but safe to list)
+.next/
+out/
+
+# Local env (just in case)
+.env*.local

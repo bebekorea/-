@@ -1,0 +1,7 @@
+[     589ms] [WARNING] A preload for 'https://static.toss.im/frontend/libraries/lottie.min.js' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute. @ https://static.toss.im/frontend/toss.im/home/_next/static/chunks/866-650f8547ccb0b5ea.js:0
+[     597ms] [ERROR] Refused to get unsafe header "X-Toss-Event-Id" @ https://static.toss.im/frontend/toss.im/home/_next/static/chunks/pages/_app-80636f3b379f21d3.js:0
+[     598ms] [ERROR] Refused to get unsafe header "X-Toss-Event-Id" @ https://static.toss.im/frontend/toss.im/home/_next/static/chunks/pages/_app-80636f3b379f21d3.js:0
+[     599ms] [ERROR] Refused to get unsafe header "X-Toss-Event-Id" @ https://static.toss.im/frontend/toss.im/home/_next/static/chunks/pages/_app-80636f3b379f21d3.js:0
+[     600ms] [ERROR] Refused to get unsafe header "X-Toss-Event-Id" @ https://static.toss.im/frontend/toss.im/home/_next/static/chunks/pages/_app-80636f3b379f21d3.js:0
+[     651ms] [ERROR] Refused to get unsafe header "X-Toss-Event-Id" @ https://static.toss.im/frontend/toss.im/home/_next/static/chunks/pages/_app-80636f3b379f21d3.js:0
+[    4610ms] [WARNING] The resource https://static.toss.im/frontend/libraries/lottie.min.js was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://toss.im/:0

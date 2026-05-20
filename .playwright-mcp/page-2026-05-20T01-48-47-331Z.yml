@@ -1,0 +1,1761 @@
+- generic [active] [ref=e1]:
+  - complementary "Choose country or region" [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]: 현재 계신 국가에 맞는 콘텐츠를 확인하거나 온라인 쇼핑을 하려면 해당 국가 또는 지역을 선택하세요.
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - button " 대한민국 " [ref=e7]:
+            - generic [ref=e8]:
+              - generic [ref=e9]: 
+              - generic [ref=e10]: 대한민국
+            - text: 
+          - text: 
+        - button "계속" [ref=e11] [cursor=pointer]
+        - button "국가 또는 지역 선택 도구 닫기" [ref=e12] [cursor=pointer]:
+          - img [ref=e13]
+  - navigation "Global" [ref=e17]:
+    - generic [ref=e18]:
+      - link "Apple" [ref=e19] [cursor=pointer]:
+        - /url: /
+        - generic:
+          - img
+        - generic: Apple
+      - button "Search apple.com" [ref=e20] [cursor=pointer]:
+        - generic:
+          - img
+      - button "Shopping Bag" [ref=e22] [cursor=pointer]:
+        - generic:
+          - img
+      - button "Menu" [ref=e24] [cursor=pointer]:
+        - img [ref=e25]
+  - navigation "local":
+    - generic:
+      - generic:
+        - generic:
+          - link "iPhone Air":
+            - /url: /iphone-air/
+          - list:
+            - listitem:
+              - button "Explore iPhone Air":
+                - generic: Explore
+                - generic:
+                  - img
+            - listitem:
+              - link "Buy, iPhone Air":
+                - /url: /us/shop/goto/buy_iphone/iphone_air
+                - text: Buy
+        - dialog "Local Navigation":
+          - navigation "iPhone family of products":
+            - list:
+              - listitem:
+                - link "iPhone 17 Pro":
+                  - /url: /iphone-17-pro/
+                  - paragraph: iPhone 17 Pro
+              - listitem:
+                - link "iPhone Air Currently viewing":
+                  - /url: /iphone-air/
+                  - paragraph:
+                    - text: iPhone Air
+                    - generic: Currently viewing
+              - listitem:
+                - link "iPhone 17":
+                  - /url: /iphone-17/
+                  - paragraph: iPhone 17
+              - listitem:
+                - link "iPhone 17e New":
+                  - /url: /iphone-17e/
+                  - paragraph:
+                    - text: iPhone 17e
+                    - generic: New
+              - listitem:
+                - link "iPhone 16":
+                  - /url: /us/shop/goto/buy_iphone/iphone_16
+                  - paragraph: iPhone 16
+              - listitem:
+                - link "Compare":
+                  - /url: /iphone/compare/
+                  - paragraph: Compare
+              - listitem:
+                - link "Accessories":
+                  - /url: /us/shop/goto/iphone/accessories
+                  - paragraph: Accessories
+              - listitem:
+                - link "Shop, iPhone":
+                  - /url: /us/shop/goto/buy_iphone
+                  - paragraph: Shop iPhone
+              - listitem:
+                - link "iOS":
+                  - /url: /os/ios/
+                  - paragraph: iOS
+            - button "next item":
+              - img
+          - generic:
+            - generic:
+              - generic:
+                - heading "iPhone Air" [level=2]
+            - generic:
+              - paragraph:
+                - generic:
+                  - strong:
+                    - text: From $999
+                    - generic:
+                      - text: or $41.62/mo. for 24 mo.
+                      - generic:
+                        - link "Footnote * symbol":
+                          - /url: "#footnote-1"
+                          - text: "*"
+              - generic:
+                - link "Buy, iPhone Air":
+                  - /url: /us/shop/goto/buy_iphone/iphone_air
+                  - text: Buy
+          - navigation "Local":
+            - list:
+              - listitem:
+                - link "Overview " [disabled]:
+                  - text: Overview
+                  - generic: 
+                - listitem:
+                  - listitem:
+                    - link "Highlights":
+                      - /url: "#highlights"
+                  - listitem:
+                    - link "Design":
+                      - /url: "#design"
+                  - listitem:
+                    - link "Cameras":
+                      - /url: "#cameras"
+                  - listitem:
+                    - link "Performance":
+                      - /url: "#performance"
+                  - listitem:
+                    - link "Shared Features":
+                      - /url: "#shared-features"
+                  - listitem:
+                    - link "Accessories":
+                      - /url: "#accessories"
+              - listitem:
+                - link "Tech Specs":
+                  - /url: /iphone-air/specs/
+                  - text: Tech Specs
+                  - generic: 
+              - listitem:
+                - link "Switch from Android":
+                  - /url: /iphone-air/switch/
+                  - text: Switch from Android
+                  - generic: 
+            - button "close local navigation"
+  - main [ref=e27]:
+    - paragraph [ref=e33]:
+      - generic [ref=e34]:
+        - generic [ref=e35]: Get up to $195–$685 in credit toward iPhone Air when you trade in iPhone 13 or higher.
+        - superscript [ref=e36]:
+          - link "Footnote 1" [ref=e37] [cursor=pointer]:
+            - /url: "#footnote-3"
+            - text: "1"
+      - text: 
+    - generic [ref=e38]:
+      - generic [ref=e43]:
+        - heading "iPhone Air" [level=1]:
+          - generic [ref=e44]: iPhone Air
+        - heading "The thinnest iPhone ever. With the power of pro inside." [level=2] [ref=e45]:
+          - text: The thinnest iPhone ever.
+          - text: With the power of pro inside.
+      - generic [ref=e47]:
+        - generic:
+          - 'img "A thumb and forefinger holding iPhone Air, side exterior, Sky Blue color, thin profile, Fusion camera system, buttons: side, Camera Control"'
+      - generic [ref=e51]:
+        - link "Buy, iPhone Air" [ref=e52] [cursor=pointer]:
+          - /url: /us/shop/goto/buy_iphone/iphone_air
+          - text: Buy
+        - paragraph [ref=e54]:
+          - text: From $999
+          - generic [ref=e55]:
+            - text: or $41.62/mo. for 24 mo.
+            - link "Footnote * symbol" [ref=e57] [cursor=pointer]:
+              - /url: "#footnote-1"
+              - text: "*"
+    - generic [ref=e58]:
+      - generic [ref=e60]:
+        - heading "Get the highlights." [level=2] [ref=e61]
+        - list [ref=e63]:
+          - listitem [ref=e64]:
+            - button "Watch the film, iPhone Air" [ref=e65] [cursor=pointer]:
+              - text: Watch the film
+              - generic [ref=e66]: 
+      - generic [ref=e67]:
+        - generic [ref=e68]:
+          - button "Play Highlights gallery" [ref=e71] [cursor=pointer]:
+            - img [ref=e73]
+          - tablist "Highlights tablist" [ref=e79]:
+            - link "design":
+              - /url: "#media-card-gallery-item-1"
+              - generic: design
+            - link "Center Stage front camera" [ref=e80] [cursor=pointer]:
+              - /url: "#media-card-gallery-item-2"
+              - generic [ref=e81]: Center Stage front camera
+            - link "Fusion Main camera" [ref=e82] [cursor=pointer]:
+              - /url: "#media-card-gallery-item-3"
+              - generic [ref=e83]: Fusion Main camera
+            - link "chip and battery life" [ref=e84] [cursor=pointer]:
+              - /url: "#media-card-gallery-item-4"
+              - generic [ref=e85]: chip and battery life
+            - link "iOS 26" [ref=e86] [cursor=pointer]:
+              - /url: "#media-card-gallery-item-5"
+              - generic [ref=e87]: iOS 26
+            - link "Apple Intelligence" [ref=e88] [cursor=pointer]:
+              - /url: "#media-card-gallery-item-6"
+              - generic [ref=e89]: Apple Intelligence
+        - list [ref=e92]:
+          - listitem [ref=e93]:
+            - generic [ref=e94]:
+              - 'img "Four iPhone Air devices floating upwards, side exterior, colors: Sky Blue, Light Gold, Cloud White, and Space Black, very thin profile, Fusion camera system, buttons: side, Camera Control" [ref=e96]'
+              - paragraph [ref=e99]:
+                - text: Super thin. Strikingly light.
+                - text: Shockingly strong.
+          - listitem [ref=e100]:
+            - generic [ref=e101]:
+              - img "Group selfie, adjusting the frame, expanding and zooming in with Center Stage for photos feature" [ref=e103]
+              - paragraph [ref=e106]: New Center Stage front camera. Flexible ways to frame your shot. Smarter group selfies. And so much more.
+          - listitem [ref=e107]:
+            - generic [ref=e108]:
+              - img "iPhone Air, back exterior, Space Black color, top rounded corner, single-lens Fusion camera system" [ref=e111]
+              - paragraph [ref=e113]: 48MP Fusion Main camera. Two advanced cameras in one. Super-high resolution by default.
+          - listitem [ref=e114]:
+            - generic [ref=e115]:
+              - img "A clip from Apple TV series Foundation zooming out and fitting into the iPhone Air." [ref=e117]
+              - paragraph [ref=e120]:
+                - text: A19 Pro chip and all‑day battery life.
+                - superscript [ref=e121]:
+                  - link "Footnote 2" [ref=e122] [cursor=pointer]:
+                    - /url: "#footnote-4"
+                    - text: "2"
+                - text: Pro within thin.
+          - listitem [ref=e123]:
+            - generic [ref=e124]:
+              - img "Two iPhone Air devices rotating, front exterior, side exterior, thin profile, dynamic Lock Screen, Home Screen with Liquid Glass apps" [ref=e126]
+              - paragraph [ref=e129]: iOS 26. New look. Even more magic.
+          - listitem [ref=e130]:
+            - generic [ref=e131]:
+              - img "iPhone Air rotating, showcasing the front and side exterior in Sky Blue color, visual intelligence feature in use, side buttons" [ref=e133]
+              - paragraph [ref=e136]:
+                - generic [ref=e137]: Apple Intelligence.
+                - text: Effortlessly helpful features — from image creation to visual intelligence.
+                - superscript [ref=e138]:
+                  - link "Footnote 3" [ref=e139] [cursor=pointer]:
+                    - /url: "#footnote-5"
+                    - text: "3"
+                - text: ","
+                - superscript [ref=e140]:
+                  - link "Footnote 4" [ref=e141] [cursor=pointer]:
+                    - /url: "#footnote-6"
+                    - text: "4"
+    - generic [ref=e142]:
+      - generic [ref=e144]:
+        - heading "Design" [level=2] [ref=e145]
+        - paragraph [ref=e146]:
+          - text: So this is what
+          - text: the future feels like.
+      - 'img "A hand holding iPhone Air, front exterior, side exterior, Sky Blue color, very thin profile, Dynamic Island, buttons: side, Camera Control" [ref=e150]'
+      - generic [ref=e152]:
+        - text: The all-new iPhone Air is so
+        - strong [ref=e153]: impossibly thin and light
+        - text: that it nearly disappears in your hand. At 5.6 mm and weighing just 165 grams,
+        - superscript [ref=e154]:
+          - link "Footnote 5" [ref=e155] [cursor=pointer]:
+            - /url: "#footnote-7"
+            - text: "5"
+        - text: it’s the thinnest iPhone ever — even with a large, immersive 6.5‑inch display
+        - superscript [ref=e156]:
+          - link "Footnote 6" [ref=e157] [cursor=pointer]:
+            - /url: "#footnote-8"
+            - text: "6"
+        - text: and the power of the A19 Pro chip. It’s a paradox you have to hold to believe.
+      - button "Compare iPhone design" [ref=e161] [cursor=pointer]:
+        - generic [ref=e162]: Compare iPhone design
+        - img [ref=e164]
+    - generic [ref=e166]:
+      - generic [ref=e168]:
+        - heading "Take a closer look." [level=3] [ref=e169]
+        - generic [ref=e170]: 
+      - region "product viewer" [ref=e171]:
+        - generic:
+          - 'img "iPhone Air, front exterior, Sky Blue color, Dynamic Island, buttons: side, Camera Control"'
+          - list [ref=e176]:
+            - listitem:
+              - button:
+                - generic:
+                  - generic: Sky Blue
+                  - generic: Colors
+              - generic:
+                - generic:
+                  - generic:
+                    - paragraph:
+                      - strong: Colors.
+                      - text: Available in four breathtaking colors. iPhone Air shown in Sky Blue.
+                    - group:
+                      - generic: Colors.
+                      - list:
+                        - listitem:
+                          - radio [checked]
+                          - generic:
+                            - generic:
+                              - generic: Sky Blue
+                        - listitem:
+                          - radio
+                          - generic:
+                            - generic:
+                              - generic: Light Gold
+                        - listitem:
+                          - radio
+                          - generic:
+                            - generic:
+                              - generic: Cloud White
+                        - listitem:
+                          - radio
+                          - generic:
+                            - generic:
+                              - generic: Space Black
+                - generic:
+                  - button:
+                    - generic:
+                      - img
+                  - button:
+                    - generic:
+                      - img
+            - listitem:
+              - button:
+                - generic:
+                  - img
+                  - text: Titanium frame
+              - generic:
+                - generic:
+                  - generic:
+                    - paragraph:
+                      - strong: Titanium frame.
+                      - text: A Grade 5 titanium frame built with 80 percent recycled titanium makes iPhone Air as strong as it is stunning.
+                - generic:
+                  - button:
+                    - generic:
+                      - img
+                  - button:
+                    - generic:
+                      - img
+            - listitem:
+              - button:
+                - generic:
+                  - img
+                  - text: Innovative internal design
+              - generic:
+                - generic:
+                  - generic:
+                    - paragraph:
+                      - strong: Innovative internal design.
+                      - text: Multiple technologies are housed in the plateau of iPhone Air, maximizing performance and creating space for a large, high‑density battery.
+                  - generic:
+                    - img
+                - generic:
+                  - button:
+                    - generic:
+                      - img
+                  - button:
+                    - generic:
+                      - img
+            - listitem:
+              - button:
+                - generic:
+                  - img
+                  - text: Immersive pro display
+              - generic:
+                - generic:
+                  - generic:
+                    - paragraph:
+                      - strong: Immersive pro display.
+                      - text: 6.5‑inch Super Retina XDR display — our best ever.
+                      - superscript:
+                        - link:
+                          - /url: "#footnote-8"
+                          - text: "6"
+                      - text: 3000 nits peak brightness. ProMotion up to 120Hz. And better anti‑reflection.
+                - generic:
+                  - button:
+                    - generic:
+                      - img
+                  - button:
+                    - generic:
+                      - img
+            - listitem:
+              - button:
+                - generic:
+                  - img
+                  - text: Ceramic Shield
+              - generic:
+                - generic:
+                  - generic:
+                    - paragraph:
+                      - strong: Ceramic Shield.
+                      - text: Protects the back of iPhone Air, making it 4x more resistant to cracks.
+                      - superscript:
+                        - link:
+                          - /url: "#footnote-9"
+                          - text: "7"
+                      - text: New Ceramic Shield 2 on the front has 3x better scratch resistance.
+                      - superscript:
+                        - link:
+                          - /url: "#footnote-10"
+                          - text: "8"
+                - generic:
+                  - button:
+                    - generic:
+                      - img
+                  - button:
+                    - generic:
+                      - img
+            - listitem:
+              - button:
+                - generic:
+                  - img
+                  - text: Camera Control
+              - generic:
+                - generic:
+                  - generic:
+                    - paragraph:
+                      - strong: Camera Control.
+                      - text: Instantly take a photo, record video, adjust settings, and more. So you never miss a moment.
+                - generic:
+                  - button:
+                    - generic:
+                      - img
+                  - button:
+                    - generic:
+                      - img
+            - listitem:
+              - button:
+                - generic:
+                  - img
+                  - text: Action button
+              - generic:
+                - generic:
+                  - generic:
+                    - paragraph:
+                      - strong: Action button.
+                      - text: A customizable fast track to your favorite feature. Long press to launch the action you want — Silent mode, Translation, Shortcuts, and more.
+                - generic:
+                  - button:
+                    - generic:
+                      - img
+                  - button:
+                    - generic:
+                      - img
+            - listitem:
+              - button:
+                - generic:
+                  - img
+                  - text: Accessories
+              - generic:
+                - generic:
+                  - generic:
+                    - paragraph:
+                      - strong: Accessories.
+                      - text: The new Crossbody Strap lets you wear your iPhone Air hands‑free so you can go with the float.
+                      - superscript:
+                        - link:
+                          - /url: "#footnote-11"
+                          - text: "9"
+                - generic:
+                  - button:
+                    - generic:
+                      - img
+                  - button:
+                    - generic:
+                      - img
+          - generic:
+            - button "Close":
+              - generic:
+                - img
+    - generic [ref=e177]:
+      - generic [ref=e179]:
+        - heading "Cameras" [level=2] [ref=e180]
+        - paragraph [ref=e181]:
+          - text: New front. New rear.
+          - text: New cam-era.
+      - generic [ref=e184]:
+        - generic:
+          - generic:
+            - img "iPhone Air, front exterior, side exterior, all-screen design, Dynamic Island at top, side button, Camera Control button"
+        - generic [ref=e186]:
+          - paragraph [ref=e187]:
+            - strong [ref=e188]: 18MP
+            - text: Center Stage front camera
+          - paragraph [ref=e189]:
+            - strong [ref=e190]: 48MP
+            - text: Fusion Main camera
+          - paragraph [ref=e191]:
+            - strong [ref=e192]: 4K 60 fps
+            - text: Dolby Vision
+          - paragraph [ref=e193]:
+            - strong [ref=e194]: 4 lenses
+            - text: in your pocket
+        - paragraph [ref=e196]:
+          - text: An all‑new camera system means you can
+          - strong [ref=e197]: snap amazing selfies, take incredible portraits and landscapes, and capture pro-level videos
+          - text: .
+      - generic [ref=e199]:
+        - generic [ref=e200]:
+          - heading "18MP Center Stage front camera. It’s a total frame changer." [level=3] [ref=e202]:
+            - text: 18MP Center Stage front camera.
+            - text: It’s a total frame changer.
+          - paragraph [ref=e204]:
+            - text: The new front camera gives you flexible ways to frame your photos and videos — and so much more. Tap to expand the field of view and rotate from portrait to landscape
+            - strong [ref=e205]: without moving your iPhone
+            - text: . And when friends join the shot, the field of view expands so you get more friendsies in your selfies.
+        - generic [ref=e209]:
+          - generic [ref=e212]:
+            - tablist [ref=e214]:
+              - tab "Center Stage for photos" [selected] [ref=e215] [cursor=pointer]:
+                - img [ref=e217]
+                - generic [ref=e219]:
+                  - text: Center Stage
+                  - text: for photos
+              - tab "Dual Capture video" [selected] [ref=e220] [cursor=pointer]:
+                - img [ref=e222]
+                - generic [ref=e224]:
+                  - text: Dual Capture
+                  - text: video
+              - tab "Ultra‑stabilized video" [selected] [ref=e225] [cursor=pointer]:
+                - img [ref=e227]
+                - generic [ref=e229]:
+                  - text: Ultra‑stabilized
+                  - text: video
+              - tab "Center Stage for video calls" [selected] [ref=e230] [cursor=pointer]:
+                - img [ref=e232]
+                - generic [ref=e234]:
+                  - text: Center Stage
+                  - text: for video calls
+            - generic:
+              - button "Previous item" [ref=e235] [cursor=pointer]:
+                - img [ref=e236]
+              - button "Next item" [ref=e239] [cursor=pointer]:
+                - img [ref=e240]
+          - generic [ref=e243]:
+            - tabpanel "Center Stage for photos" [ref=e244]:
+              - img "iPhone Air front screen showing group selfie in Center stage for photos feature" [ref=e246]
+              - paragraph [ref=e250]: An all-new square sensor enables zoom and rotate options, for more flexible ways to frame selfies and videos. And it gets everyone in a group shot — automatically.
+            - tabpanel "Dual Capture video" [ref=e251]:
+              - img "iPhone Air, front exterior, Dual Capture video feature in use with a person recording front and back video simultaneously" [ref=e253]
+              - paragraph [ref=e257]: Record yourself and the world around you with simultaneous front and rear video capture.
+            - tabpanel "Ultra‑stabilized video" [ref=e258]:
+              - img "iPhone Air, front exterior, Ultra-stabilized video feature in use, capturing an action video" [ref=e260]
+              - paragraph [ref=e264]: Capture stunningly smooth 4K 60 fps video in Dolby Vision, even when you’re in action.
+            - tabpanel "Center Stage for video calls" [ref=e265]:
+              - img "iPhone Air, front exterior, Center Stage for video calls feature in use with two people on a FaceTime call" [ref=e268]
+              - paragraph [ref=e271]:
+                - text: Artificial intelligence automatically adjusts the frame, so you’re front and center for virtual meetings and FaceTime calls.
+                - superscript [ref=e272]:
+                  - link "Footnote 10" [ref=e273] [cursor=pointer]:
+                    - /url: "#footnote-12"
+                    - text: "10"
+      - generic [ref=e274]:
+        - generic [ref=e277]:
+          - heading "Smile. It’s the world’s favorite camera." [level=3] [ref=e279]:
+            - text: Smile.
+            - text: It’s the world’s favorite camera.
+          - img "iPhone Air, back exterior, Sky Blue color, Fusion camera system in plateau at top" [ref=e282]
+        - paragraph [ref=e286]:
+          - text: With over a decade of hardware and software innovations, iPhone has become the world’s favorite camera. iPhone Air continues this legacy with its powerful 48MP Fusion camera system that works like
+          - strong [ref=e287]: multiple advanced cameras in one
+          - text: . Shoot in super-high‑resolution 48MP for ultimate detail or 24MP by default, or use the built‑in 2x Telephoto to zoom in with exceptionally clear quality.
+      - generic [ref=e289]:
+        - heading "Brilliant photos and pro‑style video? Yes, please." [level=3] [ref=e291]:
+          - text: Brilliant photos and pro‑style
+          - text: video? Yes, please.
+        - list "Photo gallery" [ref=e295]:
+          - listitem [ref=e296]:
+            - generic [ref=e297]:
+              - heading "Next-generation portraits." [level=3] [ref=e298]
+              - paragraph [ref=e299]: Turn photos into stunning portraits after the fact.
+            - img "Photo of a person taken with next-generation portraits camera feature" [ref=e303]
+          - listitem [ref=e304]:
+            - generic [ref=e305]:
+              - heading "Latest-generation Photographic Styles." [level=3] [ref=e306]
+              - paragraph [ref=e307]: Choose from different preset styles, including the new Bright option, to customize the tone, color, and look of your photos.
+            - img "Photo of a person taken with Photographic Styles camera feature" [ref=e311]
+          - listitem [ref=e312]:
+            - generic [ref=e313]:
+              - heading "Low-light and Night mode photography." [level=3] [ref=e314]
+              - paragraph [ref=e315]: With a large sensor and fast aperture, the advanced Fusion camera system on iPhone Air lets you capture more detail and brighten your shots — even when it’s dark.
+            - img "Photo of a person taken with low-light camera mode" [ref=e319]
+          - listitem [ref=e320]:
+            - generic [ref=e321]:
+              - heading "Pro videos." [level=3] [ref=e322]
+              - paragraph [ref=e323]: Record up to 4K 60 fps videos or enable Action mode for incredibly stabilized video. And Audio Mix lets you adjust the way voices sound in your video.
+            - img "iPhone Air, front exterior, Pro video with Audio Mix feature in use" [ref=e327]
+          - listitem [ref=e328]:
+            - generic [ref=e329]:
+              - heading "2x Telephoto." [level=3] [ref=e330]
+              - paragraph [ref=e331]: Zoom in on your subjects with exceptional detail.
+            - img "Photo of a person taken with 2x Telephoto camera feature" [ref=e335]
+          - listitem [ref=e336]:
+            - generic [ref=e337]:
+              - heading "Clean Up." [level=3] [ref=e338]
+              - paragraph [ref=e339]:
+                - text: Remove unwanted objects, people, and background distractions from your photos.
+                - superscript [ref=e340]:
+                  - link "Footnote 11" [ref=e341] [cursor=pointer]:
+                    - /url: "#footnote-13"
+                    - text: "11"
+            - img "Apple Intelligence Clean Up tool highlighting a background object in a photo" [ref=e345]
+          - listitem [ref=e346]:
+            - generic [ref=e347]:
+              - heading "Camera Control." [level=3] [ref=e348]
+              - paragraph [ref=e349]: Take the perfect shot in record time.
+            - img "A hand holding iPhone Air with thumb on Camera Control button, front exterior, side exterior, thin profile, Dynamic Island, side button" [ref=e353]
+      - button "Compare iPhone cameras" [ref=e357] [cursor=pointer]:
+        - generic [ref=e358]: Compare iPhone cameras
+        - img [ref=e360]
+    - generic [ref=e362]:
+      - generic [ref=e364]:
+        - heading "Performance and battery life" [level=2] [ref=e365]
+        - paragraph [ref=e366]: Power in a new light.
+      - generic [ref=e368]:
+        - generic:
+          - generic:
+            - 'img "iPhone Air, front exterior, side exterior, showing a static from a game, buttons: Action, volume"'
+        - generic [ref=e370]:
+          - generic [ref=e371]:
+            - paragraph [ref=e372]:
+              - strong [ref=e373]: A19 Pro
+              - text: chip
+            - paragraph [ref=e374]:
+              - strong [ref=e375]: N1
+              - text: chip
+            - paragraph [ref=e376]:
+              - strong [ref=e377]: C1X
+              - text: modem
+          - paragraph [ref=e379]:
+            - text: iPhone Air was designed to deliver
+            - strong [ref=e380]: pro performance in the thinnest iPhone ever
+            - text: . Bringing together the power of our latest-generation Apple silicon and the efficiency of the A19 Pro chip, advanced features like Clean Up in Photos, Apple Intelligence, or graphics-intensive gaming happen smoothly and effortlessly.
+      - generic [ref=e382]:
+        - generic [ref=e385]:
+          - generic:
+            - img "A19 Pro chip surrounded by glowing interior iPhone components"
+        - generic [ref=e386]:
+          - heading "A19 Pro chip and C1X modem. Hyperspeed. Hyperefficient." [level=3] [ref=e388]:
+            - text: A19 Pro chip and C1X modem.
+            - text: Hyperspeed. Hyperefficient.
+          - paragraph [ref=e390]:
+            - text: A19 Pro delivers
+            - strong [ref=e391]: the fastest CPU in any smartphone and introduces our most advanced GPU yet
+            - text: ", so you can enjoy even the most demanding AAA games. Each of the GPU cores has a built‑in Neural Accelerator, providing new levels of capability for your daily workflows. The CPU alone is up to 40 percent faster than the chip in iPhone 14 Pro. And with C1X, the new version of the Apple‑designed modem, iPhone Air is the most power‑efficient iPhone ever made."
+      - generic [ref=e393]:
+        - heading "All‑day battery life is just the beginning." [level=3] [ref=e396]:
+          - text: All‑day battery life
+          - text: is just the beginning.
+        - generic [ref=e397]:
+          - img "iPhone Air, front exterior, side exterior, with Maps, Music, and Apple TV apps, showcasing the App Switcher feature in use" [ref=e400]
+          - paragraph [ref=e402]:
+            - text: The internal design of iPhone Air was completely rethought in order to maximize battery space. All to say, you’ll enjoy
+            - strong [ref=e403]: remarkable battery life
+            - text: all day long.
+          - generic [ref=e405]:
+            - paragraph [ref=e406]:
+              - text: Up to
+              - strong [ref=e407]: 27 hours
+              - text: video playback
+              - superscript [ref=e408]:
+                - link "Footnote 2" [ref=e409] [cursor=pointer]:
+                  - /url: "#footnote-4"
+                  - text: "2"
+            - paragraph [ref=e410]:
+              - text: Up to
+              - strong [ref=e411]: 50% charge
+              - text: in 30 minutes
+              - superscript [ref=e412]:
+                - link "Footnote 12" [ref=e413] [cursor=pointer]:
+                  - /url: "#footnote-14"
+                  - text: "12"
+      - generic [ref=e416]:
+        - generic [ref=e417]:
+          - generic [ref=e418]:
+            - text: Compare with
+            - generic [ref=e419]: iPhone Air
+          - generic [ref=e420]:
+            - combobox "Compare with iPhone Air" [ref=e421] [cursor=pointer]:
+              - tab "iPhone 13"
+              - tab "iPhone 13 Pro"
+              - tab "iPhone 14"
+              - tab "iPhone 14 Pro" [selected]
+              - tab "iPhone 15"
+              - tab "iPhone 15 Pro"
+            - generic: 
+        - tabpanel [ref=e423]:
+          - generic [ref=e425]:
+            - paragraph [ref=e427]:
+              - text: Up to
+              - strong [ref=e428]: 40% faster
+              - text: 6-core CPU
+            - paragraph [ref=e430]:
+              - text: Up to
+              - strong [ref=e431]: 70% faster
+              - text: 5-core GPU
+            - paragraph [ref=e433]:
+              - text: Up to
+              - strong [ref=e434]: 4 more hours
+              - text: video playback
+              - superscript [ref=e435]:
+                - link "Footnote 2" [ref=e436] [cursor=pointer]:
+                  - /url: "#footnote-4"
+                  - text: "2"
+      - button "Compare iPhone performance" [ref=e440] [cursor=pointer]:
+        - generic [ref=e441]: Compare iPhone performance
+        - img [ref=e443]
+    - generic [ref=e445]:
+      - generic [ref=e446]:
+        - generic [ref=e447]:
+          - heading "All in the family" [level=2] [ref=e448]
+          - paragraph [ref=e449]:
+            - text: All the must‑haves.
+            - text: All on iPhone.
+        - img [ref=e450]
+        - paragraph [ref=e454]:
+          - text: The latest iPhone models come with tons to love. Helpful Apple Intelligence tools to make your everyday easier.
+          - superscript [ref=e455]:
+            - link "Footnote 3" [ref=e456] [cursor=pointer]:
+              - /url: "#footnote-5"
+              - text: "3"
+          - text: Better performance and reliability with
+          - strong [ref=e457]:
+            - text: Wi‑Fi 7,
+            - superscript [ref=e458]:
+              - link "Footnote 13" [ref=e459] [cursor=pointer]:
+                - /url: "#footnote-15"
+                - text: "13"
+            - text: Bluetooth 6, and Thread
+          - text: — all enabled by N1, our new wireless chip. Fast and secure connections with 5G
+          - superscript [ref=e460]:
+            - link "Footnote 14" [ref=e461] [cursor=pointer]:
+              - /url: "#footnote-16"
+              - text: "14"
+          - text: and eSIM.
+          - superscript [ref=e462]:
+            - link "Footnote 15" [ref=e463] [cursor=pointer]:
+              - /url: "#footnote-17"
+              - text: "15"
+          - text: And safety features designed to give you peace of mind.
+      - generic [ref=e465]:
+        - generic [ref=e467]:
+          - heading "iOS 26. New look. Even more magic." [level=3] [ref=e468]:
+            - text: iOS 26. New look.
+            - text: Even more magic.
+          - list [ref=e470]:
+            - listitem [ref=e471]:
+              - link "Learn more about iOS 26" [ref=e472] [cursor=pointer]:
+                - /url: /os/ios/
+                - text: Learn more about iOS 26
+                - generic [ref=e473]: 
+        - list "iOS 26 Gallery" [ref=e477]:
+          - listitem [ref=e478]:
+            - generic [ref=e479]:
+              - heading "Liquid Glass." [level=3] [ref=e480]
+              - paragraph [ref=e481]: The new iOS design reflects and refracts what’s beneath it in real time, dynamically adapting to your content across apps and devices.
+            - img "Colorful iPhone home screen with transparent Liquid Glass apps and widgets" [ref=e485]
+          - listitem [ref=e486]:
+            - generic [ref=e487]:
+              - heading "A more vibrant Lock Screen." [level=3] [ref=e488]
+              - paragraph [ref=e489]:
+                - text: The time dynamically adapts to your photo wallpaper and notifications, keeping your subject in view. When you move your iPhone, your photo comes to life with a new 3D effect.
+                - superscript [ref=e490]:
+                  - link "Footnote 16" [ref=e491] [cursor=pointer]:
+                    - /url: "#footnote-18"
+                    - text: "16"
+            - img "iPhone Lock Screen showing the time adapted to the Lock Screen photo" [ref=e495]
+          - listitem [ref=e496]:
+            - generic [ref=e497]:
+              - heading "Call Screening." [level=3] [ref=e498]
+              - paragraph [ref=e499]:
+                - text: Automatically answers unknown callers. Once they share their name and reason for calling, your phone rings and you decide if you want to pick up.
+                - superscript [ref=e500]:
+                  - link "Footnote 17" [ref=e501] [cursor=pointer]:
+                    - /url: "#footnote-19"
+                    - text: "17"
+            - img "iPhone app showing Call Screening feature in use" [ref=e505]
+          - listitem [ref=e506]:
+            - generic [ref=e507]:
+              - heading "Hold Assist." [level=3] [ref=e508]
+              - paragraph [ref=e509]:
+                - text: Keeps your spot in line while you wait for a live agent and notifies you when they’re ready.
+                - superscript [ref=e510]:
+                  - link "Footnote 18" [ref=e511] [cursor=pointer]:
+                    - /url: "#footnote-20"
+                    - text: "18"
+            - img "Phone app showing Hold Assist feature in use" [ref=e515]
+          - listitem [ref=e516]:
+            - generic [ref=e517]:
+              - heading "Polls in Messages." [level=3] [ref=e518]
+              - paragraph [ref=e519]: Create a poll and let everyone in the conversation contribute and watch as the votes come in.
+            - img "Messages app showing Polls in Messages feature in use" [ref=e523]
+      - generic [ref=e525]:
+        - generic [ref=e527]:
+          - heading "Apple Intelligence. Effortlessly helpful every day." [level=3] [ref=e528]:
+            - text: Apple Intelligence.
+            - text: Effortlessly helpful every day.
+          - list [ref=e530]:
+            - listitem [ref=e531]:
+              - link "Learn more about Apple Intelligence" [ref=e532] [cursor=pointer]:
+                - /url: /apple-intelligence/
+                - text: Learn more about Apple Intelligence
+                - generic [ref=e533]: 
+        - list "Apple Intelligence Gallery" [ref=e537]:
+          - listitem [ref=e538]:
+            - generic [ref=e539]:
+              - heading "Visual intelligence." [level=3] [ref=e540]
+              - paragraph [ref=e541]:
+                - text: Search, ask questions, and take action with the content on your iPhone screen.
+                - superscript [ref=e542]:
+                  - link "Footnote 4" [ref=e543] [cursor=pointer]:
+                    - /url: "#footnote-6"
+                    - text: "4"
+            - img "Visual intelligence feature in use" [ref=e547]
+          - listitem [ref=e548]:
+            - generic [ref=e549]:
+              - heading "Live Translation." [level=3] [ref=e550]
+              - paragraph [ref=e551]:
+                - text: Automatically translate texts in Messages,
+                - superscript [ref=e552]:
+                  - link "Footnote 19" [ref=e553] [cursor=pointer]:
+                    - /url: "#footnote-21"
+                    - text: "19"
+                - text: and get live translated captions in FaceTime and spoken translations in the Phone app.
+                - superscript [ref=e554]:
+                  - link "Footnote 20" [ref=e555] [cursor=pointer]:
+                    - /url: "#footnote-22"
+                    - text: "20"
+            - img "Live Translation in Messages feature in use showing translation from English to Spanish" [ref=e559]
+          - listitem [ref=e560]:
+            - generic [ref=e561]:
+              - heading "Clean Up." [level=3] [ref=e562]
+              - paragraph [ref=e563]:
+                - text: Remove unwanted distractions with a tap. It’s a photo editing tool that stays true to the original intent of the photo.
+                - superscript [ref=e564]:
+                  - link "Footnote 11" [ref=e565] [cursor=pointer]:
+                    - /url: "#footnote-13"
+                    - text: "11"
+            - img "Clean Up tool in use, highlighting a traffic cone to be removed from a photo" [ref=e569]
+          - listitem [ref=e570]:
+            - generic [ref=e571]:
+              - heading "Genmoji." [level=3] [ref=e572]
+              - paragraph [ref=e573]: Make a Genmoji right in the keyboard to match any conversation. Want to create a sloth with a light bulb? You got it. Just provide a description.
+            - img "A Genmoji created with Apple Intelligence" [ref=e577]
+          - listitem [ref=e578]:
+            - generic [ref=e579]:
+              - heading "Writing Tools." [level=3] [ref=e580]
+              - paragraph [ref=e581]: Proofread your text and rewrite different versions until the tone and wording are just right, and summarize selected text with a tap.
+            - img "Writing Tools feature in use with options Proofread, Rewrite, Friendly, Professional, and Concise" [ref=e585]
+      - generic [ref=e587]:
+        - heading "Connectivity. Stay connected. On and off the grid." [level=3] [ref=e590]:
+          - text: Connectivity.
+          - text: Stay connected. On and off the grid.
+        - list "Connectivity Gallery" [ref=e594]:
+          - listitem [ref=e595]:
+            - generic [ref=e596]:
+              - heading "eSIM." [level=3] [ref=e597]
+              - paragraph [ref=e598]:
+                - text: A built-in eSIM provides seamless connectivity, flexibility, convenience, and better security without the need for a physical SIM card — perfect for traveling.
+                - superscript [ref=e599]:
+                  - link "Footnote 15" [ref=e600] [cursor=pointer]:
+                    - /url: "#footnote-17"
+                    - text: "15"
+            - img "iPhone Air, front exterior, using the Set Up Cellular feature to easily transfer a phone number with eSIM" [ref=e604]
+            - link "Learn more about eSIM" [ref=e606] [cursor=pointer]:
+              - /url: /esim/
+              - text: Learn more about eSIM
+              - generic [ref=e607]: 
+          - listitem [ref=e608]:
+            - generic [ref=e609]:
+              - heading "Messages via satellite." [level=3] [ref=e610]
+              - paragraph [ref=e611]:
+                - text: Send and receive messages when you’re off the grid, right from the Messages app.
+                - superscript [ref=e612]:
+                  - link "Footnote 21" [ref=e613] [cursor=pointer]:
+                    - /url: "#footnote-23"
+                    - text: "21"
+            - img "Messages via Satellite feature in use" [ref=e617]
+          - listitem [ref=e618]:
+            - generic [ref=e619]:
+              - heading "Roadside Assistance via satellite." [level=3] [ref=e620]
+              - paragraph [ref=e621]:
+                - text: Get help for things like a flat tire or dead car battery. iPhone will connect you with a roadside assistance provider, who can send help to your exact location.
+                - superscript [ref=e622]:
+                  - link "Footnote 22" [ref=e623] [cursor=pointer]:
+                    - /url: "#footnote-24"
+                    - text: "22"
+            - img "A photo of a car stranded by the side of a road, one person by the car using Roadside Assistance via satellite on iPhone" [ref=e627]
+            - link "See how Roadside Assistance works" [ref=e629] [cursor=pointer]:
+              - /url: https://support.apple.com/guide/iphone/request-roadside-assistance-via-satellite-iph29bea54b5/ios
+              - text: See how Roadside Assistance works
+              - generic [ref=e630]: 
+          - listitem [ref=e631]:
+            - generic [ref=e632]:
+              - heading "Emergency SOS via satellite." [level=3] [ref=e633]
+              - paragraph [ref=e634]:
+                - text: If you try calling 911 but don’t have cell service or Wi-Fi, you can use iPhone to text emergency services over satellite.
+                - superscript [ref=e635]:
+                  - link "Footnote 21" [ref=e636] [cursor=pointer]:
+                    - /url: "#footnote-23"
+                    - text: "21"
+            - img "Emergency SOS via Satellite feature in use, contacting emergency services to get help for a sick or injured person" [ref=e640]
+            - link "See how Emergency SOS via satellite works" [ref=e642] [cursor=pointer]:
+              - /url: https://support.apple.com/guide/iphone/use-emergency-sos-via-satellite-iph2968440de/ios
+              - generic [ref=e643]:
+                - text: See how Emergency SOS
+                - text: via satellite works
+              - generic [ref=e644]: 
+          - listitem [ref=e645]:
+            - generic [ref=e646]:
+              - heading "Crash Detection." [level=3] [ref=e647]
+              - paragraph [ref=e648]:
+                - text: Hardware sensors and advanced motion algorithms can detect a severe crash and call for help if you can’t.
+                - superscript [ref=e649]:
+                  - link "Footnote 23" [ref=e650] [cursor=pointer]:
+                    - /url: "#footnote-25"
+                    - text: "23"
+            - img "iPhone Air, front exterior, Crash Detection feature in use" [ref=e654]
+          - listitem [ref=e655]:
+            - generic [ref=e656]:
+              - heading "Find My." [level=3] [ref=e657]
+              - paragraph [ref=e658]: Securely share your location with friends and family.
+            - img "Find My via satellite feature in use, showing a person's location on a mountain" [ref=e662]
+    - generic [ref=e666]:
+      - generic [ref=e668]:
+        - heading "Worth the upgrade? Absolutely." [level=2] [ref=e669]:
+          - text: Worth the upgrade?
+          - text: Absolutely.
+        - generic [ref=e671]:
+          - generic [ref=e672]: "Select an iPhone to compare with iPhone Air:"
+          - generic [ref=e673]:
+            - combobox "Select an iPhone to compare with iPhone Air:" [ref=e674] [cursor=pointer]:
+              - option "iPhone 13"
+              - option "iPhone 13 Pro"
+              - option "iPhone 14"
+              - option "iPhone 14 Pro" [selected]
+              - option "iPhone 15"
+              - option "iPhone 15 Pro"
+            - generic: 
+        - paragraph [ref=e675]:
+          - text: A few ways
+          - strong [ref=e676]: iPhone Air
+          - text: gives you more.
+        - list "iPhone 17 features" [ref=e679]:
+          - listitem [ref=e680]:
+            - paragraph [ref=e681]: Thinnest iPhone in a strong titanium design
+            - img "A thumb and forefinger holding iPhone Air, side exterior, Sky Blue color, very thin profile" [ref=e683]
+          - listitem [ref=e684]:
+            - paragraph [ref=e685]:
+              - generic [ref=e686]: Up to
+              - generic [ref=e687]:
+                - text: 70%
+                - text: faster
+              - generic [ref=e688]: GPU performance
+          - listitem [ref=e689]:
+            - paragraph [ref=e690]:
+              - generic [ref=e691]: Up to
+              - generic [ref=e692]:
+                - text: 4 more
+                - generic [ref=e693]:
+                  - generic [ref=e694]: hours
+                  - generic [ref=e695]: battery
+              - generic [ref=e697]:
+                - text: video playback
+                - superscript [ref=e698]:
+                  - link "Footnote 2" [ref=e699] [cursor=pointer]:
+                    - /url: "#footnote-4"
+                    - text: "2"
+          - listitem [ref=e700]:
+            - paragraph [ref=e701]:
+              - text: Ceramic Shield 2
+              - text: 3x better scratch resistance
+              - superscript [ref=e702]:
+                - link "Footnote 8" [ref=e703] [cursor=pointer]:
+                  - /url: "#footnote-10"
+                  - text: "8"
+            - img "iPhone Air, front exterior, side exterior, exploded view of Ceramic Shield layers" [ref=e705]
+          - listitem [ref=e706]:
+            - paragraph [ref=e707]:
+              - text: 18MP Center Stage
+              - text: front camera
+            - img "iPhone Air, front exterior, Center Stage for photos feature in use taking a selfie of two people" [ref=e709]
+          - listitem [ref=e710]:
+            - paragraph [ref=e711]: 48MP Fusion Main camera Two advanced cameras in one
+            - img "iPhone Air, back exterior, Light Gold color, Fusion camera system in plateau at top" [ref=e713]
+      - generic [ref=e715]:
+        - heading "Apple Trade In" [level=3] [ref=e716]:
+          - img "Apple Trade In" [ref=e718]
+        - paragraph [ref=e719]: Get credit toward a new iPhone when you trade in an eligible device.
+        - link "Find your trade‑in value" [ref=e720] [cursor=pointer]:
+          - /url: /us/shop/goto/trade_in
+          - text: Find your trade‑in value
+          - generic [ref=e721]: 
+    - generic [ref=e723]:
+      - generic [ref=e724]:
+        - heading "Accessories" [level=2] [ref=e725]
+        - paragraph [ref=e726]:
+          - text: All dressed up and
+          - text: everywhere to go.
+        - paragraph [ref=e727]:
+          - link "Shop all iPhone accessories" [ref=e728] [cursor=pointer]:
+            - /url: /us/shop/goto/iphone/accessories
+            - text: Shop all iPhone accessories
+            - generic [ref=e729]: 
+      - list "iPhone accessories" [ref=e730]:
+        - listitem [ref=e731]:
+          - img "iPhone Air, front exterior, side exterior, thin profile, light gray Bumper attached" [ref=e733]
+          - generic [ref=e734]:
+            - heading "Bump up the beauty." [level=3] [ref=e735]
+            - paragraph [ref=e736]: Slim and lightweight, the Bumper perfectly frames and showcases the thinness of iPhone Air.
+        - listitem [ref=e737]:
+          - img "iPhone Air, back exterior, light blue Bumper with Crossbody Strap attached" [ref=e739]
+          - generic [ref=e740]:
+            - heading "Get carried away." [level=3] [ref=e741]
+            - paragraph [ref=e742]: Designed to match iPhone Air colors, the new Crossbody Strap pairs with an Apple case so you can comfortably wear your iPhone hands‑free.
+        - listitem [ref=e743]:
+          - img "iPhone Air, back exterior, Light Gold color, with MagSafe Battery attached" [ref=e745]
+          - generic [ref=e746]:
+            - heading "Go all out without plugging in." [level=3] [ref=e747]
+            - paragraph [ref=e748]: For life’s busier days, snap on the iPhone Air MagSafe Battery. It’s easy to hold and fits comfortably in your pocket. It’s also fast and smart, charging quickly when your battery is low and maximizing battery life when connected all day — for up to 40 hours of video playback.
+    - generic [ref=e749]:
+      - generic [ref=e751]:
+        - heading "Why Apple is the best place to buy iPhone." [level=2] [ref=e752]:
+          - text: Why Apple is the best
+          - text: place to buy iPhone.
+        - list [ref=e754]:
+          - listitem [ref=e755]:
+            - link "Shop iPhone" [ref=e756] [cursor=pointer]:
+              - /url: /us/shop/goto/buy_iphone
+              - text: Shop iPhone
+              - generic [ref=e757]: 
+      - list "Why Apple is the best place to buy iPhone." [ref=e761]:
+        - listitem [ref=e762]:
+          - generic [ref=e763]:
+            - generic:
+              - generic:
+                - heading "Apple Trade In" [level=3]
+                - generic:
+                  - paragraph: Save on a new iPhone with a trade‑in.
+                  - paragraph:
+                    - generic: Get up to $195–$685 in credit toward iPhone Air when you trade in iPhone 13 or higher.
+                    - superscript:
+                      - link "Footnote 1" [ref=e764] [cursor=pointer]:
+                        - /url: "#footnote-3"
+                        - text: "1"
+              - figure:
+                - generic:
+                  - img "Hands exchanging trade-in iPhone 13 with Silicon cover, stickers on back exterior, for new iPhone Air in the box."
+            - text: 
+            - button "Learn more about trade in" [ref=e765] [cursor=pointer]:
+              - img [ref=e768]
+        - listitem [ref=e770]:
+          - generic [ref=e771]:
+            - generic:
+              - generic:
+                - heading "Ways to Buy" [level=3]
+                - generic:
+                  - paragraph: Pay over time, interest‑free.
+                  - paragraph:
+                    - text: When you choose to check
+                    - text: out at Apple with Apple Card Monthly Installments.
+                    - link "Footnote ** symbol" [ref=e772] [cursor=pointer]:
+                      - /url: "#footnote-2"
+                      - text: "**"
+              - figure:
+                - generic:
+                  - img "Front of Apple Card, titanium finish"
+            - text: 
+            - button "Learn more about Apple Card Monthly Installments" [ref=e773] [cursor=pointer]:
+              - img [ref=e776]
+        - listitem [ref=e778]:
+          - generic [ref=e779]:
+            - generic:
+              - generic:
+                - heading "Carrier Deals at Apple" [level=3]
+                - generic:
+                  - paragraph:
+                    - text: Get up to $800⁠–⁠
+                    - text: $830 in credit on a new iPhone after trade‑in.
+                    - superscript:
+                      - link "Footnote 24" [ref=e780] [cursor=pointer]:
+                        - /url: "#footnote-26"
+                        - text: "24"
+                  - paragraph: Explore deals that accept eligible trade‑in devices in any condition — and some that don’t require a trade‑in at all.
+              - figure:
+                - generic:
+                  - img "Verizon, AT&T, T- mobile, Boost mobile"
+            - link "Learn more about iPhone carrier deals" [ref=e781] [cursor=pointer]:
+              - /url: /us/shop/goto/buy_iphone/carrier_offers
+              - img [ref=e784]
+        - listitem [ref=e786]:
+          - generic [ref=e787]:
+            - generic:
+              - generic:
+                - heading "Personal Setup" [level=3]
+                - generic:
+                  - paragraph: Make the most of your iPhone with an online session.
+                  - paragraph: Talk one on one with a Specialist to set up your device and discover new features.
+              - figure:
+                - generic:
+                  - img "Apple devices and features, iCloud, iPhone with Face ID and charging cable, Camera, messaging, Messages."
+            - text: 
+            - button "Learn more about personal setup" [ref=e788] [cursor=pointer]:
+              - img [ref=e791]
+        - listitem [ref=e793]:
+          - generic [ref=e794]:
+            - generic:
+              - generic:
+                - heading "Delivery and Pickup" [level=3]
+                - generic:
+                  - paragraph: Get your order quickly and easily.
+                  - paragraph: Choose two‑hour delivery from an Apple Store, free delivery, or easy pickup options.
+              - figure:
+                - generic:
+                  - img "Apple shopping bag in white color with Apple Logo near top"
+            - text: 
+            - button "Learn more about delivery and pickup" [ref=e795] [cursor=pointer]:
+              - img [ref=e798]
+        - listitem [ref=e800]:
+          - generic [ref=e801]:
+            - generic:
+              - generic:
+                - heading "Guided Video Shopping" [level=3]
+                - generic:
+                  - paragraph: Shop live with a Specialist.
+                  - paragraph: Let us help you find what you need and answer all of your questions, one on one over video.
+              - figure:
+                - generic:
+                  - img "Smiling Apple Specialist with an approachable demeanor"
+            - text: 
+            - button "Read more about guided video shopping" [ref=e802] [cursor=pointer]:
+              - img [ref=e805]
+        - listitem [ref=e807]:
+          - generic [ref=e808]:
+            - generic:
+              - generic:
+                - heading "Apple Store App" [level=3]
+                - generic:
+                  - paragraph: Explore a shopping experience designed around you.
+                  - paragraph: Use the app to get a more personal way to shop.
+              - figure:
+                - generic:
+                  - img "Apple Store App, shopping bag icon, blue"
+            - text: 
+            - button "Learn more about Apple Store App" [ref=e809] [cursor=pointer]:
+              - img [ref=e812]
+    - text:       
+    - generic [ref=e815]:
+      - generic [ref=e816]:
+        - heading "Keep exploring iPhone." [level=2] [ref=e817]
+        - list [ref=e819]:
+          - listitem [ref=e820]:
+            - link "Explore all iPhone" [ref=e821] [cursor=pointer]:
+              - /url: /iphone/
+              - text: Explore all iPhone
+              - generic [ref=e822]: 
+      - list [ref=e826]:
+        - listitem [ref=e827]:
+          - heading "iPhone Air" [level=3] [ref=e828]:
+            - generic [ref=e829]:
+              - generic [ref=e830]: iPhone Air
+              - generic [ref=e831]: iPhone Air
+          - img "iPhone Air, back exterior, Sky Blue color, Fusion camera system at top, centered Apple logo, front exterior, Sky Blue color, Dynamic Island centered at top" [ref=e834]
+          - list "Available colors" [ref=e836]:
+            - listitem [ref=e837]:
+              - generic [ref=e838]: Sky Blue
+            - listitem [ref=e839]:
+              - generic [ref=e840]: Light Gold
+            - listitem [ref=e841]:
+              - generic [ref=e842]: Cloud White
+            - listitem [ref=e843]:
+              - generic [ref=e844]: Space Black
+          - paragraph [ref=e845]:
+            - text: The thinnest iPhone ever.
+            - text: With the power of pro inside.
+          - paragraph [ref=e846]:
+            - text: From $999
+            - generic [ref=e847]:
+              - text: or $41.62/mo. for 24 mo.
+              - link "Footnote * symbol" [ref=e849] [cursor=pointer]:
+                - /url: "#footnote-1"
+                - text: "*"
+          - generic [ref=e850]:
+            - generic [ref=e852]:
+              - text: Currently viewing
+              - generic [ref=e853]: ", iPhone Air"
+            - link "Buy, iPhone Air" [ref=e854] [cursor=pointer]:
+              - /url: /us/shop/goto/buy_iphone/iphone_air
+              - text: Buy
+              - generic [ref=e855]: 
+          - generic [ref=e856]:
+            - generic [ref=e857]:
+              - paragraph [ref=e858]:
+                - text: 6.5″
+                - generic [ref=e859]: 6.5 inches
+              - paragraph [ref=e861]:
+                - text: Super Retina XDR display
+                - superscript [ref=e862]:
+                  - link "Footnote 6" [ref=e863] [cursor=pointer]:
+                    - /url: "#footnote-8"
+                    - text: "6"
+            - list [ref=e867]:
+              - listitem [ref=e868]:
+                - paragraph [ref=e869]: 48MP Fusion camera system
+              - listitem [ref=e870]:
+                - paragraph [ref=e871]: 48MP Fusion Main
+              - listitem [ref=e872]:
+                - paragraph [ref=e873]:
+                  - text: —
+                  - generic [ref=e874]: 48MP Fusion Ultra Wide not applicable
+            - list [ref=e878]:
+              - listitem [ref=e879]:
+                - paragraph [ref=e880]: A19 Pro chip
+              - listitem [ref=e881]:
+                - paragraph [ref=e882]: 5‑core GPU with Neural Accelerators
+            - list [ref=e886]:
+              - listitem [ref=e887]:
+                - paragraph [ref=e888]:
+                  - text: Up to 27 hours video playback
+                  - superscript [ref=e889]:
+                    - link "Footnote 2" [ref=e890] [cursor=pointer]:
+                      - /url: "#footnote-4"
+                      - text: "2"
+            - paragraph [ref=e895]:
+              - text: Apple Intelligence
+              - superscript [ref=e896]:
+                - link "Footnote 3" [ref=e897] [cursor=pointer]:
+                  - /url: "#footnote-5"
+                  - text: "3"
+            - paragraph [ref=e900]: iPhone Air is the thinnest iPhone ever, powered by the A19 Pro chip. It’s more durable than any previous iPhone, with a polished titanium frame, a 3x better scratch-resistant Ceramic Shield 2 front, and a 4x more crack-resistant Ceramic Shield back. Smarter group selfies and Dual Capture video with the new Center Stage front camera. The 48MP Fusion Main camera with 2x Telephoto supports the latest advanced features like next‑generation portraits and more. Immersive 6.5‑inch Super Retina XDR display with ProMotion up to 120Hz. All‑day battery life. Helpful Apple Intelligence tools like Clean Up and more.
+        - listitem [ref=e901]:
+          - heading "iPhone 17 Pro" [level=3] [ref=e902]:
+            - generic [ref=e903]:
+              - generic [ref=e904]: iPhone 17 Pro
+              - generic [ref=e905]: iPhone 17 Pro
+          - link "iPhone 17 Pro" [ref=e906] [cursor=pointer]:
+            - /url: /iphone-17-pro/
+            - img "iPhone 17 Pro" [ref=e908]
+          - list "Available colors" [ref=e910]:
+            - listitem [ref=e911]:
+              - generic [ref=e912]: Cosmic Orange
+            - listitem [ref=e913]:
+              - generic [ref=e914]: Deep Blue
+            - listitem [ref=e915]:
+              - generic [ref=e916]: Silver
+          - paragraph [ref=e917]: Innovative design for ultimate performance and battery life.
+          - paragraph [ref=e918]:
+            - text: From $1099
+            - generic [ref=e919]:
+              - text: or $45.79/mo. for 24 mo.
+              - link "Footnote * symbol" [ref=e921] [cursor=pointer]:
+                - /url: "#footnote-1"
+                - text: "*"
+          - generic [ref=e922]:
+            - link "Learn more, iPhone 17 Pro" [ref=e923] [cursor=pointer]:
+              - /url: /iphone-17-pro/
+              - text: Learn more
+            - link "Buy, iPhone 17 Pro" [ref=e924] [cursor=pointer]:
+              - /url: /us/shop/goto/buy_iphone/iphone_17_pro
+              - text: Buy
+              - generic [ref=e925]: 
+          - generic [ref=e926]:
+            - generic [ref=e927]:
+              - paragraph [ref=e928]:
+                - text: 6.9″ or 6.3″
+                - generic [ref=e929]: 6.9 inches or 6.3 inches
+              - paragraph [ref=e931]:
+                - text: Super Retina XDR display
+                - superscript [ref=e932]:
+                  - link "Footnote 6" [ref=e933] [cursor=pointer]:
+                    - /url: "#footnote-8"
+                    - text: "6"
+            - list [ref=e937]:
+              - listitem [ref=e938]:
+                - paragraph [ref=e939]: 48MP Pro Fusion camera system
+              - listitem [ref=e940]:
+                - paragraph [ref=e941]: 48MP Fusion Main
+              - listitem [ref=e942]:
+                - paragraph [ref=e943]: 48MP Fusion Ultra Wide
+              - listitem [ref=e944]:
+                - paragraph [ref=e945]: 48MP Fusion Telephoto
+            - list [ref=e949]:
+              - listitem [ref=e950]:
+                - paragraph [ref=e951]: A19 Pro chip
+              - listitem [ref=e952]:
+                - paragraph [ref=e953]: 6‑core GPU with Neural Accelerators
+            - list [ref=e957]:
+              - listitem [ref=e958]:
+                - paragraph [ref=e959]:
+                  - text: Up to 39 hours video playback
+                  - superscript [ref=e960]:
+                    - link "Footnote 2" [ref=e961] [cursor=pointer]:
+                      - /url: "#footnote-4"
+                      - text: "2"
+            - paragraph [ref=e966]:
+              - text: Apple Intelligence
+              - superscript [ref=e967]:
+                - link "Footnote 3" [ref=e968] [cursor=pointer]:
+                  - /url: "#footnote-5"
+                  - text: "3"
+            - paragraph [ref=e971]: The innovative design for iPhone 17 Pro delivers exceptional durability, breakthrough battery life, and unlocks the extraordinary power of the A19 Pro chip. The 48MP Pro Fusion camera system has the longest iPhone Telephoto ever with 8x optical-quality zoom, and the new Center Stage front camera for smarter group selfies and Dual Capture video. It has Ceramic Shield 2 on the front for 3x better scratch resistance, a 4x more crack-resistant Ceramic Shield back, and a forged aluminum unibody that dissipates heat. Helpful Apple Intelligence tools like Clean Up and more.
+      - link "Compare all iPhone models" [ref=e975] [cursor=pointer]:
+        - /url: /iphone/compare/
+        - generic [ref=e976]: Compare all iPhone models
+        - img [ref=e978]
+    - generic [ref=e980]:
+      - generic [ref=e982]:
+        - heading "iPhone Air and the environment." [level=2] [ref=e983]
+        - list [ref=e985]:
+          - listitem [ref=e986]:
+            - link "Learn more in our Product Environmental Report (PDF)" [ref=e987] [cursor=pointer]:
+              - /url: /environment/pdf/products/iphone/iPhone_Air_PER_Sept2025.pdf
+      - generic "Environment gallery" [ref=e988]:
+        - list "iPhone Air and the environment." [ref=e991]:
+          - listitem [ref=e992]:
+            - generic [ref=e993]:
+              - generic:
+                - generic:
+                  - generic:
+                    - heading "Made with 35% recycled material by weight." [level=3]:
+                      - text: Made with
+                      - strong:
+                        - strong: 35% recycled material
+                      - text: by weight.
+                    - generic:
+                      - paragraph
+              - text: 
+              - button "Learn more about Apple’s approach to recycled material" [ref=e994] [cursor=pointer]:
+                - img [ref=e997]
+          - listitem [ref=e999]:
+            - generic [ref=e1000]:
+              - generic:
+                - generic:
+                  - generic:
+                    - heading "Manufactured with 45% renewable electricity." [level=3]:
+                      - text: Manufactured with
+                      - strong:
+                        - strong: 45% renewable electricity.
+                    - generic:
+                      - paragraph
+              - text: 
+              - button "Learn more about Apple’s approach to renewable electricity" [ref=e1001] [cursor=pointer]:
+                - img [ref=e1004]
+          - listitem [ref=e1006]:
+            - generic [ref=e1007]:
+              - generic:
+                - generic:
+                  - generic:
+                    - heading "Ships in compact packaging for 10% more units per trip." [level=3]:
+                      - text: Ships in compact packaging for
+                      - strong:
+                        - strong: 10% more units
+                      - text: per trip.
+                    - generic:
+                      - paragraph
+              - text: 
+              - button "Learn more about Apple’s approach to packaging" [ref=e1008] [cursor=pointer]:
+                - img [ref=e1011]
+    - generic [ref=e1013]:
+      - heading "Our values lead the way." [level=2] [ref=e1016]
+      - generic "Values gallery" [ref=e1017]:
+        - list "Our values lead the way." [ref=e1020]:
+          - listitem [ref=e1021]:
+            - generic [ref=e1022]:
+              - generic:
+                - generic:
+                  - generic:
+                    - heading "A plan as innovative as our products." [level=3]
+                    - generic:
+                      - paragraph: We’re committed to bringing net emissions to zero across our entire carbon footprint by 2030.
+                      - paragraph:
+                        - link "Learn more about environment" [ref=e1023] [cursor=pointer]:
+                          - /url: /environment/
+                          - text: Learn more about environment
+                          - generic [ref=e1024]: 
+              - link [ref=e1025] [cursor=pointer]:
+                - /url: /environment/
+          - listitem [ref=e1026]:
+            - generic [ref=e1027]:
+              - generic:
+                - generic:
+                  - generic:
+                    - heading "Privacy. That’s Apple." [level=3]
+                    - generic:
+                      - paragraph: Privacy is a fundamental human right. Every product and service is designed to help keep your data safe and secure.
+                      - paragraph:
+                        - link "Learn more about privacy" [ref=e1028] [cursor=pointer]:
+                          - /url: /privacy/
+                          - text: Learn more about privacy
+                          - generic [ref=e1029]: 
+              - link [ref=e1030] [cursor=pointer]:
+                - /url: /privacy/
+          - listitem [ref=e1031]:
+            - generic [ref=e1032]:
+              - generic:
+                - generic:
+                  - generic:
+                    - heading "Innovation that’s accessible by design." [level=3]
+                    - generic:
+                      - paragraph: Our products and services are designed for everyone, with built-in features to help you do what you love, your way.
+                      - paragraph:
+                        - link "Learn more about accessibility" [ref=e1033] [cursor=pointer]:
+                          - /url: /accessibility/
+                          - text: Learn more about accessibility
+                          - generic [ref=e1034]: 
+              - link [ref=e1035] [cursor=pointer]:
+                - /url: /accessibility/
+    - generic [ref=e1037]:
+      - heading "Questions? Answers." [level=2] [ref=e1039]
+      - list [ref=e1041]:
+        - listitem [ref=e1042]:
+          - heading "Where can I buy iPhone Air?" [level=3] [ref=e1043]:
+            - button "Where can I buy iPhone Air?" [ref=e1044] [cursor=pointer]:
+              - generic [ref=e1045]: Where can I buy iPhone Air?
+          - generic "Where can I buy iPhone Air?" [ref=e1046]:
+            - generic [ref=e1048]:
+              - paragraph [ref=e1049]: You can buy iPhone Air at an Apple Store and apple.com or from select carriers and partners.
+              - paragraph [ref=e1050]:
+                - text: You can also get credit toward a new iPhone when you trade in an eligible device with
+                - link "Apple Trade In" [ref=e1051] [cursor=pointer]:
+                  - /url: /us/shop/goto/trade_in
+                - text: . Terms Apply.
+        - listitem [ref=e1052]:
+          - heading "Can I trade in my current iPhone for a new iPhone Air?" [level=3] [ref=e1053]:
+            - button "Can I trade in my current iPhone for a new iPhone Air?" [ref=e1054] [cursor=pointer]:
+              - generic [ref=e1055]: Can I trade in my current iPhone for a new iPhone Air?
+          - generic "Can I trade in my current iPhone for a new iPhone Air?" [ref=e1056]:
+            - generic [ref=e1058]:
+              - paragraph [ref=e1059]:
+                - text: Yes. You can get credit toward a new iPhone Air when you trade in an eligible device with
+                - link "Apple Trade In" [ref=e1060] [cursor=pointer]:
+                  - /url: /us/shop/goto/trade_in
+                - text: .
+              - paragraph [ref=e1061]: With Apple Trade In, you can get great value for your current device and easily apply it toward a new one, online or at an Apple Store. If your device isn’t eligible for credit, Apple will recycle it — and any accessories you no longer use — securely and for free. It’s a great deal for you and a great way to protect the earth’s precious resources. Terms Apply.
+        - listitem [ref=e1062]:
+          - heading "What are the key similarities and differences between iPhone 17 and iPhone Air?" [level=3] [ref=e1063]:
+            - button "What are the key similarities and differences between iPhone 17 and iPhone Air?" [ref=e1064] [cursor=pointer]:
+              - generic [ref=e1065]: What are the key similarities and differences between iPhone 17 and iPhone Air?
+          - generic "What are the key similarities and differences between iPhone 17 and iPhone Air?" [ref=e1066]:
+            - generic [ref=e1068]:
+              - paragraph [ref=e1069]: Both iPhone 17 and iPhone Air have the same brilliant Super Retina XDR display technology with ProMotion with an adaptive refresh rate up to 120Hz, the new 18MP Center Stage front camera for incredible selfies, simultaneous front and rear video capture with Dual Capture, a durable Ceramic Shield 2 front with 3x better scratch resistance than iPhone 16, iOS, and Apple Intelligence with tools like visual intelligence.
+              - paragraph [ref=e1070]: The key differences between iPhone 17 and iPhone Air are that iPhone 17 has a 48MP Fusion Ultra Wide camera and the A19 chip, compared with the A19 Pro chip in iPhone Air. iPhone Air has a 6.5-inch display, and iPhone 17 has a 6.3‑inch display. iPhone Air has a thinner, lighter titanium body. It also has Ceramic Shield on the back, which makes it 4x more resistant to cracks than iPhone 16, and it’s the thinnest iPhone ever — making it shockingly light, strong, and more durable than any previous iPhone.
+              - paragraph [ref=e1071]:
+                - link "Compare iPhone models" [ref=e1072] [cursor=pointer]:
+                  - /url: /iphone/compare/
+        - listitem [ref=e1073]:
+          - heading "Does iPhone Air have the same camera as iPhone 17?" [level=3] [ref=e1074]:
+            - button "Does iPhone Air have the same camera as iPhone 17?" [ref=e1075] [cursor=pointer]:
+              - generic [ref=e1076]: Does iPhone Air have the same camera as iPhone 17?
+          - generic "Does iPhone Air have the same camera as iPhone 17?" [ref=e1077]:
+            - generic [ref=e1079]:
+              - paragraph [ref=e1080]: iPhone Air and iPhone 17 both have high-resolution 48MP Fusion Main cameras. Both feature the same 18MP Center Stage front camera, can capture next-generation portraits and incredible 4K Dolby Vision videos, and have the latest-generation Photographic Styles and Action mode. iPhone 17 adds a rear 48MP Fusion Ultra Wide camera for wider shots and macro photography.
+              - paragraph [ref=e1081]:
+                - link "Compare iPhone cameras" [ref=e1082] [cursor=pointer]:
+                  - /url: /iphone/compare/
+        - listitem [ref=e1083]:
+          - heading "Is the A19 Pro chip in iPhone Air the same as the A19 Pro chip in iPhone 17 Pro? Will I get the same performance?" [level=3] [ref=e1084]:
+            - button "Is the A19 Pro chip in iPhone Air the same as the A19 Pro chip in iPhone 17 Pro? Will I get the same performance?" [ref=e1085] [cursor=pointer]:
+              - generic [ref=e1086]: Is the A19 Pro chip in iPhone Air the same as the A19 Pro chip in iPhone 17 Pro? Will I get the same performance?
+          - generic "Is the A19 Pro chip in iPhone Air the same as the A19 Pro chip in iPhone 17 Pro? Will I get the same performance?" [ref=e1087]:
+            - paragraph [ref=e1090]: Both iPhone Air and iPhone 17 Pro feature the A19 Pro chip. iPhone 17 Pro models have one additional GPU core. iPhone Air has the A19 Pro chip with 6-core CPU and 5-core GPU with Neural Accelerators. iPhone 17 Pro has the A19 Pro chip with 6-core CPU and 6-core GPU with Neural Accelerators. Both models have blazing-fast performance for smooth multitasking and demanding apps.
+        - listitem [ref=e1091]:
+          - heading "Is iPhone Air the thinnest iPhone ever?" [level=3] [ref=e1092]:
+            - button "Is iPhone Air the thinnest iPhone ever?" [ref=e1093] [cursor=pointer]:
+              - generic [ref=e1094]: Is iPhone Air the thinnest iPhone ever?
+          - generic "Is iPhone Air the thinnest iPhone ever?" [ref=e1095]:
+            - paragraph [ref=e1098]: Yes. With a sleek, 5.6 mm titanium design, iPhone Air is the thinnest iPhone ever.
+        - listitem [ref=e1099]:
+          - heading "Is the iPhone Air body titanium?" [level=3] [ref=e1100]:
+            - button "Is the iPhone Air body titanium?" [ref=e1101] [cursor=pointer]:
+              - generic [ref=e1102]: Is the iPhone Air body titanium?
+          - generic "Is the iPhone Air body titanium?" [ref=e1103]:
+            - generic [ref=e1105]:
+              - paragraph [ref=e1106]: Yes. A Grade 5 titanium frame built with 80 percent recycled titanium makes iPhone Air as strong as it is stunning.
+              - paragraph [ref=e1107]: In addition to the durable Ceramic Shield 2 front with 3x better scratch resistance than iPhone 16, iPhone Air has Ceramic Shield on the back, making it 4x more resistant to cracks than iPhone 16.
+        - listitem [ref=e1108]:
+          - heading "What storage options are available for iPhone Air?" [level=3] [ref=e1109]:
+            - button "What storage options are available for iPhone Air?" [ref=e1110] [cursor=pointer]:
+              - generic [ref=e1111]: What storage options are available for iPhone Air?
+          - generic "What storage options are available for iPhone Air?" [ref=e1112]:
+            - paragraph [ref=e1115]: iPhone Air offers 256GB, 512GB, or 1TB of storage.
+        - listitem [ref=e1116]:
+          - heading "Which cases are compatible with iPhone Air?" [level=3] [ref=e1117]:
+            - button "Which cases are compatible with iPhone Air?" [ref=e1118] [cursor=pointer]:
+              - generic [ref=e1119]: Which cases are compatible with iPhone Air?
+          - generic "Which cases are compatible with iPhone Air?" [ref=e1120]:
+            - generic [ref=e1122]:
+              - paragraph [ref=e1123]:
+                - text: iPhone Air is compatible with the Apple iPhone Air Case with MagSafe, Apple iPhone Air Bumper, and Beats iPhone Air Case with MagSafe. You can find all iPhone cases and accessories on the
+                - link "iPhone Accessories" [ref=e1124] [cursor=pointer]:
+                  - /url: /us/shop/goto/iphone/accessories
+                - text: page of the Apple website.
+              - paragraph [ref=e1125]:
+                - text: The Apple iPhone Air Case and iPhone Air Bumper are compatible with the Crossbody Strap. Learn how to
+                - link "attach and adjust the Crossbody Strap" [ref=e1126] [cursor=pointer]:
+                  - /url: https://support.apple.com/124955
+                - text: for your iPhone case.
+        - listitem [ref=e1127]:
+          - heading "Does iPhone Air support fast MagSafe wireless charging?" [level=3] [ref=e1128]:
+            - button "Does iPhone Air support fast MagSafe wireless charging?" [ref=e1129] [cursor=pointer]:
+              - generic [ref=e1130]: Does iPhone Air support fast MagSafe wireless charging?
+          - generic "Does iPhone Air support fast MagSafe wireless charging?" [ref=e1131]:
+            - paragraph [ref=e1134]: Yes. iPhone Air supports MagSafe wireless charging up to 20W with the latest Apple MagSafe Charger paired with a 30W power adapter or higher — it can charge up to 50 percent in around 30 minutes.
+        - listitem [ref=e1135]:
+          - heading "Does iPhone Air support fast wired charging?" [level=3] [ref=e1136]:
+            - button "Does iPhone Air support fast wired charging?" [ref=e1137] [cursor=pointer]:
+              - generic [ref=e1138]: Does iPhone Air support fast wired charging?
+          - generic "Does iPhone Air support fast wired charging?" [ref=e1139]:
+            - paragraph [ref=e1142]: Yes. iPhone Air supports fast wired charging up to 50 percent in 30 minutes with a 20W power adapter or higher paired with a USB‑C charge cable.
+        - listitem [ref=e1143]:
+          - heading "Does iPhone Air have good battery life?" [level=3] [ref=e1144]:
+            - button "Does iPhone Air have good battery life?" [ref=e1145] [cursor=pointer]:
+              - generic [ref=e1146]: Does iPhone Air have good battery life?
+          - generic "Does iPhone Air have good battery life?" [ref=e1147]:
+            - generic [ref=e1149]:
+              - paragraph [ref=e1150]: Yes. iPhone Air has all‑day battery life with up to 27 hours of video playback, which is the same as iPhone 16 Pro and 4 more hours than iPhone 15 Pro.
+              - paragraph [ref=e1151]:
+                - text: For life’s busier days, you can snap on the
+                - link "iPhone Air MagSafe Battery" [ref=e1152] [cursor=pointer]:
+                  - /url: /us/shop/goto/product/MGPG4
+                - text: . This slim, portable battery is easy to hold and fits comfortably in your pocket. It’s also fast and smart, charging quickly when your battery is low and maximizing battery life when connected all day — for up to 40 hours of video playback.
+        - listitem [ref=e1153]:
+          - heading "Can iPhone Air record video from the front and rear cameras simultaneously using Dual Capture?" [level=3] [ref=e1154]:
+            - button "Can iPhone Air record video from the front and rear cameras simultaneously using Dual Capture?" [ref=e1155] [cursor=pointer]:
+              - generic [ref=e1156]: Can iPhone Air record video from the front and rear cameras simultaneously using Dual Capture?
+          - generic "Can iPhone Air record video from the front and rear cameras simultaneously using Dual Capture?" [ref=e1157]:
+            - generic [ref=e1159]:
+              - paragraph [ref=e1160]: Yes. iPhone Air supports simultaneous video recording from the front and rear cameras using the new Dual Capture video feature.
+              - paragraph [ref=e1161]:
+                - text: To learn more, check out how to
+                - link "record a video with your iPhone camera" [ref=e1162] [cursor=pointer]:
+                  - /url: https://support.apple.com/guide/iphone/record-a-video-iph61f49e4bb/ios
+                - text: .
+        - listitem [ref=e1163]:
+          - heading "Can I use AI to edit a photo on iPhone Air?" [level=3] [ref=e1164]:
+            - button "Can I use AI to edit a photo on iPhone Air?" [ref=e1165] [cursor=pointer]:
+              - generic [ref=e1166]: Can I use AI to edit a photo on iPhone Air?
+          - generic "Can I use AI to edit a photo on iPhone Air?" [ref=e1167]:
+            - generic [ref=e1169]:
+              - paragraph [ref=e1170]: Yes. You can use artificial intelligence—powered tools like Clean Up to edit photos in the Photos app on iPhone Air. Clean Up lets you remove unwanted background objects with a tap.
+              - paragraph [ref=e1171]:
+                - text: To learn more, check out how to
+                - link "use Apple Intelligence in Photos on iPhone" [ref=e1172] [cursor=pointer]:
+                  - /url: https://support.apple.com/guide/iphone/use-apple-intelligence-in-photos-iphf7de217f0/ios
+                - text: .
+    - generic [ref=e1175]:
+      - heading "iPhone" [level=2] [ref=e1176]
+      - navigation "iPhone"
+  - contentinfo "Apple Footer" [ref=e1177]:
+    - generic [ref=e1178]:
+      - heading "Apple Footer" [level=2] [ref=e1179]
+      - region "Footnotes" [ref=e1180]:
+        - list [ref=e1181]:
+          - listitem [ref=e1182]:
+            - text: "* Financing available to qualified customers, subject to credit approval and credit limit, and requires you to select Citizens One Apple iPhone Payments or Apple Card Monthly Installments (ACMI) as your payment type at checkout at Apple. In order to buy an iPhone with ACMI, you must select one of the following carriers (but you cannot use a prepaid carrier plan): AT&T, Boost Mobile, T-Mobile, or Verizon. An iPhone purchased with ACMI is always unlocked, so you can switch carriers at any time, subject to your carrier’s terms. Taxes and shipping on items purchased using ACMI are subject to your card’s variable APR, not the ACMI 0% APR. ACMI is not available for purchases made at special storefronts or when using such special discounts in-store at Apple, except ACMI is available at the Education storefront and with the Education discount. The last month’s payment for each product will be the product’s purchase price, less all other payments at the monthly payment amount. ACMI is subject to change at any time for any reason, including but not limited to installment term lengths and eligible products. See the"
+            - link "Apple Card Customer Agreement" [ref=e1183] [cursor=pointer]:
+              - /url: https://www.goldmansachs.com/terms-and-conditions/Apple-Card-Customer-Agreement.pdf
+            - text: for more information about ACMI. Additional Citizens One Apple iPhone Payments terms are
+            - link "here" [ref=e1184] [cursor=pointer]:
+              - /url: /legal/sales-support/iphoneinstallments_us/
+            - text: .
+          - listitem [ref=e1185]:
+            - text: "** Apple Card Monthly Installments (ACMI) is a 0% APR payment option that is only available if you select it at checkout in the U.S. for eligible products purchased at Apple Store locations,"
+            - link "apple.com" [ref=e1186] [cursor=pointer]:
+              - /url: /
+            - text: ", the Apple Store app, or by calling 1‑800‑MY‑APPLE, and is subject to credit approval and credit limit. See"
+            - link "here" [ref=e1187] [cursor=pointer]:
+              - /url: https://support.apple.com/102730?cid=general-phone-marcom-08062025
+            - text: "for more information about eligible products. Existing customers: See your Customer Agreement for your variable APR. As of January 1, 2026, the variable APR on new Apple Card accounts ranges from 17.49% to 27.74%. You must elect to use ACMI at checkout. If you buy an ACMI‑eligible product with a one-time payment on Apple Card at checkout, that purchase is subject to your Apple Card’s variable APR, not the ACMI 0% APR. Taxes and shipping on items purchased using ACMI are subject to your Apple Card’s variable APR, not the ACMI 0% APR. In order to buy an iPhone with ACMI, you must select one of the following carriers (prepaid carrier plans are not supported): AT&T, Boost Mobile, T‑Mobile, or Verizon. An iPhone purchased with ACMI is always unlocked, so you can switch carriers at any time, subject to your carrier’s terms. ACMI is not available for purchases made at the following special storefronts or when using these discounts in-store at Apple: Apple Employee Purchase Plan; participating corporate Employee Purchase Programs; Apple at Work for small businesses; Government and Veterans and Military Purchase Programs; or on refurbished devices. The last month’s payment for each product will be the product’s purchase price, less all other payments at the monthly payment amount. ACMI is subject to change at any time for any reason, including but not limited to installment term lengths and eligible products. See the"
+            - link "Apple Card Customer Agreement" [ref=e1188] [cursor=pointer]:
+              - /url: https://www.goldmansachs.com/terms-and-conditions/Apple-Card-Customer-Agreement.pdf
+            - text: for more information about ACMI.
+            - generic [ref=e1189]:
+              - paragraph [ref=e1190]: To access and use all Apple Card features and products available only to Apple Card users, you must add Apple Card to Wallet on an iPhone or iPad that supports and has the latest version of iOS or iPadOS. Apple Card is subject to credit approval, available only for qualifying applicants in the United States, and issued by Goldman Sachs Bank USA, Salt Lake City Branch.
+              - paragraph [ref=e1191]: Apple Payments Services LLC, a subsidiary of Apple Inc., is a service provider of Goldman Sachs Bank USA for Apple Card and Savings accounts. Neither Apple Inc. nor Apple Payments Services LLC is a bank.
+              - paragraph [ref=e1192]: All communications from Apple and Goldman Sachs Bank USA about Apple Card (including transactional and marketing communications) and customer service support are available in English. Certain communications about Apple Card can be viewed in another language depending on your device language settings. If you reside in the U.S. Virgin Islands, American Samoa, Guam, Northern Mariana Islands, or U.S. Minor Outlying Islands, please call Goldman Sachs at 877-255-5923 with questions about Apple Card.
+        - list [ref=e1193]:
+          - listitem [ref=e1194]: Trade‑in values will vary based on the condition, year, and configuration of your eligible trade‑in device. Not all devices are eligible for credit. You must be at least the age of majority to be eligible to trade in for credit or for an Apple Gift Card. Trade‑in value may be applied toward qualifying new device purchase, or added to an Apple Gift Card. Actual value awarded is based on receipt of a qualifying device matching the description provided when estimate was made. Sales tax may be assessed on full value of a new device purchase. In‑store trade‑in requires presentation of a valid photo ID (local law may require saving this information). Offer may not be available in all stores, and may vary between in‑store and online trade‑in. Some stores may have additional requirements. Apple or its trade‑in partners reserve the right to refuse, cancel, or limit quantity of any trade‑in transaction for any reason. More details are available from Apple′s trade‑in partner for trade‑in and recycling of eligible devices. Restrictions and limitations may apply.
+          - listitem [ref=e1195]:
+            - text: All battery claims depend on network configuration and many other factors; actual results will vary. Battery has limited recharge cycles and may eventually need to be replaced. Battery life and charge cycles vary by use and settings. See
+            - link "apple.com/batteries" [ref=e1196] [cursor=pointer]:
+              - /url: /batteries/
+            - text: and
+            - link "apple.com/iphone/battery.html" [ref=e1197] [cursor=pointer]:
+              - /url: /iphone/battery.html
+            - text: for more information.
+          - listitem [ref=e1198]:
+            - text: Apple Intelligence is available in beta. Some features may not be available in all regions or languages. For feature and language availability and system requirements, see
+            - link "support.apple.com/121115" [ref=e1199] [cursor=pointer]:
+              - /url: https://support.apple.com/121115?cid=general-iphone-marcom-08062025
+            - text: .
+          - listitem [ref=e1200]:
+            - text: Visual intelligence is available on any Apple Intelligence–enabled iPhone. Some capabilities may not be available in all languages and regions. For more details, see
+            - link "support.apple.com/121115#visual-intelligence" [ref=e1201] [cursor=pointer]:
+              - /url: https://support.apple.com/121115/?cid=general-iphone-marcom-08062025#visual-intelligence
+            - text: .
+          - listitem [ref=e1202]: Size and weight vary by configuration and manufacturing process.
+          - listitem [ref=e1203]: The display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 6.06 (iPhone 17e), 6.27 inches (iPhone 17, iPhone 17 Pro), 6.55 inches (iPhone Air), or 6.86 inches (iPhone 17 Pro Max) diagonally. Actual viewable area is less.
+          - listitem [ref=e1204]: Compared with the glass back of previous-generation iPhone.
+          - listitem [ref=e1205]: Compared with previous-generation iPhone.
+          - listitem [ref=e1206]: Accessories sold separately.
+          - listitem [ref=e1207]: FaceTime calling requires a FaceTime-enabled device for the caller and recipient and a Wi-Fi connection. Availability over a cellular network depends on carrier policies; data charges may apply.
+          - listitem [ref=e1208]:
+            - text: Clean Up is available in beta. For compatible devices and system requirements, see
+            - link "support.apple.com/121429" [ref=e1209] [cursor=pointer]:
+              - /url: https://support.apple.com/121429/?cid=general-iphone-marcom-08062025
+            - text: .
+          - listitem [ref=e1210]: Testing conducted by Apple in July 2025 using preproduction iPhone 17, iPhone Air, iPhone 17 Pro, and iPhone 17 Pro Max units and software, USB‑C Charge Cable with Apple 40W Dynamic Power Adapter with 60W Max (Model A3351), and Apple MagSafe Chargers (1-meter Model A3502 and 2-meter Model A3503) with Apple 30W USB‑C Power Adapter (Model A2164) or Apple 40W Dynamic Power Adapter with 60W Max (Model A3351). Fast-charge testing conducted with drained iPhone units. Times measured from the appearance of the Apple logo as the unit started up. Charge time varies with adapter, settings, usage, and environmental factors; actual results will vary.
+          - listitem [ref=e1211]: Wi-Fi 7 available in countries and regions where supported.
+          - listitem [ref=e1212]:
+            - text: Data plan required. 5G is available in select markets and through select carriers. For details on 5G support, contact your carrier and see
+            - link "apple.com/iphone/cellular" [ref=e1213] [cursor=pointer]:
+              - /url: /iphone/cellular/
+            - text: .
+          - listitem [ref=e1214]:
+            - text: iPhone 14, iPhone 15, iPhone 16, iPhone 17, and iPhone Air models are activated with an eSIM and do not support a physical SIM. Use of an eSIM requires a carrier that supports eSIM and a wireless service plan. See your carrier for details. To learn more, visit
+            - link "apple.com/esim" [ref=e1215] [cursor=pointer]:
+              - /url: /esim/
+            - text: .
+          - listitem [ref=e1216]: Available on iPhone 12 and later.
+          - listitem [ref=e1217]: Available in Cantonese (China mainland, Hong Kong, Macao), English, French (Canada, France), German (Germany), Japanese, Korean, Mandarin Chinese (China mainland, Macao, Taiwan), Portuguese (Brazil), and Spanish (Mexico, Puerto Rico, Spain, U.S.).
+          - listitem [ref=e1218]: Available in English (Australia, Canada, India, Singapore, UK, U.S.), French (France), German (Germany), Japanese, Mandarin Chinese (China mainland), Portuguese (Brazil), and Spanish (Mexico, Spain, U.S.).
+          - listitem [ref=e1219]:
+            - text: Live Translation in Messages is available in Apple Intelligence–supported languages when Apple Intelligence is enabled on a compatible iPhone, iPad, or Mac, as well as on Apple Watch Series 9 and later, Apple Watch Ultra 2 and later, and Apple Watch SE 3 when paired with an Apple Intelligence–enabled iPhone. See
+            - link "support.apple.com/121115" [ref=e1220] [cursor=pointer]:
+              - /url: https://support.apple.com/121115
+            - text: for supported languages.
+          - listitem [ref=e1221]: Live Translation in Phone and FaceTime is available for one-on-one calls in Chinese (Mandarin, Simplified), Chinese (Mandarin, Traditional), English (UK, U.S.), French (France), German, Italian, Japanese, Korean, Portuguese (Brazil), and Spanish (Spain) when Apple Intelligence is enabled on a compatible iPhone, iPad, or Mac.
+          - listitem [ref=e1222]:
+            - text: Satellite features are included for free for two years with the activation of any iPhone 14 or later model. Connection and response times vary based on location, site conditions, and other factors. Some satellite features require a carrier plan. SMS messaging via satellite is available on supported carriers. SMS message rates may apply. Satellite connectivity is provided by Globalstar and its affiliates. See
+            - link "support.apple.com/105097" [ref=e1223] [cursor=pointer]:
+              - /url: https://support.apple.com/105097/?cid=general-iphone-marcom-08062025
+            - text: for more information.
+          - listitem [ref=e1224]:
+            - text: Fees are determined by the roadside assistance provider, and can vary based on your location and the type of assistance provided. See
+            - link "support.apple.com/kb/HT213885" [ref=e1225] [cursor=pointer]:
+              - /url: https://support.apple.com/kb/HT213885/?cid=general-iphone-marcom-08062025
+            - text: for more information.
+          - listitem [ref=e1226]: iPhone 17e, iPhone 17, iPhone Air, and iPhone 17 Pro can detect a severe car crash and call for help. Requires a cellular connection or Wi-Fi calling.
+          - listitem [ref=e1227]:
+            - paragraph [ref=e1228]: "AT&T iPhone Air Special Deal: Monthly price (if shown) reflects net monthly payment, after application of AT&T bill credit applied over 36 months. Buy an iPhone Air 256GB and get $639.36 in bill credits applied over 36 months. Buy an iPhone Air 512GB and get $659.36 in bill credits applied over 36 months. Buy an iPhone Air 1 TB and get $679.36 in bill credits applied over 36 months. If you are trading in a device with this deal, credits will be comprised of (i) Apple instant trade-in credit at checkout and (ii) AT&T monthly bill credits applied over 36 months. Requires upgrade of an existing line (or activation of a new line) and purchase on qualifying 36-month 0% APR installment plan, subject to carrier credit qualification. $0 down for well-qualified customers only, or down payment may be required and depends on a variety of factors. Tax on full retail price due at sale. Requires activation on eligible AT&T unlimited plan. AT&T may temporarily slow data speeds if the network is busy. If you cancel eligible wireless service, credits will stop and you will owe the remaining device balance. Activation/Upgrade Fee: $35. Bill credits are applied as a monthly credit over the 36-month installment plan. Credits start within 3 bills. Will receive catch-up credits once credits start. Wireless line must be on an installment agreement, active, and in good standing for 30 days to qualify. Installment agreement starts when device is shipped. To get all credits, device must remain on agreement for entire term and you must keep eligible service on device for entire installment term. Limited-time offer; subject to change. Limits: one credit per line. May not be combinable with other offers, discounts, or credits. Purchase, financing, other limits, and restrictions apply. Activation required."
+            - paragraph [ref=e1229]: "Boost Mobile iPhone 17 and iPhone Air Special Deal: Buy an iPhone 17 Pro, iPhone 17 Pro Max, iPhone Air, or iPhone 17 and get $830 in bill credits (not to exceed the cost of the iPhone) applied over 36 months. No trade-in required. If you are trading in a device with this deal, trade-in value will be applied as additional bill credits over 36 months. Monthly price (if shown) reflects net monthly payment, after application of $830 in bill credit (not to exceed the cost of the iPhone purchased) and trade-in credit (if applicable) applied over 36 months respectively. Requires activation of a new line, Boost Mobile Infinite Access plan and purchase on qualifying 36-month 0% APR installment plan, subject to carrier credit qualification. After making 12 installment payments, you may upgrade to a new iPhone and get up to $830 in bill credits (not to exceed the cost of the iPhone) applied over 36 months for the new iPhone on the Infinite Access plan and purchase on new qualifying 36-month 0% APR installment plan, subject to carrier credit qualification. Tax on full retail price due at sale. If you cancel eligible wireless service, credits will stop and you will owe the remaining device balance. Bill credits are applied as a monthly credit over the 36-month installment plan. Trade-in credits start within 3 bills. Installment agreement starts when device is shipped. To get all credits, device must remain on agreement for entire term and you must keep eligible service on device for entire installment term. Limited-time offer; subject to change. Limits: one credit per line. May not be combined with other offers, discounts, or credits. Purchase, financing, other limits, and restrictions apply. Price for iPhone 17 includes $30 Boost Mobile connectivity discount. Activation required."
+            - paragraph [ref=e1230]: "T-Mobile iPhone 17 and iPhone Air Special Deal: Monthly price (if shown) reflects net monthly payment, after application of T-Mobile trade-in credit applied over 24 months with purchase of an iPhone 17 Pro, iPhone 17 Pro Max, iPhone 17, or iPhone Air and trade-in of eligible smartphone. Any Condition trade-in offer requires Experience Beyond or Go5G Next plan. Max bill credits will not exceed the cost of the device. Credit comprised of (i) Apple instant trade-in credit at checkout and (ii) T-Mobile monthly bill credits applied over 24 months. Allow 2 bill cycles from valid submission and validation of trade-in. Tax on pre-credit price due at sale. Limited-time; subject to change. Qualifying credit, data plan, and trade-in (e.g., iPhone 16 Pro Max) in good condition required. May not be combinable with some offers, discounts, or promotions. Activation required. Price for iPhone 17 includes $30 T-Mobile connectivity discount. Contact T-Mobile before cancelling entire account to continue remaining bill credits, or credits stop & balance on required finance agreement is due. Bill credits end if you pay off early."
+            - paragraph [ref=e1231]:
+              - emphasis [ref=e1232]: "Existing customers:"
+              - text: Receive credit with purchase of an iPhone 17 Pro, iPhone 17 Pro Max, iPhone 17, or iPhone Air (based upon the model and condition of your trade-in smartphone) of $1100, $800 or $500 for customers on an Experience Beyond or Go5G Next plan (excluding all 55, Military, First Responder plans) ($100+/mo. plan after AutoPay discount and plus taxes & fees if applicable) Max 2 promotions on any iPhone per account; $900, $600 or $300 for customers on an Experience Beyond or Go5G Next 55, Military, or First Responder plan ($85+/mo. plan after AutoPay discount and plus taxes & fees if applicable) Max 2 promotions on any iPhone per account; $800 or $400 for customers on an Experience More or Go5G Plus plan (excluding all 55, Military, First Responder plans) ($85+/mo. plan after AutoPay discount and plus taxes & fees if applicable) Max 2 promotions on any iPhone per account; $600 or $300 for customers on an Experience More or Go5G Plus 55, Military, or First Responder plan ($70+/mo. plan after AutoPay discount and plus taxes & fees if applicable) Max 2 promotions on any iPhone per account; or $300 or $150 for customers on a Go5G, Magenta, Magenta MAX, or Essentials plan ($60+/mo. plan after AutoPay discount and plus taxes & fees if applicable) Max 4 promotions on any iPhone per account. Must be an existing T-Mobile customer.
+            - paragraph [ref=e1233]:
+              - emphasis [ref=e1234]: "Add-a-Line customers:"
+              - text: Receive credit with purchase of an iPhone 17 Pro, iPhone 17 Pro Max, iPhone 17, or iPhone Air (based upon the model and condition of your trade-in smartphone) of $1100, $800 or $500 for customers on an Experience Beyond or Go5G Next plan (excluding all 55, Military, First Responder plans) ($100+/mo. plan after AutoPay discount and plus taxes & fees if applicable) Max 2 promotions on any iPhone per account; $900, $600 or $300 for customers on an Experience Beyond or Go5G Next 55, Military, or First Responder plan ($85+/mo. plan after AutoPay discount and plus taxes & fees if applicable) Max 2 promotions on any iPhone per account; $800 or $400 for customers on an Experience More or Go5G Plus plan (excluding all 55, Military, First Responder plans) ($85+/mo. plan after AutoPay discount and plus taxes & fees if applicable) Max 2 promotions on any iPhone per account; $600 or $300 for customers on an Experience More or Go5G Plus 55, Military, or First Responder plan ($70+/mo. plan after AutoPay discount and plus taxes & fees if applicable) Max 2 promotions on any iPhone per account; $700 or $350 for customers on a Go5G, Magenta, Magenta MAX, or Essentials plan (excluding all 55, Military, First Responder plans) ($60+/mo. plan after AutoPay discount and plus taxes & fees if applicable) Max 4 promotions on any iPhone per account; or $300 or $150 for customers on a Go5G, Magenta, Magenta MAX, or Essentials 55, Military, or First Responder plan ($45+/mo. plan after AutoPay discount and plus taxes & fees if applicable) Max 4 promotions on any iPhone per account. Must be a T-Mobile customer adding a new line to an existing T-Mobile account.
+            - paragraph [ref=e1235]:
+              - emphasis [ref=e1236]: "New customers:"
+              - text: Receive credit with purchase of an iPhone 17 Pro, iPhone 17 Pro Max, iPhone 17, or iPhone Air (based upon the model and condition of your trade-in smartphone) of $1100, $800 or $500 for customers on an Experience Beyond plan (excluding all 55, Military, First Responder plans) ($100+/mo. plan after AutoPay discount if applicable; plus taxes & fees) Max 2 promotions on any iPhone per account; $900, $600 or $300 for customers on an Experience Beyond 55, Military, or First Responder plan ($85+/mo. plan after AutoPay discount if applicable; plus taxes & fees) Max 2 promotions on any iPhone per account; $800 or $400 for customers on an Experience More plan (excluding all 55, Military, First Responder plans) ($85+/mo. plan after AutoPay discount if applicable; plus taxes & fees) Max 2 promotions on any iPhone per account; $600 or $300 for customers on an Experience More 55, Military, or First Responder plan ($70+/mo. plan after AutoPay discount if applicable; plus taxes & fees) Max 2 promotions on any iPhone per account; $700 or $350 for customers on an Essentials plan (excluding all 55, Military, First Responder plans) ($60+/mo. plan after AutoPay discount if applicable; plus taxes & fees) Max 4 promotions on any iPhone per account; or $300 or $150 for customers on a Essentials 55, Military, or First Responder plan ($45+/mo. plan after AutoPay discount if applicable; plus taxes & fees) Max 4 promotions on any iPhone per account. Must be a new T-Mobile customer.
+            - paragraph [ref=e1237]: "Verizon iPhone 17 and iPhone Air Special Deal: Monthly price (if shown) reflects net monthly payment, after application of Verizon trade-in credit applied over 36 months with purchase of an iPhone 17 Pro, iPhone 17 Pro Max, iPhone 17, or iPhone Air."
+            - paragraph [ref=e1238]:
+              - emphasis [ref=e1239]: "Existing customers:"
+              - text: "Customers on an Unlimited Ultimate plan (min. $90/mo w/Auto Pay (+taxes/fees) for 36 mos) receive: $830 or $415 credit (based upon the model of your trade-in smartphone) with purchase of an iPhone 17 Pro or iPhone 17 Pro Max; $830 or $415 credit (based upon the model of your trade-in smartphone) with purchase of an iPhone Air; or $830 or $415 credit (based upon the model of your trade-in smartphone) with purchase of an iPhone 17. Customers on an Unlimited Plus plan (min. $80/mo w/Auto Pay (+taxes/fees) for 36 mos) receive $830 or $415 credit (based upon the model of your trade-in smartphone) with purchase of an iPhone 17 Pro, iPhone 17 Pro Max, iPhone Air, or iPhone 17. Customers on an Unlimited Welcome plan (min. $65/mo w/Auto Pay (+taxes/fees) for 36 mos) receive $360 or $180 credit (based upon the model of your trade-in smartphone) with purchase of an iPhone 17 Pro, iPhone 17 Pro Max, iPhone Air, or iPhone 17. Must be an existing Verizon mobile customer."
+            - paragraph [ref=e1240]:
+              - emphasis [ref=e1241]: "New or Add-a-Line customers:"
+              - text: Customers on an Unlimited Plus plan (min. $80/mo w/Auto Pay (+taxes/fees) for 36 mos) receive $830 or $415 credit (based upon the model of your trade-in smartphone) with purchase of an iPhone 17 Pro, iPhone 17 Pro Max, iPhone Air, or iPhone 17. Customers on an Unlimited Welcome plan (min. $65/mo w/Auto Pay (+taxes/fees) for 36 mos) receive $600 or $300 credit if porting in a phone number or $360 or $180 if not porting in a phone number (based upon the model of your trade-in smartphone) with purchase of an iPhone 17 Pro, iPhone 17 Pro Max, iPhone Air, or iPhone 17. Must be a new Verizon mobile customer or adding a new line to an existing Verizon mobile account.
+            - paragraph [ref=e1242]: Max bill credits will not exceed the cost of the device. Credit comprised of (i) Apple instant trade-in credit at checkout and (ii) Verizon monthly bill credits applied over 36 months. Customer must remain in the Verizon Device Payment Program for 36 months to receive the full benefit of the Verizon bill credits. Bill credits may take 1-2 bill cycles to appear. If it takes two cycles for bill credits to appear, you’ll see the credit for the first cycle on your second bill in addition to that month’s credit. Requires purchase and activation of a new iPhone 17 Pro, iPhone 17 Pro Max, iPhone 17, or iPhone Air with the Verizon Device Payment Program at 0% APR for 36 months, subject to Verizon credit qualification, and iPhone availability and limits. Taxes and shipping not included in monthly price. Sales tax may be assessed on full value of new iPhone. Requires eligible unlimited Verizon mobile plan. Requires trade-in of eligible device. Must be at least 18 to trade-in. Apple or its trade-in partners reserve the right to refuse or limit any trade-in transaction for any reason. In-store trade-in requires presentation of a valid, government-issued photo ID (local law may require saving this information). In-store promotion availability subject to local law; speak to a Specialist to learn more. Limited-time offer; subject to change. Additional terms from Apple, Verizon, and Apple’s trade-in partners may apply. Price for iPhone 17 includes $30 Verizon connectivity discount.
+          - listitem [ref=e1243]: Available space is less and varies due to many factors. A standard configuration uses approximately 12GB to 24GB of space, including iOS 26 with its latest features and Apple apps that can be deleted. Apple Intelligence on-device models use approximately 7GB of space and can be deleted if Apple Intelligence is turned off. Turning on Apple Intelligence will download the models again. Apple apps that can be deleted use about 4.5GB of space, and you can download them back from the App Store. Storage capacity subject to change based on software version, settings, and iPhone model.
+      - navigation "Breadcrumbs" [ref=e1244]:
+        - link "Apple" [ref=e1245] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e1246]: 
+          - generic [ref=e1247]: Apple
+        - generic [ref=e1248]:
+          - list:
+            - listitem [ref=e1249]:
+              - link "iPhone" [ref=e1250] [cursor=pointer]:
+                - /url: /iphone/
+            - listitem [ref=e1251]: iPhone Air
+      - navigation "Apple Directory" [ref=e1252]:
+        - generic [ref=e1253]:
+          - heading "Shop and Learn" [level=3] [ref=e1255]:
+            - button "Shop and Learn" [ref=e1256] [cursor=pointer]:
+              - text: Shop and Learn
+              - img [ref=e1258]
+          - heading "Apple Wallet" [level=3] [ref=e1261]:
+            - button "Apple Wallet" [ref=e1262] [cursor=pointer]:
+              - text: Apple Wallet
+              - img [ref=e1264]
+        - generic [ref=e1266]:
+          - heading "Account" [level=3] [ref=e1268]:
+            - button "Account" [ref=e1269] [cursor=pointer]:
+              - text: Account
+              - img [ref=e1271]
+          - heading "Entertainment" [level=3] [ref=e1274]:
+            - button "Entertainment" [ref=e1275] [cursor=pointer]:
+              - text: Entertainment
+              - img [ref=e1277]
+        - heading "Apple Store" [level=3] [ref=e1281]:
+          - button "Apple Store" [ref=e1282] [cursor=pointer]:
+            - text: Apple Store
+            - img [ref=e1284]
+        - generic [ref=e1286]:
+          - heading "For Business" [level=3] [ref=e1288]:
+            - button "For Business" [ref=e1289] [cursor=pointer]:
+              - text: For Business
+              - img [ref=e1291]
+          - heading "For Education" [level=3] [ref=e1294]:
+            - button "For Education" [ref=e1295] [cursor=pointer]:
+              - text: For Education
+              - img [ref=e1297]
+          - heading "For Healthcare" [level=3] [ref=e1300]:
+            - button "For Healthcare" [ref=e1301] [cursor=pointer]:
+              - text: For Healthcare
+              - img [ref=e1303]
+          - heading "For Government" [level=3] [ref=e1306]:
+            - button "For Government" [ref=e1307] [cursor=pointer]:
+              - text: For Government
+              - img [ref=e1309]
+        - generic [ref=e1311]:
+          - heading "Apple Values" [level=3] [ref=e1313]:
+            - button "Apple Values" [ref=e1314] [cursor=pointer]:
+              - text: Apple Values
+              - img [ref=e1316]
+          - heading "About Apple" [level=3] [ref=e1319]:
+            - button "About Apple" [ref=e1320] [cursor=pointer]:
+              - text: About Apple
+              - img [ref=e1322]
+      - generic [ref=e1324]:
+        - generic [ref=e1325]:
+          - text: "More ways to shop:"
+          - link "Find an Apple Store" [ref=e1326] [cursor=pointer]:
+            - /url: /retail/
+          - text: or
+          - link "other retailer" [ref=e1327] [cursor=pointer]:
+            - /url: https://locate.apple.com/
+          - text: near you.
+          - generic [ref=e1328]:
+            - text: Or call
+            - link "1-800-MY-APPLE" [ref=e1329] [cursor=pointer]:
+              - /url: tel:1-800-692-7753
+            - text: (1-800-692-7753).
+        - generic [ref=e1330]:
+          - link "United States. Choose your country or region" [ref=e1332] [cursor=pointer]:
+            - /url: /choose-country-region/
+            - text: United States
+          - generic [ref=e1333]:
+            - generic [ref=e1334]: Copyright © 2026 Apple Inc. All rights reserved.
+            - list [ref=e1335]:
+              - listitem [ref=e1336]:
+                - link "Privacy Policy" [ref=e1337] [cursor=pointer]:
+                  - /url: /legal/privacy/
+              - listitem [ref=e1338]:
+                - link "Terms of Use" [ref=e1339] [cursor=pointer]:
+                  - /url: /legal/internet-services/terms/site.html
+              - listitem [ref=e1340]:
+                - link "Sales and Refunds" [ref=e1341] [cursor=pointer]:
+                  - /url: /us/shop/goto/help/sales_refunds
+              - listitem [ref=e1342]:
+                - link "Legal" [ref=e1343] [cursor=pointer]:
+                  - /url: /legal/
+              - listitem [ref=e1344]:
+                - link "Site Map" [ref=e1345] [cursor=pointer]:
+                  - /url: /sitemap/

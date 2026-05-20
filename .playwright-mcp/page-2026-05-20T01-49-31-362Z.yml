@@ -1,0 +1,595 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - banner [ref=e5]:
+      - generic [ref=e7]:
+        - generic [ref=e8]: New
+        - generic [ref=e9]: "Notion 개발자 플랫폼: 모든 데이터. 모든 도구. 모든 에이전트. 복잡한 인프라 없이 바로 시작하세요."
+        - link "자세히 알아보기" [ref=e10] [cursor=pointer]:
+          - /url: https://notion.dev/
+          - generic [ref=e11]: 자세히 알아보기
+          - generic [ref=e12]: →
+        - button "배너 닫기" [ref=e13] [cursor=pointer]:
+          - img [ref=e15]
+    - navigation "메인" [ref=e20]:
+      - generic [ref=e21]:
+        - link "Notion – 홈" [ref=e23] [cursor=pointer]:
+          - /url: /ko/product
+          - img [ref=e24]
+        - generic [ref=e28]:
+          - link "Notion 무료로 사용하기" [ref=e30] [cursor=pointer]:
+            - /url: /signup?from=marketing&pathname=%2Fko&tid=96c7030601114e8a89c665105aebeded
+            - generic [ref=e31]: Notion 무료로 사용하기
+          - button "메인 메뉴 토글" [ref=e33] [cursor=pointer]:
+            - img [ref=e34]
+    - main [ref=e36]:
+      - generic [ref=e39]:
+        - generic [ref=e40]:
+          - generic [ref=e41]:
+            - img [ref=e44]
+            - img [ref=e56]
+            - img [ref=e62]
+          - generic [ref=e64]:
+            - img [ref=e72]
+            - img [ref=e81]
+          - generic [ref=e87]:
+            - heading "잠들지 않는 AI 팀" [level=1] [ref=e88]
+            - paragraph [ref=e89]: Notion 에이전트는 24시간 잠들지 않고, 정보를 수집하고 질문에 답하며 프로젝트를 계속 진행합니다. 알아서 처리해 주니 안심하고 쉴 수 있죠.
+            - generic [ref=e90]:
+              - link "Notion 무료로 사용하기" [ref=e91] [cursor=pointer]:
+                - /url: /ko/signup?from=marketing&pathname=%2Fko&tid=96c7030601114e8a89c665105aebeded
+              - link "데모 요청하기" [ref=e92] [cursor=pointer]:
+                - /url: /ko/contact-sales
+        - paragraph [ref=e93]: Forbes Cloud 100대 기업 중 98%가 신뢰하는 Notion
+        - generic [ref=e97]:
+          - link [ref=e98] [cursor=pointer]:
+            - /url: /ko/customers/gs-group
+            - img [ref=e99]
+          - link [ref=e100] [cursor=pointer]:
+            - /url: /ko/customers/kakao-style
+            - img [ref=e101]
+          - link [ref=e102] [cursor=pointer]:
+            - /url: /ko/customers/lg-ai-research
+            - img [ref=e103]
+          - link [ref=e104] [cursor=pointer]:
+            - /url: /ko/customers/karrot
+            - img [ref=e105]
+          - link [ref=e106] [cursor=pointer]:
+            - /url: /ko/customers/sendbird
+            - img [ref=e107]
+          - link [ref=e108] [cursor=pointer]:
+            - /url: /ko/customers/devsisters
+            - img [ref=e109]
+          - link [ref=e110] [cursor=pointer]:
+            - /url: /ko/customers/air-premia
+            - img [ref=e111]
+          - link [ref=e112] [cursor=pointer]:
+            - /url: /ko/customers/openai
+            - img [ref=e113]
+          - link [ref=e114] [cursor=pointer]:
+            - /url: /ko/customers/figma
+            - img [ref=e115]
+          - link [ref=e116] [cursor=pointer]:
+            - /url: /ko/customers/cursor
+            - img [ref=e117]
+          - link [ref=e118] [cursor=pointer]:
+            - /url: /ko/customers/vercel
+            - img [ref=e119]
+          - generic:
+            - img
+          - generic:
+            - img
+          - generic:
+            - img "Discord"
+          - generic:
+            - img "Volvo"
+          - generic:
+            - img "Riot Games"
+          - link "Toyota" [ref=e120] [cursor=pointer]:
+            - /url: /ko/customers/toyota
+            - img "Toyota" [ref=e121]
+      - generic [ref=e123]:
+        - generic [ref=e124]:
+          - generic [ref=e125]:
+            - generic [ref=e126]:
+              - heading "연중무휴 24시간 업무 처리를 지원합니다." [level=2] [ref=e128]
+              - region "커스텀 에이전트" [ref=e129]:
+                - generic [ref=e131]:
+                  - generic [ref=e132]:
+                    - link "커스텀 에이전트 반복 작업을 자동화하세요." [ref=e134] [cursor=pointer]:
+                      - /url: /ko/product/agents
+                      - generic:
+                        - generic:
+                          - generic: 커스텀 에이전트
+                        - generic:
+                          - heading "반복 작업을 자동화하세요." [level=2]
+                          - generic: →
+                    - generic [ref=e135]:
+                      - generic [ref=e136]:
+                        - generic [ref=e137]: Q&A 에이전트
+                        - generic [ref=e138]: 이미 확보된 정보와 지식을 사용해 질문에 답변합니다.
+                      - tablist "Slide navigation" [ref=e139]:
+                        - tab "Go to slide 1" [selected] [ref=e140] [cursor=pointer]
+                        - tab "Go to slide 2" [ref=e141] [cursor=pointer]
+                        - tab "Go to slide 3" [ref=e142] [cursor=pointer]
+                        - tab "Go to slide 4" [ref=e143] [cursor=pointer]
+                  - generic [ref=e144]:
+                    - generic [ref=e145]:
+                      - group "1 of 4" [ref=e146]:
+                        - generic "mobile-qa-agent-900-ja-JP final" [ref=e147]
+                      - group "2 of 4" [ref=e148]:
+                        - generic "mobile-task-router-900-ja-JP final" [ref=e149]
+                      - group "3 of 4" [ref=e150]
+                      - group "4 of 4" [ref=e151]
+                    - button "Next slide" [ref=e153] [cursor=pointer]:
+                      - img [ref=e154]
+                    - button "Play or pause video" [ref=e156] [cursor=pointer]:
+                      - img
+                      - img [ref=e157]
+            - generic [ref=e160]:
+              - heading "커스텀 에이전트로 할 수 있는 일" [level=3] [ref=e161]
+              - generic [ref=e162]:
+                - generic [ref=e163]:
+                  - link "제품 피드백 분류" [ref=e164] [cursor=pointer]:
+                    - /url: /ko/product/ai/use-cases/triage-product-feedback
+                  - heading "제품 피드백 분류" [level=3] [ref=e166]:
+                    - text: 제품 피드백 분류
+                    - generic [ref=e167]: →
+                - generic [ref=e168]:
+                  - link "Slack 지원 티켓 해결" [ref=e169] [cursor=pointer]:
+                    - /url: /ko/product/ai/use-cases/resolve-support-tickets-in-slack
+                  - heading "Slack 지원 티켓 해결" [level=3] [ref=e171]:
+                    - text: Slack 지원 티켓 해결
+                    - generic [ref=e172]: →
+                - generic [ref=e173]:
+                  - link "보안 알림에 더 빠르게 대응" [ref=e174] [cursor=pointer]:
+                    - /url: /ko/product/ai/use-cases/respond-to-security-alerts-faster
+                  - heading "보안 알림에 더 빠르게 대응" [level=3] [ref=e176]:
+                    - text: 보안 알림에 더 빠르게 대응
+                    - generic [ref=e177]: →
+                - generic [ref=e178]:
+                  - link "주간 리포트 작업 자동화" [ref=e179] [cursor=pointer]:
+                    - /url: /ko/product/ai/use-cases/automate-weekly-reporting
+                  - heading "주간 리포트 작업 자동화" [level=3] [ref=e181]:
+                    - text: 주간 리포트 작업 자동화
+                    - generic [ref=e182]: →
+                - generic [ref=e183]:
+                  - link "나만의 커스텀 에이전트 생성" [ref=e184] [cursor=pointer]:
+                    - /url: /ko/product/agents
+                  - heading "나만의 커스텀 에이전트 생성" [level=3] [ref=e189]:
+                    - text: 나만의 커스텀 에이전트 생성
+                    - generic [ref=e190]: →
+          - generic [ref=e191]:
+            - heading "필요할 때 언제든지 요청하세요." [level=2] [ref=e193]
+            - generic [ref=e194]:
+              - article [ref=e195]:
+                - generic [ref=e196]:
+                  - link "사용해 보기" [ref=e197] [cursor=pointer]:
+                    - /url: /ko/product/agents
+                  - generic:
+                    - generic: Notion 에이전트
+                    - generic:
+                      - heading "작업을 배정하면, Notion 에이전트가 알아서 처리합니다." [level=2]
+                      - generic: →
+                  - generic:
+                    - generic:
+                      - img "ko-KR Notion-Agent Notion-Agent Front"
+                    - generic:
+                      - img "ko-KR Notion-Agent Notion-Agent Back"
+                    - generic:
+                      - generic:
+                        - img "Homepage | Agents 26 | Bento | Agent | Layer"
+              - article [ref=e198]:
+                - generic [ref=e199]:
+                  - link "사용해 보기" [ref=e200] [cursor=pointer]:
+                    - /url: /ko/product/enterprise-search
+                  - generic:
+                    - generic: 기업 통합 검색
+                    - generic:
+                      - heading "모든 검색을 한 번에." [level=2]
+                      - generic: →
+                  - generic:
+                    - generic:
+                      - img "ko-KR Notion-Agent Enterprise-Search"
+                    - generic:
+                      - generic:
+                        - img "Homepage | Agents 26 | Bento | Search | Layer"
+              - article [ref=e201]:
+                - generic [ref=e202]:
+                  - link "사용해 보기" [ref=e203] [cursor=pointer]:
+                    - /url: /ko/product/ai-meeting-notes
+                  - generic:
+                    - generic: AI 노트
+                    - generic:
+                      - heading "늘 완벽하게 작성되는 회의록" [level=2]
+                      - generic: →
+                  - generic:
+                    - generic:
+                      - img "ko-KR Notion-Agent AIMN"
+                    - generic:
+                      - generic:
+                        - img "Homepage | Agents 26 | Bento | Notes | Layer"
+          - generic [ref=e204]:
+            - heading "모든 작업을 한곳에서 관리하세요." [level=2] [ref=e206]
+            - generic [ref=e207]:
+              - article [ref=e208]:
+                - generic [ref=e209]:
+                  - link "사용해 보기" [ref=e210] [cursor=pointer]:
+                    - /url: /ko/product/docs
+                  - generic:
+                    - generic: 문서
+                    - generic:
+                      - heading "심플하면서도 강력한 기능" [level=2]
+                      - generic: →
+                  - generic:
+                    - generic:
+                      - img "ko-KR Notion-Agent Docs Front"
+                    - generic:
+                      - img "ko-KR Notion-Agent Docs Back"
+              - article [ref=e211]:
+                - generic [ref=e212]:
+                  - link "사용해 보기" [ref=e213] [cursor=pointer]:
+                    - /url: /ko/product/wikis
+                  - generic:
+                    - generic: 지식 베이스
+                    - generic:
+                      - heading "모든 팀원과 에이전트가 한곳에 저장된 같은 정보를 사용합니다." [level=2]
+                      - generic: →
+                  - generic:
+                    - generic:
+                      - img "ko-KR Notion-Agent Wiki"
+              - article [ref=e214]:
+                - generic [ref=e215]:
+                  - link "사용해 보기" [ref=e216] [cursor=pointer]:
+                    - /url: /ko/product/projects
+                  - generic:
+                    - generic: 프로젝트
+                    - generic:
+                      - heading "현황 추적에 쓰는 시간을 줄이고, 실제 일에 집중하세요." [level=2]
+                      - generic: →
+                  - generic:
+                    - generic:
+                      - img "ko-KR Notion-Agent Projects Front"
+                    - generic:
+                      - img "ko-KR Notion-Agent Projects Back"
+        - figure "forbes" [ref=e218]:
+          - blockquote [ref=e219]: AI의 모든 것을 담은 앱.
+          - img "forbes" [ref=e223]
+      - generic [ref=e225]:
+        - generic [ref=e226]:
+          - generic [ref=e227]:
+            - heading "생산성은 올리고, 사용하는 툴은 줄이고" [level=2] [ref=e228]
+            - paragraph [ref=e229]: 모든 툴과 팀을 한곳에 모으고, 절감 비용을 바로 확인해 보세요.
+            - link "요금제 보기" [ref=e231] [cursor=pointer]:
+              - /url: /pricing
+              - generic [ref=e232]: 요금제 보기
+              - generic [ref=e233]: →
+          - img "Homepage | Fall 25 | Less Tools | L" [ref=e236]
+        - form [ref=e238]:
+          - generic [ref=e239]:
+            - group [ref=e241]:
+              - generic [ref=e242] [cursor=pointer]:
+                - checkbox "AI 검색" [ref=e243]
+                - generic [ref=e244]: AI 검색
+              - generic [ref=e245] [cursor=pointer]:
+                - checkbox "AI 챗봇 US$20/사용자" [checked] [ref=e246]
+                - generic [ref=e247]:
+                  - text: AI 챗봇
+                  - generic [ref=e248]: US$20/사용자
+              - generic [ref=e249] [cursor=pointer]:
+                - checkbox "AI 노트" [ref=e250]
+                - generic [ref=e251]: AI 노트
+              - generic [ref=e252] [cursor=pointer]:
+                - checkbox "AI 글쓰기 도우미" [ref=e253]
+                - generic [ref=e254]: AI 글쓰기 도우미
+              - generic [ref=e255] [cursor=pointer]:
+                - checkbox "AI 이메일 앱" [ref=e256]
+                - generic [ref=e257]: AI 이메일 앱
+              - generic [ref=e258] [cursor=pointer]:
+                - checkbox "AI 리서치" [ref=e259]
+                - generic [ref=e260]: AI 리서치
+              - generic [ref=e261] [cursor=pointer]:
+                - checkbox "캘린더 일정 잡기" [ref=e262]
+                - generic [ref=e263]: 캘린더 일정 잡기
+              - generic [ref=e264] [cursor=pointer]:
+                - checkbox "팀 위키 US$10/사용자" [checked] [ref=e265]
+                - generic [ref=e266]:
+                  - text: 팀 위키
+                  - generic [ref=e267]: US$10/사용자
+              - generic [ref=e268] [cursor=pointer]:
+                - checkbox "프로젝트 관리 툴 US$24/사용자" [checked] [ref=e269]
+                - generic [ref=e270]:
+                  - text: 프로젝트 관리 툴
+                  - generic [ref=e271]: US$24/사용자
+              - generic [ref=e272] [cursor=pointer]:
+                - checkbox "기본 CRM" [ref=e273]
+                - generic [ref=e274]: 기본 CRM
+              - generic [ref=e275] [cursor=pointer]:
+                - checkbox "사이트 빌더" [ref=e276]
+                - generic [ref=e277]: 사이트 빌더
+              - generic [ref=e278] [cursor=pointer]:
+                - checkbox "폼" [ref=e279]
+                - generic [ref=e280]: 폼
+            - generic [ref=e281]:
+              - generic [ref=e282]:
+                - text: 팀 규모
+                - spinbutton "팀 규모" [ref=e283] [cursor=pointer]: "10"
+              - generic [ref=e284]:
+                - text: 월간 절감액
+                - status "월간 절감액" [ref=e285]: US$340
+              - generic [ref=e286]:
+                - text: 연간 절감액
+                - status "연간 절감액" [ref=e287]: US$4,080
+      - generic [ref=e290]:
+        - heading "결과로 말하는 팀이 믿고 쓰는 Notion" [level=2] [ref=e292]
+        - generic [ref=e294]:
+          - generic [ref=e295]:
+            - figure "더 보기" [ref=e297]:
+              - img "OpenAI-Logo" [ref=e298]
+              - blockquote [ref=e299]: 모든 업무를 처리할 수 있는 하나의 강력한 플랫폼, 그곳이 바로 Notion입니다.
+              - link "더 보기" [ref=e301] [cursor=pointer]:
+                - /url: /ko/customers/openai
+                - text: 더 보기
+                - generic [ref=e302]: →
+            - button "동영상 보기" [ref=e303] [cursor=pointer]:
+              - img "더 보기" [ref=e304]
+              - img [ref=e306]
+          - generic [ref=e308]:
+            - link "워크플로를 간소화해 전체 일정을 1/3로 줄였습니다." [ref=e309] [cursor=pointer]:
+              - /url: /ko/customers/toyota
+              - generic [ref=e311]:
+                - text: 워크플로를 간소화해 전체 일정을 1/3로 줄였습니다.
+                - generic [ref=e312]: →
+            - link "“회의 사이 잠깐이면, 3분 만에 에이전트를 만들 수 있어요. 덕분에 몇 시간 걸리던 수동 작업 부담이 훨씬 줄었죠.”" [ref=e313] [cursor=pointer]:
+              - /url: /ko/customers/ramp
+              - generic [ref=e315]:
+                - text: “회의 사이 잠깐이면, 3분 만에 에이전트를 만들 수 있어요. 덕분에 몇 시간 걸리던 수동 작업 부담이 훨씬 줄었죠.”
+                - generic [ref=e316]: →
+            - link "“Notion은 하나의 툴로 많은 문제를 해결할 수 있다는 것을 보여 줍니다.”" [ref=e317] [cursor=pointer]:
+              - /url: /ko/customers/vercel
+              - generic [ref=e319]:
+                - text: “Notion은 하나의 툴로 많은 문제를 해결할 수 있다는 것을 보여 줍니다.”
+                - generic [ref=e320]: →
+        - generic [ref=e322]:
+          - generic [ref=e323]:
+            - paragraph [ref=e324]:
+              - img [ref=e326]
+              - text: 1억 명 이상의 전 세계 사용자
+            - paragraph [ref=e328]:
+              - img [ref=e330]
+              - text: "#3년 연속 지식 베이스 1위 (G2)"
+            - paragraph [ref=e332]:
+              - img [ref=e334]
+              - text: "#AI 기업 통합 검색 1위 (G2)"
+            - paragraph [ref=e336]:
+              - img [ref=e338]
+              - text: "#AI 글쓰기 1위 (G2)"
+            - paragraph [ref=e340]:
+              - img [ref=e342]
+              - text: Fortune 100대 기업 중 62%가 사용
+            - paragraph [ref=e344]:
+              - img [ref=e346]
+              - text: YC 기업의 50% 이상
+            - paragraph [ref=e348]:
+              - img [ref=e350]
+              - text: 140만 명이 넘는 커뮤니티 멤버
+          - generic [ref=e352]:
+            - paragraph [ref=e353]:
+              - img [ref=e355]
+              - text: 1억 명 이상의 전 세계 사용자
+            - paragraph [ref=e357]:
+              - img [ref=e359]
+              - text: "#3년 연속 지식 베이스 1위 (G2)"
+            - paragraph [ref=e361]:
+              - img [ref=e363]
+              - text: "#AI 기업 통합 검색 1위 (G2)"
+            - paragraph [ref=e365]:
+              - img [ref=e367]
+              - text: "#AI 글쓰기 1위 (G2)"
+            - paragraph [ref=e369]:
+              - img [ref=e371]
+              - text: Fortune 100대 기업 중 62%가 사용
+            - paragraph [ref=e373]:
+              - img [ref=e375]
+              - text: YC 기업의 50% 이상
+            - paragraph [ref=e377]:
+              - img [ref=e379]
+              - text: 140만 명이 넘는 커뮤니티 멤버
+            - paragraph [ref=e381]:
+              - img [ref=e383]
+              - text: 1억 명 이상의 전 세계 사용자
+            - paragraph [ref=e385]:
+              - img [ref=e387]
+              - text: "#3년 연속 지식 베이스 1위 (G2)"
+            - paragraph [ref=e389]:
+              - img [ref=e391]
+              - text: "#AI 기업 통합 검색 1위 (G2)"
+            - paragraph [ref=e393]:
+              - img [ref=e395]
+              - text: "#AI 글쓰기 1위 (G2)"
+            - paragraph [ref=e397]:
+              - img [ref=e399]
+              - text: Fortune 100대 기업 중 62%가 사용
+            - paragraph [ref=e401]:
+              - img [ref=e403]
+              - text: YC 기업의 50% 이상
+            - paragraph [ref=e405]:
+              - img [ref=e407]
+              - text: 140만 명이 넘는 커뮤니티 멤버
+      - generic [ref=e411]:
+        - heading "무료로 체험하세요." [level=2] [ref=e413]
+        - generic [ref=e414]:
+          - generic [ref=e416]:
+            - img [ref=e417]:
+              - img [ref=e418]
+            - generic [ref=e421]:
+              - heading "Notion 시작하기" [level=3] [ref=e422]
+              - paragraph [ref=e423]: 에이전트가 내장된 나만의 AI 워크스페이스.
+            - generic [ref=e424]:
+              - link "Windows로 다운로드하기" [ref=e425] [cursor=pointer]:
+                - /url: /ko/desktop/windows/download?from=marketing&pathname=%2Fko&tid=96c7030601114e8a89c665105aebeded
+                - img [ref=e426]
+                - text: Windows로 다운로드하기
+              - link "Microsoft Store에서 다운로드" [ref=e428] [cursor=pointer]:
+                - /url: https://apps.microsoft.com/detail/XPDBVSS44R0L9H?referrer=appbadge&cid=notion_web_msbadge&mode=direct
+          - generic [ref=e432]:
+            - img [ref=e433]:
+              - img [ref=e434]
+            - generic [ref=e437]:
+              - heading "Notion 메일" [level=3] [ref=e438]
+              - paragraph [ref=e439]: 나를 이해하는 AI 수신함.
+            - link "Notion 메일에 대해 자세히 알아보기" [ref=e440] [cursor=pointer]:
+              - /url: /ko/product/mail/download
+              - text: 다운로드하기
+          - generic [ref=e442]:
+            - img [ref=e443]:
+              - img [ref=e444]
+            - generic [ref=e450]:
+              - heading "Notion 캘린더" [level=3] [ref=e451]
+              - paragraph [ref=e452]: 시간 관리, 일정 잡기, 작업을 모두 한곳에서.
+            - link "Notion 캘린더에 대해 자세히 알아보기" [ref=e453] [cursor=pointer]:
+              - /url: /ko/product/calendar/download
+              - text: 다운로드하기
+        - paragraph [ref=e454]:
+          - text: Notion은 사용 중인 브라우저에서
+          - link "언제든지 사용할 수 있습니다." [ref=e455] [cursor=pointer]:
+            - /url: /ko/signup
+          - text: .
+    - contentinfo [ref=e456]:
+      - navigation "바닥글" [ref=e457]:
+        - generic [ref=e458]:
+          - link "Notion – 홈" [ref=e460] [cursor=pointer]:
+            - /url: /ko/product
+            - img [ref=e461]
+          - generic [ref=e467]:
+            - list "Social media" [ref=e468]:
+              - listitem [ref=e469]:
+                - link "Instagram" [ref=e470] [cursor=pointer]:
+                  - /url: https://www.instagram.com/notionhq/
+                  - img [ref=e472]
+              - listitem [ref=e474]:
+                - link "X" [ref=e475] [cursor=pointer]:
+                  - /url: https://twitter.com/NotionHQ
+                  - img [ref=e477]
+              - listitem [ref=e479]:
+                - link "LinkedIn" [ref=e480] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/company/notionhq/
+                  - img [ref=e482]
+              - listitem [ref=e484]:
+                - link "Facebook" [ref=e485] [cursor=pointer]:
+                  - /url: https://www.facebook.com/NotionHQ/
+                  - img [ref=e487]
+              - listitem [ref=e489]:
+                - link "YouTube" [ref=e490] [cursor=pointer]:
+                  - /url: https://www.youtube.com/channel/UCoSvlWS5XcwaSzIcbuJ-Ysg
+                  - img [ref=e492]
+            - generic [ref=e495]:
+              - button "한국어" [ref=e497] [cursor=pointer]:
+                - generic [ref=e498]:
+                  - img [ref=e500]
+                  - generic [ref=e502]: 한국어
+                  - img [ref=e504]
+              - button "쿠키 설정" [ref=e507] [cursor=pointer]:
+                - generic [ref=e508]: 쿠키 설정
+              - generic [ref=e509]: © 2026 Notion Labs, Inc.
+        - generic [ref=e511]:
+          - list "회사 소개" [ref=e512]:
+            - text: 회사 소개
+            - listitem [ref=e513]:
+              - link "Notion 소개" [ref=e514] [cursor=pointer]:
+                - /url: /ko/about
+                - generic [ref=e515]: Notion 소개
+            - listitem [ref=e516]:
+              - link "채용" [ref=e517] [cursor=pointer]:
+                - /url: /ko/careers
+                - generic [ref=e518]: 채용
+            - listitem [ref=e519]:
+              - link "보안" [ref=e520] [cursor=pointer]:
+                - /url: /ko/security
+                - generic [ref=e521]: 보안
+            - listitem [ref=e522]:
+              - link "서비스 상태" [ref=e523] [cursor=pointer]:
+                - /url: https://www.notion-status.com
+                - generic [ref=e524]: 서비스 상태
+            - listitem [ref=e525]:
+              - link "이용약관 및 개인정보 보호정책" [ref=e526] [cursor=pointer]:
+                - /url: https://www.notion.so/28ffdd083dc3473e9c2da6ec011b58ac
+                - generic [ref=e527]: 이용약관 및 개인정보 보호정책
+            - listitem [ref=e528]:
+              - link "개인정보 보호 권한" [ref=e529] [cursor=pointer]:
+                - /url: https://www.notion.com/trust/privacy-policy#california
+                - generic [ref=e530]: 개인정보 보호 권한
+          - list "다운로드" [ref=e531]:
+            - text: 다운로드
+            - listitem [ref=e532]:
+              - link "iOS & Android" [ref=e533] [cursor=pointer]:
+                - /url: /ko/mobile
+                - generic [ref=e534]: iOS & Android
+            - listitem [ref=e535]:
+              - link "Mac & Windows" [ref=e536] [cursor=pointer]:
+                - /url: /ko/desktop
+                - generic [ref=e537]: Mac & Windows
+            - listitem [ref=e538]:
+              - link "메일" [ref=e539] [cursor=pointer]:
+                - /url: /ko/product/mail/download
+                - generic [ref=e540]: 메일
+            - listitem [ref=e541]:
+              - link "캘린더" [ref=e542] [cursor=pointer]:
+                - /url: /ko/product/calendar/download
+                - generic [ref=e543]: 캘린더
+            - listitem [ref=e544]:
+              - link "Web Clipper" [ref=e545] [cursor=pointer]:
+                - /url: /ko/web-clipper
+                - generic [ref=e546]: Web Clipper
+          - list "리소스 둘러보기 템플릿 컨설턴트 연결 둘러보기 새로운 소식 고객 스토리 블로그 웨비나 학습하기 개발자 아카데미 프로덕트 투어 도움말" [ref=e547]:
+            - text: 리소스
+            - listitem [ref=e548]:
+              - link "도움말 센터" [ref=e549] [cursor=pointer]:
+                - /url: /ko/help
+                - generic [ref=e550]: 도움말 센터
+            - listitem [ref=e551]:
+              - link "가격" [ref=e552] [cursor=pointer]:
+                - /url: /ko/pricing
+                - generic [ref=e553]: 가격
+            - listitem [ref=e554]:
+              - link "블로그" [ref=e555] [cursor=pointer]:
+                - /url: /ko/blog
+                - generic [ref=e556]: 블로그
+            - listitem [ref=e557]:
+              - link "커뮤니티" [ref=e558] [cursor=pointer]:
+                - /url: /community
+                - generic [ref=e559]: 커뮤니티
+            - listitem [ref=e560]:
+              - link "연결" [ref=e561] [cursor=pointer]:
+                - /url: /ko/connections
+                - generic [ref=e562]: 연결
+            - listitem [ref=e563]:
+              - link "템플릿" [ref=e564] [cursor=pointer]:
+                - /url: /ko/templates
+                - generic [ref=e565]: 템플릿
+            - listitem [ref=e566]:
+              - link "파트너 프로그램" [ref=e567] [cursor=pointer]:
+                - /url: /ko/partners
+                - generic [ref=e568]: 파트너 프로그램
+          - list "용도별" [ref=e569]:
+            - text: 용도별
+            - listitem [ref=e570]:
+              - link "회사" [ref=e571] [cursor=pointer]:
+                - /url: /ko/enterprise
+                - generic [ref=e572]: 회사
+            - listitem [ref=e573]:
+              - link "팀" [ref=e574] [cursor=pointer]:
+                - /url: /ko/teams
+                - generic [ref=e575]: 팀
+            - listitem [ref=e576]:
+              - link "개인" [ref=e577] [cursor=pointer]:
+                - /url: /ko/personal
+                - generic [ref=e578]: 개인
+            - listitem [ref=e579]:
+              - link "더 살펴보기" [ref=e580] [cursor=pointer]:
+                - /url: /ko/explore
+                - generic [ref=e581]:
+                  - text: 더 살펴보기
+                  - generic [ref=e582]: →
+    - status [ref=e584]:
+      - paragraph
+  - alert [ref=e585]

@@ -1,0 +1,315 @@
+- generic [active] [ref=e1]:
+  - banner:
+    - generic:
+      - link "BEBE PET" [ref=e2] [cursor=pointer]:
+        - /url: "#"
+      - button "메뉴" [ref=e3] [cursor=pointer]
+  - main [ref=e7]:
+    - generic [ref=e8]:
+      - generic: 당신의 반려가족을 위한 모든 것, 베베펫입니다.
+      - generic:
+        - paragraph: 베베펫에서 시작되는 평생의 동행
+        - heading "평생 함께할 첫만남" [level=1]
+      - button "Skip intro":
+        - generic: Skip
+        - generic: ">>"
+    - generic [ref=e14]:
+      - paragraph [ref=e16]: ASSET
+      - generic [ref=e17]:
+        - generic [ref=e18]:
+          - generic [ref=e20]:
+            - paragraph [ref=e21]: 01·Medical
+            - heading "의료자산" [level=3] [ref=e418]
+            - paragraph [ref=e419]: 단순한 분양을 넘어 생명을 책임지는 전문성을 상징합니다.
+            - list [ref=e420]:
+              - listitem [ref=e421]:
+                - generic [ref=e423]:
+                  - paragraph [ref=e424]: 수의사 전담 관리
+                  - paragraph [ref=e425]: 입양 전 모든 아이의 건강검진을 자체 동물병원에서 수의사가 직접 실시합니다.
+              - listitem [ref=e426]:
+                - generic [ref=e428]:
+                  - paragraph [ref=e429]: 투명한 건강 정보
+                  - paragraph [ref=e430]: 검진 결과지 및 예방접종 기록을 투명하게 공개하여 입양 초기 불안감을 해소합니다.
+              - listitem [ref=e431]:
+                - generic [ref=e433]:
+                  - paragraph [ref=e434]: 생애주기 의료 지원
+                  - paragraph [ref=e435]: 입양 후에도 전문적인 의료 서비스를 지속적으로 제공받을 수 있는 든든한 파트너십을 제공합니다.
+          - generic [ref=e42]:
+            - paragraph [ref=e43]: 02·Global
+            - heading "글로벌 자산" [level=3] [ref=e436]
+            - paragraph [ref=e437]: 유통의 한계를 넘어 최고의 제품을 합리적으로 공급합니다.
+            - list [ref=e438]:
+              - listitem [ref=e439]:
+                - generic [ref=e441]:
+                  - paragraph [ref=e442]: 전문가 소싱
+                  - paragraph [ref=e443]: 수의사가 성분을 분석하고 글로벌 사업부가 직접 계약한 해외 프리미엄 브랜드를 선보입니다.
+              - listitem [ref=e444]:
+                - generic [ref=e446]:
+                  - paragraph [ref=e447]: 신선도와 안전성
+                  - paragraph [ref=e448]: 중간 유통 단계를 생략하여 가장 신선한 사료를 가장 안전한 통관 절차를 거쳐 보호자에게 전달합니다.
+              - listitem [ref=e449]:
+                - generic [ref=e451]:
+                  - paragraph [ref=e452]: 독점적 가치
+                  - paragraph [ref=e453]: 국내에서 구하기 힘든 고품질 처방식이나 용품을 베베펫 고객만을 위해 독점 공급합니다.
+          - generic [ref=e64]:
+            - paragraph [ref=e65]: 03·Beauty
+            - heading "뷰티 자산" [level=3] [ref=e454]
+            - paragraph [ref=e455]: 반려동물의 위생과 스타일을 통해 삶의 질을 높입니다.
+            - list [ref=e456]:
+              - listitem [ref=e457]:
+                - generic [ref=e459]:
+                  - paragraph [ref=e460]: 전문 디자이너 케어
+                  - paragraph [ref=e461]: 견종·묘종별 특성을 이해하는 전문 미용사가 스트레스를 최소화한 미용 서비스를 제공합니다.
+              - listitem [ref=e462]:
+                - generic [ref=e464]:
+                  - paragraph [ref=e465]: 의료·미용 협업
+                  - paragraph [ref=e466]: 미용 중 피부나 건강 이상 발견 시 즉시 자체 의료진과 공유하는 '안전 미용 시스템'을 운영합니다.
+          - generic [ref=e81]:
+            - paragraph [ref=e82]: 04·System
+            - heading "시스템 자산" [level=3] [ref=e467]
+            - paragraph [ref=e468]: 각 분야 전문가가 포진된 기업형 매니지먼트를 지향합니다.
+            - list [ref=e469]:
+              - listitem [ref=e470]:
+                - generic [ref=e472]:
+                  - paragraph [ref=e473]: 분업화된 전문성
+                  - paragraph [ref=e474]: 경영지원, 글로벌 무역, 의료, 미용, 마케팅팀이 각자의 영역에서 최상의 결과물을 만듭니다.
+              - listitem [ref=e475]:
+                - generic [ref=e477]:
+                  - paragraph [ref=e478]: 표준화된 서비스
+                  - paragraph [ref=e479]: 어떤 채널을 통해 베베펫을 만나도 동일한 수준의 전문 상담과 서비스를 경험할 수 있는 매뉴얼 경영을 실천합니다.
+          - generic [ref=e98]:
+            - paragraph [ref=e99]: 05·Trust
+            - heading "신뢰 자산" [level=3] [ref=e480]
+            - paragraph [ref=e481]: 현장에서 쌓아온 실제 데이터와 고객과의 소통 기록입니다.
+            - list [ref=e482]:
+              - listitem [ref=e483]:
+                - generic [ref=e485]:
+                  - paragraph [ref=e486]: 활발한 SNS 소통
+                  - paragraph [ref=e487]: 인스타그램 Reels를 통해 아이들의 노는 모습, 식사 시간, 매장 소독 현황 등을 매일 업데이트합니다.
+              - listitem [ref=e488]:
+                - generic [ref=e490]:
+                  - paragraph [ref=e491]: 실제 입양 후기
+                  - paragraph [ref=e492]: "'베베펫 가족'이 된 보호자들의 생생한 목소리와 건강하게 성장하는 아이들의 모습이 가장 강력한 신뢰의 증거입니다."
+              - listitem [ref=e493]:
+                - generic [ref=e495]:
+                  - paragraph [ref=e496]: 입양 데이터
+                  - paragraph [ref=e497]: 오픈 이후 쌓아온 수많은 입양 사례와 상담 기록은 지역사회에서 신뢰받는 브랜드로 자리 잡았음을 보여줍니다.
+          - generic [ref=e120]:
+            - paragraph [ref=e121]: 06·Philosophy
+            - heading "철학 자산" [level=3] [ref=e498]
+            - paragraph [ref=e499]: 생명을 대하는 올바른 태도와 정직한 경영 원칙을 지향합니다.
+            - list [ref=e500]:
+              - listitem [ref=e501]:
+                - generic [ref=e503]:
+                  - paragraph [ref=e504]: 독자적인 개체 관리
+                  - paragraph [ref=e505]: 쾌적하고 위생적인 매장 환경 유지 — 매일 정기 소독을 실시합니다.
+              - listitem [ref=e506]:
+                - generic [ref=e508]:
+                  - paragraph [ref=e509]: 연령별 맞춤 영양
+                  - paragraph [ref=e510]: 강아지·고양이의 생애 주기에 맞춘 필수 영양소 공급 및 전문가용 보충제 급여 원칙을 준수합니다.
+              - listitem [ref=e511]:
+                - generic [ref=e513]:
+                  - paragraph [ref=e514]: 전문 인력의 자부심
+                  - paragraph [ref=e515]: 수의사·미용사·무역 전문가가 체계적인 조직도 아래 책임감을 가지고 근무합니다.
+              - listitem [ref=e516]:
+                - generic [ref=e518]:
+                  - paragraph [ref=e519]: 노동법 준수
+                  - paragraph [ref=e520]: 투명한 노무 관리와 인센티브 구조로 직원이 행복하게 일할 환경을 만듭니다. 직원의 행복은 더 나은 케어로 이어집니다.
+        - generic [ref=e146]: ›
+    - generic [ref=e154]:
+      - paragraph [ref=e156]: TRUST
+      - generic [ref=e157]:
+        - paragraph [ref=e158]: 베베펫코리아 조직도
+        - generic "조직도 이미지 자리 (에셋 입고 후 교체)" [ref=e159]:
+          - generic [ref=e160]:
+            - generic [ref=e162]: 대표이사
+            - generic [ref=e164]:
+              - generic [ref=e166]: 의료
+              - generic [ref=e168]: 미용
+              - generic [ref=e170]: 글로벌
+              - generic [ref=e172]: 시스템
+              - generic [ref=e174]: 마케팅
+            - paragraph [ref=e175]: 조직도 이미지 자리 (에셋 입고 후 교체)
+    - generic [ref=e177]:
+      - paragraph [ref=e179]: SERVICE
+      - generic [ref=e180]:
+        - generic [ref=e181]:
+          - generic [ref=e184]:
+            - paragraph [ref=e185]: ADOPT
+            - heading "건강한 첫만남" [level=3] [ref=e186]
+            - paragraph [ref=e187]: 전문 수의 검진을 거친 건강한 친구들과 평생을 함께할 책임 있는 분양.
+            - generic [ref=e188]:
+              - text: 대형견
+              - generic [ref=e189]: ·소형견
+              - generic [ref=e190]: ·고양이
+            - list [ref=e191]:
+              - listitem [ref=e192]:
+                - generic [ref=e194]:
+                  - paragraph [ref=e195]: 수의사 전담 관리
+                  - paragraph [ref=e196]: 자체 동물병원 수의사가 입양 전 건강검진을 직접 진행합니다
+              - listitem [ref=e197]:
+                - generic [ref=e199]:
+                  - paragraph [ref=e200]: 투명한 건강 정보
+                  - paragraph [ref=e201]: 검진 결과와 예방접종 기록을 빠짐없이 투명하게 공개합니다
+              - listitem [ref=e202]:
+                - generic [ref=e204]:
+                  - paragraph [ref=e205]: 생애주기 의료 지원
+                  - paragraph [ref=e206]: 입양 후에도 평생 동안 전문 의료 서비스를 책임지고 제공합니다
+            - link "@bebep_et 인스타그램" [ref=e207] [cursor=pointer]:
+              - /url: https://www.instagram.com/bebep_et/
+              - img [ref=e208]
+              - text: "@bebep_et 인스타그램"
+          - generic [ref=e214]:
+            - paragraph [ref=e215]: HOSPITALITY
+            - heading "24시간 신뢰" [level=3] [ref=e216]
+            - paragraph [ref=e217]: 전문 수의의 정기 진료부터 24시간 응급 케어까지, 신뢰의 의료 서비스.
+            - list [ref=e218]:
+              - listitem [ref=e219]:
+                - generic [ref=e221]:
+                  - paragraph [ref=e222]: 의료팀 구성 공개
+                  - paragraph [ref=e223]: 진료·간호·원무팀이 각자 역할을 명확히 분담하여 운영합니다
+              - listitem [ref=e224]:
+                - generic [ref=e226]:
+                  - paragraph [ref=e227]: 위생·소독 원칙
+                  - paragraph [ref=e228]: 쾌적한 환경을 위해 매일 정해진 시간에 매장 전체를 소독합니다
+              - listitem [ref=e229]:
+                - generic [ref=e231]:
+                  - paragraph [ref=e232]: 예방접종·전문 수술 라인업
+                  - paragraph [ref=e233]: 예방접종부터 전문 수술까지 전 의료 서비스를 갖추고 있습니다
+          - generic [ref=e236]:
+            - paragraph [ref=e237]: FOOD
+            - heading "엄선된 영양" [level=3] [ref=e238]
+            - paragraph [ref=e239]: 프리미엄 사료부터 정성 가득 간식까지, 베베펫이 엄선한 안심의 영양.
+            - generic [ref=e241]:
+              - img [ref=e243]
+              - img [ref=e245]
+              - img [ref=e247]
+              - img [ref=e249]
+              - img [ref=e251]
+              - img [ref=e253]
+              - img [ref=e255]
+              - img [ref=e257]
+              - img [ref=e259]
+              - img [ref=e261]
+              - img [ref=e263]
+              - img [ref=e265]
+              - img [ref=e267]
+              - img [ref=e269]
+              - img [ref=e271]
+              - img [ref=e273]
+            - list [ref=e274]:
+              - listitem [ref=e275]:
+                - generic [ref=e277]:
+                  - paragraph [ref=e278]: 전문가 소싱
+                  - paragraph [ref=e279]: 수의사가 성분을 분석한 해외 프리미엄 브랜드를 직접 들여옵니다
+              - listitem [ref=e280]:
+                - generic [ref=e282]:
+                  - paragraph [ref=e283]: 독점적 가치
+                  - paragraph [ref=e284]: 국내에서 구하기 힘든 고품질 처방식을 독점적으로 공급합니다
+              - listitem [ref=e285]:
+                - generic [ref=e287]:
+                  - paragraph [ref=e288]: 신선도와 안정성
+                  - paragraph [ref=e289]: 중간 유통을 생략하고 안전한 통관 절차로 신선하게 전달합니다
+          - generic [ref=e292]:
+            - paragraph [ref=e293]: PRODUCT
+            - heading "일상의 도구" [level=3] [ref=e294]
+            - paragraph [ref=e295]: 케어, 외출, 휴식의 매 순간을 채우는 신중하게 고른 일상의 도구들.
+            - generic [ref=e296]:
+              - text: 케어용품
+              - generic [ref=e297]: ·의류
+              - generic [ref=e298]: ·이동용품
+              - generic [ref=e299]: ·위생용품
+              - generic [ref=e300]: ·장난감
+              - generic [ref=e301]: ·침구·매트
+            - list [ref=e302]:
+              - listitem [ref=e303]:
+                - generic [ref=e305]:
+                  - paragraph [ref=e306]: 카테고리별 직수입 라벨
+                  - paragraph [ref=e307]: 케어부터 잠자리까지 6개 전 카테고리를 직접 수입해 갖춥니다
+              - listitem [ref=e308]:
+                - generic [ref=e310]:
+                  - paragraph [ref=e311]: 수의사 추천 마크
+                  - paragraph [ref=e312]: 모든 카테고리 용품을 수의사가 직접 확인하고 추천합니다
+              - listitem [ref=e313]:
+                - generic [ref=e315]:
+                  - paragraph [ref=e316]: 통관 및 검역 안전성
+                  - paragraph [ref=e317]: 까다로운 통관과 검역을 모두 통과한 안전한 용품만 엄선합니다
+          - generic [ref=e320]:
+            - paragraph [ref=e321]: BEAUTY & SPA
+            - heading "교감의 시간" [level=3] [ref=e322]
+            - paragraph [ref=e323]: 그루밍, 스파, 워시. 부드러운 손길 아래 깊어지는 교감의 시간.
+            - list [ref=e324]:
+              - listitem [ref=e325]:
+                - generic [ref=e327]:
+                  - paragraph [ref=e328]: 전문 디자이너 케어
+                  - paragraph [ref=e329]: 견종·묘종 특성을 이해한 미용사가 스트레스 없는 케어를 제공합니다
+              - listitem [ref=e330]:
+                - generic [ref=e332]:
+                  - paragraph [ref=e333]: 의료·미용 협업
+                  - paragraph [ref=e334]: 미용 중 이상 발견 시 즉시 자체 의료진과 공유하여 대응합니다
+            - button "예약하기" [ref=e335] [cursor=pointer]:
+              - img [ref=e336]
+              - text: 예약하기
+          - generic [ref=e340]:
+            - paragraph [ref=e341]: GLOBAL
+            - heading "글로벌 소싱 파트너" [level=3] [ref=e342]
+            - paragraph [ref=e343]: 해외 소싱부터 국내 유통까지 풀체인을 자체 운영합니다. 병원·펫샵 도매 공급, 해외 제조사의 한국 유통 협의를 환영합니다.
+            - button "파트너십 문의" [ref=e344] [cursor=pointer]:
+              - img [ref=e345]
+              - text: 파트너십 문의
+        - generic [ref=e348]: ›
+    - generic [ref=e359]:
+      - paragraph [ref=e361]: VISIT
+      - tablist "베베펫 위치 약도" [ref=e362]:
+        - tab "천안 본사" [selected] [ref=e363] [cursor=pointer]
+        - tab "세종 물류센터" [ref=e364] [cursor=pointer]
+      - generic [ref=e366]:
+        - link "베베펫 천안 본사 위치 — 카카오맵에서 크게 보기" [ref=e367] [cursor=pointer]:
+          - /url: https://map.kakao.com/?urlX=530693&urlY=926031&urlLevel=2&map_type=TYPE_MAP&map_hybrid=false
+          - img "베베펫 천안 본사 위치 카카오맵" [ref=e368]
+          - generic:
+            - generic: 베베펫 천안 본사
+            - img
+        - generic [ref=e369]:
+          - img "카카오맵" [ref=e370]
+          - link "지도 크게 보기 →" [ref=e371] [cursor=pointer]:
+            - /url: https://map.kakao.com/?urlX=530693&urlY=926031&urlLevel=2&map_type=TYPE_MAP&map_hybrid=false
+      - generic [ref=e372]:
+        - generic [ref=e373]:
+          - term [ref=e374]: 천안 본사
+          - definition [ref=e375]: 충청남도 천안시 서북구 두정동 864
+        - generic [ref=e376]:
+          - term [ref=e377]: 세종 물류센터
+          - definition [ref=e378]: 세종 금남면 용담리 206-3
+        - generic [ref=e379]:
+          - term [ref=e380]: 운영시간
+          - definition [ref=e381]: 매일 10:00 ~ 20:00 (연중무휴)
+    - generic [ref=e382]:
+      - generic [ref=e383]:
+        - generic "BEBE PET" [ref=e384]
+        - paragraph [ref=e385]: 평생 함께할 첫만남, 베베펫이 함께합니다.
+      - generic [ref=e386]:
+        - generic [ref=e387]: 베베펫코리아
+        - generic [ref=e388]: 충남 천안시 서북구 원두정8길 40 도정빌딩 1층
+        - link "1577-3401" [ref=e389] [cursor=pointer]:
+          - /url: tel:15773401
+        - link "bebepet0409@naver.com" [ref=e390] [cursor=pointer]:
+          - /url: mailto:bebepet0409@naver.com
+      - generic [ref=e391]:
+        - generic [ref=e392]:
+          - paragraph [ref=e393]:
+            - generic [ref=e394]: 대표 홍길동
+            - generic [ref=e395]: 사업자등록번호 000-00-00000
+            - generic [ref=e396]: 통신판매업신고번호 제0000-천안서북-0000호
+          - link "개인정보처리방침" [ref=e397] [cursor=pointer]:
+            - /url: /privacy
+        - generic [ref=e398]:
+          - generic [ref=e399]: © 2026 BEBE PET KOREA. ALL RIGHTS RESERVED.
+          - link "Instagram @bebep_et" [ref=e400] [cursor=pointer]:
+            - /url: https://www.instagram.com/bebep_et/
+            - img [ref=e401]
+  - button "맨 위로" [ref=e415] [cursor=pointer]:
+    - img [ref=e416]
+  - button "Open Next.js Dev Tools" [ref=e410] [cursor=pointer]:
+    - img [ref=e411]
+  - alert [ref=e414]

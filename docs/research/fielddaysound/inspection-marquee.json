@@ -1,0 +1,3878 @@
+{
+  "url": "https://www.fielddaysound.tv/?ref=godly",
+  "capturedAt": "2026-05-01T10:14:37.911Z",
+  "samples": [
+    {
+      "label": "+0ms",
+      "data": {
+        "titles": [
+          {
+            "text": "Nike",
+            "rect": {
+              "x": 40,
+              "y": 760,
+              "w": 224.40625,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "YETI",
+            "rect": {
+              "x": 344.40625,
+              "y": 760,
+              "w": 212.625,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "Manscaped",
+            "rect": {
+              "x": 637.03125,
+              "y": 760,
+              "w": 613.1875,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "Nike",
+            "rect": {
+              "x": 1330.21875,
+              "y": 760,
+              "w": 224.40625,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "Pella",
+            "rect": {
+              "x": 1634.625,
+              "y": 760,
+              "w": 284.65625,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "Lululemon",
+            "rect": {
+              "x": 1999.28125,
+              "y": 760,
+              "w": 569.875,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "Nike",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "text": "YETI",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "text": "Manscaped",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "text": "Nike",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "text": "Pella",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "text": "Lululemon",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ],
+        "track": {
+          "depth": 0,
+          "tag": "DIV",
+          "classes": "title--container",
+          "transform": "matrix(1, 0, 0, 1, 0, 200)",
+          "scrollWidth": 304,
+          "clientWidth": 304,
+          "childCount": 1
+        }
+      }
+    },
+    {
+      "label": "+50ms",
+      "data": {
+        "titles": [
+          {
+            "text": "Nike",
+            "rect": {
+              "x": 40,
+              "y": 760,
+              "w": 224.40625,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "YETI",
+            "rect": {
+              "x": 344.40625,
+              "y": 760,
+              "w": 212.625,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "Manscaped",
+            "rect": {
+              "x": 637.03125,
+              "y": 760,
+              "w": 613.1875,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "Nike",
+            "rect": {
+              "x": 1330.21875,
+              "y": 760,
+              "w": 224.40625,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "Pella",
+            "rect": {
+              "x": 1634.625,
+              "y": 760,
+              "w": 284.65625,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "Lululemon",
+            "rect": {
+              "x": 1999.28125,
+              "y": 760,
+              "w": 569.875,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "Nike",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "text": "YETI",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "text": "Manscaped",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "text": "Nike",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "text": "Pella",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "text": "Lululemon",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ],
+        "track": {
+          "depth": 0,
+          "tag": "DIV",
+          "classes": "title--container",
+          "transform": "matrix(1, 0, 0, 1, 0, 200)",
+          "scrollWidth": 304,
+          "clientWidth": 304,
+          "childCount": 1
+        }
+      }
+    },
+    {
+      "label": "+100ms",
+      "data": {
+        "titles": [
+          {
+            "text": "Nike",
+            "rect": {
+              "x": 38,
+              "y": 760,
+              "w": 224.40625,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "YETI",
+            "rect": {
+              "x": 342.40625,
+              "y": 760,
+              "w": 212.625,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "Manscaped",
+            "rect": {
+              "x": 635.03125,
+              "y": 760,
+              "w": 613.1875,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "Nike",
+            "rect": {
+              "x": 1328.21875,
+              "y": 760,
+              "w": 224.40625,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "Pella",
+            "rect": {
+              "x": 1632.625,
+              "y": 760,
+              "w": 284.65625,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "Lululemon",
+            "rect": {
+              "x": 1997.28125,
+              "y": 760,
+              "w": 569.875,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "Nike",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "text": "YETI",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "text": "Manscaped",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "text": "Nike",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "text": "Pella",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "text": "Lululemon",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ],
+        "track": {
+          "depth": 0,
+          "tag": "DIV",
+          "classes": "title--container",
+          "transform": "matrix(1, 0, 0, 1, 0, 200)",
+          "scrollWidth": 304,
+          "clientWidth": 304,
+          "childCount": 1
+        }
+      }
+    },
+    {
+      "label": "+150ms",
+      "data": {
+        "titles": [
+          {
+            "text": "Nike",
+            "rect": {
+              "x": 40,
+              "y": 760,
+              "w": 224.40625,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "YETI",
+            "rect": {
+              "x": 344.40625,
+              "y": 760,
+              "w": 212.625,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "Manscaped",
+            "rect": {
+              "x": 637.03125,
+              "y": 760,
+              "w": 613.1875,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "Nike",
+            "rect": {
+              "x": 1330.21875,
+              "y": 760,
+              "w": 224.40625,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "Pella",
+            "rect": {
+              "x": 1634.625,
+              "y": 760,
+              "w": 284.65625,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "Lululemon",
+            "rect": {
+              "x": 1999.28125,
+              "y": 760,
+              "w": 569.875,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "Nike",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "text": "YETI",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "text": "Manscaped",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "text": "Nike",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "text": "Pella",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "text": "Lululemon",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ],
+        "track": {
+          "depth": 0,
+          "tag": "DIV",
+          "classes": "title--container",
+          "transform": "matrix(1, 0, 0, 1, 0, 200)",
+          "scrollWidth": 304,
+          "clientWidth": 304,
+          "childCount": 1
+        }
+      }
+    },
+    {
+      "label": "+200ms",
+      "data": {
+        "titles": [
+          {
+            "text": "Nike",
+            "rect": {
+              "x": 40,
+              "y": 760,
+              "w": 224.40625,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "YETI",
+            "rect": {
+              "x": 344.40625,
+              "y": 760,
+              "w": 212.625,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "Manscaped",
+            "rect": {
+              "x": 637.03125,
+              "y": 760,
+              "w": 613.1875,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "Nike",
+            "rect": {
+              "x": 1330.21875,
+              "y": 760,
+              "w": 224.40625,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "Pella",
+            "rect": {
+              "x": 1634.625,
+              "y": 760,
+              "w": 284.65625,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "Lululemon",
+            "rect": {
+              "x": 1999.28125,
+              "y": 760,
+              "w": 569.875,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "Nike",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "text": "YETI",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "text": "Manscaped",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "text": "Nike",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "text": "Pella",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "text": "Lululemon",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ],
+        "track": {
+          "depth": 0,
+          "tag": "DIV",
+          "classes": "title--container",
+          "transform": "matrix(1, 0, 0, 1, 0, 200)",
+          "scrollWidth": 304,
+          "clientWidth": 304,
+          "childCount": 1
+        }
+      }
+    },
+    {
+      "label": "+300ms",
+      "data": {
+        "titles": [
+          {
+            "text": "Nike",
+            "rect": {
+              "x": 38,
+              "y": 760,
+              "w": 224.40625,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "YETI",
+            "rect": {
+              "x": 342.40625,
+              "y": 760,
+              "w": 212.625,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "Manscaped",
+            "rect": {
+              "x": 635.03125,
+              "y": 760,
+              "w": 613.1875,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "Nike",
+            "rect": {
+              "x": 1328.21875,
+              "y": 760,
+              "w": 224.40625,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "Pella",
+            "rect": {
+              "x": 1632.625,
+              "y": 760,
+              "w": 284.65625,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "Lululemon",
+            "rect": {
+              "x": 1997.28125,
+              "y": 760,
+              "w": 569.875,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "Nike",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "text": "YETI",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "text": "Manscaped",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "text": "Nike",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "text": "Pella",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "text": "Lululemon",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ],
+        "track": {
+          "depth": 0,
+          "tag": "DIV",
+          "classes": "title--container",
+          "transform": "matrix(1, 0, 0, 1, 0, 200)",
+          "scrollWidth": 304,
+          "clientWidth": 304,
+          "childCount": 1
+        }
+      }
+    },
+    {
+      "label": "+400ms",
+      "data": {
+        "titles": [
+          {
+            "text": "Nike",
+            "rect": {
+              "x": 36,
+              "y": 760,
+              "w": 224.40625,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "YETI",
+            "rect": {
+              "x": 340.40625,
+              "y": 760,
+              "w": 212.625,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "Manscaped",
+            "rect": {
+              "x": 633.03125,
+              "y": 760,
+              "w": 613.1875,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "Nike",
+            "rect": {
+              "x": 1326.21875,
+              "y": 760,
+              "w": 224.40625,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "Pella",
+            "rect": {
+              "x": 1630.625,
+              "y": 760,
+              "w": 284.65625,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "Lululemon",
+            "rect": {
+              "x": 1995.28125,
+              "y": 760,
+              "w": 569.875,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "Nike",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "text": "YETI",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "text": "Manscaped",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "text": "Nike",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "text": "Pella",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "text": "Lululemon",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ],
+        "track": {
+          "depth": 0,
+          "tag": "DIV",
+          "classes": "title--container",
+          "transform": "matrix(1, 0, 0, 1, 0, 200)",
+          "scrollWidth": 304,
+          "clientWidth": 304,
+          "childCount": 1
+        }
+      }
+    },
+    {
+      "label": "+500ms",
+      "data": {
+        "titles": [
+          {
+            "text": "Nike",
+            "rect": {
+              "x": 31,
+              "y": 760,
+              "w": 224.40625,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "YETI",
+            "rect": {
+              "x": 335.40625,
+              "y": 760,
+              "w": 212.625,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "Manscaped",
+            "rect": {
+              "x": 628.03125,
+              "y": 760,
+              "w": 613.1875,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "Nike",
+            "rect": {
+              "x": 1321.21875,
+              "y": 760,
+              "w": 224.40625,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "Pella",
+            "rect": {
+              "x": 1625.625,
+              "y": 760,
+              "w": 284.65625,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "Lululemon",
+            "rect": {
+              "x": 1990.28125,
+              "y": 760,
+              "w": 569.875,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "Nike",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "text": "YETI",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "text": "Manscaped",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "text": "Nike",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "text": "Pella",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "text": "Lululemon",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ],
+        "track": {
+          "depth": 0,
+          "tag": "DIV",
+          "classes": "title--container",
+          "transform": "matrix(1, 0, 0, 1, 0, 200)",
+          "scrollWidth": 304,
+          "clientWidth": 304,
+          "childCount": 1
+        }
+      }
+    },
+    {
+      "label": "+700ms",
+      "data": {
+        "titles": [
+          {
+            "text": "Nike",
+            "rect": {
+              "x": 20,
+              "y": 760,
+              "w": 224.40625,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "YETI",
+            "rect": {
+              "x": 324.40625,
+              "y": 760,
+              "w": 212.625,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "Manscaped",
+            "rect": {
+              "x": 617.03125,
+              "y": 760,
+              "w": 613.1875,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "Nike",
+            "rect": {
+              "x": 1310.21875,
+              "y": 760,
+              "w": 224.40625,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "Pella",
+            "rect": {
+              "x": 1614.625,
+              "y": 760,
+              "w": 284.65625,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "Lululemon",
+            "rect": {
+              "x": 1979.28125,
+              "y": 760,
+              "w": 569.875,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "Nike",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "text": "YETI",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "text": "Manscaped",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "text": "Nike",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "text": "Pella",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "text": "Lululemon",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ],
+        "track": {
+          "depth": 0,
+          "tag": "DIV",
+          "classes": "title--container",
+          "transform": "matrix(1, 0, 0, 1, 0, 200)",
+          "scrollWidth": 304,
+          "clientWidth": 304,
+          "childCount": 1
+        }
+      }
+    },
+    {
+      "label": "+900ms",
+      "data": {
+        "titles": [
+          {
+            "text": "Nike",
+            "rect": {
+              "x": 7,
+              "y": 760,
+              "w": 224.40625,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "YETI",
+            "rect": {
+              "x": 311.40625,
+              "y": 760,
+              "w": 212.625,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "Manscaped",
+            "rect": {
+              "x": 604.03125,
+              "y": 760,
+              "w": 613.1875,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "Nike",
+            "rect": {
+              "x": 1297.21875,
+              "y": 760,
+              "w": 224.40625,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "Pella",
+            "rect": {
+              "x": 1601.625,
+              "y": 760,
+              "w": 284.65625,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "Lululemon",
+            "rect": {
+              "x": 1966.28125,
+              "y": 760,
+              "w": 569.875,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "Nike",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "text": "YETI",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "text": "Manscaped",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "text": "Nike",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "text": "Pella",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "text": "Lululemon",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ],
+        "track": {
+          "depth": 0,
+          "tag": "DIV",
+          "classes": "title--container",
+          "transform": "matrix(1, 0, 0, 1, 0, 200)",
+          "scrollWidth": 304,
+          "clientWidth": 304,
+          "childCount": 1
+        }
+      }
+    },
+    {
+      "label": "+1200ms",
+      "data": {
+        "titles": [
+          {
+            "text": "Nike",
+            "rect": {
+              "x": -11,
+              "y": 760,
+              "w": 224.40625,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "YETI",
+            "rect": {
+              "x": 293.40625,
+              "y": 760,
+              "w": 212.625,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "Manscaped",
+            "rect": {
+              "x": 586.03125,
+              "y": 760,
+              "w": 613.1875,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "Nike",
+            "rect": {
+              "x": 1279.21875,
+              "y": 760,
+              "w": 224.40625,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "Pella",
+            "rect": {
+              "x": 1583.625,
+              "y": 760,
+              "w": 284.65625,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "Lululemon",
+            "rect": {
+              "x": 1948.28125,
+              "y": 760,
+              "w": 569.875,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "Nike",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "text": "YETI",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "text": "Manscaped",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "text": "Nike",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "text": "Pella",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "text": "Lululemon",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ],
+        "track": {
+          "depth": 0,
+          "tag": "DIV",
+          "classes": "title--container",
+          "transform": "matrix(1, 0, 0, 1, 0, 200)",
+          "scrollWidth": 304,
+          "clientWidth": 304,
+          "childCount": 1
+        }
+      }
+    },
+    {
+      "label": "+1500ms",
+      "data": {
+        "titles": [
+          {
+            "text": "Nike",
+            "rect": {
+              "x": -29,
+              "y": 760,
+              "w": 224.40625,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "YETI",
+            "rect": {
+              "x": 275.40625,
+              "y": 760,
+              "w": 212.625,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "Manscaped",
+            "rect": {
+              "x": 568.03125,
+              "y": 760,
+              "w": 613.1875,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "Nike",
+            "rect": {
+              "x": 1261.21875,
+              "y": 760,
+              "w": 224.40625,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "Pella",
+            "rect": {
+              "x": 1565.625,
+              "y": 760,
+              "w": 284.65625,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "Lululemon",
+            "rect": {
+              "x": 1930.28125,
+              "y": 760,
+              "w": 569.875,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "Nike",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "text": "YETI",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "text": "Manscaped",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "text": "Nike",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "text": "Pella",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "text": "Lululemon",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ],
+        "track": {
+          "depth": 0,
+          "tag": "DIV",
+          "classes": "title--container",
+          "transform": "matrix(1, 0, 0, 1, 0, 200)",
+          "scrollWidth": 304,
+          "clientWidth": 304,
+          "childCount": 1
+        }
+      }
+    },
+    {
+      "label": "+1800ms",
+      "data": {
+        "titles": [
+          {
+            "text": "Nike",
+            "rect": {
+              "x": -46,
+              "y": 760,
+              "w": 224.40625,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "YETI",
+            "rect": {
+              "x": 258.40625,
+              "y": 760,
+              "w": 212.625,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "Manscaped",
+            "rect": {
+              "x": 551.03125,
+              "y": 760,
+              "w": 613.1875,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "Nike",
+            "rect": {
+              "x": 1244.21875,
+              "y": 760,
+              "w": 224.40625,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "Pella",
+            "rect": {
+              "x": 1548.625,
+              "y": 760,
+              "w": 284.65625,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "Lululemon",
+            "rect": {
+              "x": 1913.28125,
+              "y": 760,
+              "w": 569.875,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "Nike",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "text": "YETI",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "text": "Manscaped",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "text": "Nike",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "text": "Pella",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "text": "Lululemon",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ],
+        "track": {
+          "depth": 0,
+          "tag": "DIV",
+          "classes": "title--container",
+          "transform": "matrix(1, 0, 0, 1, 0, 200)",
+          "scrollWidth": 304,
+          "clientWidth": 304,
+          "childCount": 1
+        }
+      }
+    },
+    {
+      "label": "+2200ms",
+      "data": {
+        "titles": [
+          {
+            "text": "Nike",
+            "rect": {
+              "x": -71,
+              "y": 760,
+              "w": 224.40625,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "YETI",
+            "rect": {
+              "x": 233.40625,
+              "y": 760,
+              "w": 212.625,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "Manscaped",
+            "rect": {
+              "x": 526.03125,
+              "y": 760,
+              "w": 613.1875,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "Nike",
+            "rect": {
+              "x": 1219.21875,
+              "y": 760,
+              "w": 224.40625,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "Pella",
+            "rect": {
+              "x": 1523.625,
+              "y": 760,
+              "w": 284.65625,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "Lululemon",
+            "rect": {
+              "x": 1888.28125,
+              "y": 760,
+              "w": 569.875,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "Nike",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "text": "YETI",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "text": "Manscaped",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "text": "Nike",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "text": "Pella",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "text": "Lululemon",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ],
+        "track": {
+          "depth": 0,
+          "tag": "DIV",
+          "classes": "title--container",
+          "transform": "matrix(1, 0, 0, 1, 0, 200)",
+          "scrollWidth": 304,
+          "clientWidth": 304,
+          "childCount": 1
+        }
+      }
+    },
+    {
+      "label": "+2700ms",
+      "data": {
+        "titles": [
+          {
+            "text": "Nike",
+            "rect": {
+              "x": -100,
+              "y": 760,
+              "w": 224.40625,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "YETI",
+            "rect": {
+              "x": 204.40625,
+              "y": 760,
+              "w": 212.625,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "Manscaped",
+            "rect": {
+              "x": 497.03125,
+              "y": 760,
+              "w": 613.1875,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "Nike",
+            "rect": {
+              "x": 1190.21875,
+              "y": 760,
+              "w": 224.40625,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "Pella",
+            "rect": {
+              "x": 1494.625,
+              "y": 760,
+              "w": 284.65625,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "Lululemon",
+            "rect": {
+              "x": 1859.28125,
+              "y": 760,
+              "w": 569.875,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "Nike",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "text": "YETI",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "text": "Manscaped",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "text": "Nike",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "text": "Pella",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "text": "Lululemon",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ],
+        "track": {
+          "depth": 0,
+          "tag": "DIV",
+          "classes": "title--container",
+          "transform": "matrix(1, 0, 0, 1, 0, 200)",
+          "scrollWidth": 304,
+          "clientWidth": 304,
+          "childCount": 1
+        }
+      }
+    },
+    {
+      "label": "+3500ms",
+      "data": {
+        "titles": [
+          {
+            "text": "Nike",
+            "rect": {
+              "x": -149,
+              "y": 732.8316040039062,
+              "w": 224.40625,
+              "h": 339.99993896484375
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "YETI",
+            "rect": {
+              "x": 155.40625,
+              "y": 739.4102172851562,
+              "w": 212.625,
+              "h": 339.99993896484375
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "Manscaped",
+            "rect": {
+              "x": 448.03125,
+              "y": 744.3958740234375,
+              "w": 613.1875,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "Nike",
+            "rect": {
+              "x": 1141.21875,
+              "y": 748.17431640625,
+              "w": 224.40625,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "Pella",
+            "rect": {
+              "x": 1445.625,
+              "y": 751.0377807617188,
+              "w": 284.65625,
+              "h": 340.00006103515625
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "Lululemon",
+            "rect": {
+              "x": 1810.28125,
+              "y": 753.2078857421875,
+              "w": 569.875,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "Nike",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "text": "YETI",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "text": "Manscaped",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "text": "Nike",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "text": "Pella",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "text": "Lululemon",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ],
+        "track": {
+          "depth": 0,
+          "tag": "DIV",
+          "classes": "title--container",
+          "transform": "matrix(1, 0, 0, 1, 0, 172.832)",
+          "scrollWidth": 304,
+          "clientWidth": 304,
+          "childCount": 1
+        }
+      }
+    },
+    {
+      "label": "+4500ms",
+      "data": {
+        "titles": [
+          {
+            "text": "Nike",
+            "rect": {
+              "x": -209,
+              "y": 561.4378051757812,
+              "w": 224.40625,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "YETI",
+            "rect": {
+              "x": 95.40625,
+              "y": 561.897216796875,
+              "w": 212.625,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "Manscaped",
+            "rect": {
+              "x": 388.03125,
+              "y": 562.5032958984375,
+              "w": 613.1875,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "Nike",
+            "rect": {
+              "x": 1081.21875,
+              "y": 563.30322265625,
+              "w": 224.40625,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "Pella",
+            "rect": {
+              "x": 1385.625,
+              "y": 564.3585815429688,
+              "w": 284.65625,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "Lululemon",
+            "rect": {
+              "x": 1750.28125,
+              "y": 565.751220703125,
+              "w": 569.875,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "Nike",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "text": "YETI",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "text": "Manscaped",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "text": "Nike",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "text": "Pella",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "text": "Lululemon",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ],
+        "track": {
+          "depth": 0,
+          "tag": "DIV",
+          "classes": "title--container",
+          "transform": "matrix(1, 0, 0, 1, 0, 1.4378)",
+          "scrollWidth": 304,
+          "clientWidth": 304,
+          "childCount": 1
+        }
+      }
+    },
+    {
+      "label": "+6000ms",
+      "data": {
+        "titles": [
+          {
+            "text": "Nike",
+            "rect": {
+              "x": 2310,
+              "y": 560,
+              "w": 224.40625,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "YETI",
+            "rect": {
+              "x": 5.40625,
+              "y": 560,
+              "w": 212.625,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "Manscaped",
+            "rect": {
+              "x": 298.03125,
+              "y": 560,
+              "w": 613.1875,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "Nike",
+            "rect": {
+              "x": 991.21875,
+              "y": 560,
+              "w": 224.40625,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "Pella",
+            "rect": {
+              "x": 1295.625,
+              "y": 560,
+              "w": 284.65625,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "Lululemon",
+            "rect": {
+              "x": 1660.28125,
+              "y": 560,
+              "w": 569.875,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "Nike",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "text": "YETI",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "text": "Manscaped",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "text": "Nike",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "text": "Pella",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "text": "Lululemon",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ],
+        "track": {
+          "depth": 0,
+          "tag": "DIV",
+          "classes": "title--container",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "scrollWidth": 304,
+          "clientWidth": 304,
+          "childCount": 1
+        }
+      }
+    },
+    {
+      "label": "+8000ms",
+      "data": {
+        "titles": [
+          {
+            "text": "Nike",
+            "rect": {
+              "x": 2191,
+              "y": 560,
+              "w": 224.40625,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "YETI",
+            "rect": {
+              "x": -113.59375,
+              "y": 560,
+              "w": 212.625,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "Manscaped",
+            "rect": {
+              "x": 179.03125,
+              "y": 560,
+              "w": 613.1875,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "Nike",
+            "rect": {
+              "x": 872.21875,
+              "y": 560,
+              "w": 224.40625,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "Pella",
+            "rect": {
+              "x": 1176.625,
+              "y": 560,
+              "w": 284.65625,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "Lululemon",
+            "rect": {
+              "x": 1541.28125,
+              "y": 560,
+              "w": 569.875,
+              "h": 340
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all",
+            "firstCharTransform": "none",
+            "firstCharOpacity": "1",
+            "firstCharTransition": "all",
+            "midCharTransform": "none",
+            "lastCharTransform": "none"
+          },
+          {
+            "text": "Nike",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "text": "YETI",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "text": "Manscaped",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "text": "Nike",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "text": "Pella",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "text": "Lululemon",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "transform": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ],
+        "track": {
+          "depth": 0,
+          "tag": "DIV",
+          "classes": "title--container",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "scrollWidth": 304,
+          "clientWidth": 304,
+          "childCount": 1
+        }
+      }
+    }
+  ],
+  "hoverProbe": {
+    "target": {
+      "x": 484.625,
+      "y": 730,
+      "text": "Manscaped"
+    },
+    "before": {
+      "title": {
+        "transform": "none",
+        "letterSpacing": "normal",
+        "color": "rgb(19, 19, 19)",
+        "transition": "all"
+      },
+      "chars": [
+        {
+          "text": "M",
+          "transform": "none",
+          "color": "rgb(19, 19, 19)",
+          "transition": "all",
+          "transformOrigin": "46.9375px 170px"
+        },
+        {
+          "text": "a",
+          "transform": "none",
+          "color": "rgb(19, 19, 19)",
+          "transition": "all",
+          "transformOrigin": "32.4922px 170px"
+        },
+        {
+          "text": "n",
+          "transform": "none",
+          "color": "rgb(19, 19, 19)",
+          "transition": "all",
+          "transformOrigin": "34.5859px 170px"
+        },
+        {
+          "text": "s",
+          "transform": "none",
+          "color": "rgb(19, 19, 19)",
+          "transition": "all",
+          "transformOrigin": "33.4453px 170px"
+        },
+        {
+          "text": "c",
+          "transform": "none",
+          "color": "rgb(19, 19, 19)",
+          "transition": "all",
+          "transformOrigin": "33.25px 170px"
+        }
+      ]
+    },
+    "during": [
+      {
+        "atMs": 50,
+        "title": {
+          "transform": "none",
+          "letterSpacing": "normal",
+          "color": "rgb(251, 94, 255)"
+        },
+        "chars": [
+          {
+            "text": "M",
+            "transform": "none",
+            "color": "rgb(251, 94, 255)"
+          },
+          {
+            "text": "a",
+            "transform": "none",
+            "color": "rgb(251, 94, 255)"
+          },
+          {
+            "text": "n",
+            "transform": "none",
+            "color": "rgb(251, 94, 255)"
+          },
+          {
+            "text": "s",
+            "transform": "none",
+            "color": "rgb(251, 94, 255)"
+          },
+          {
+            "text": "c",
+            "transform": "none",
+            "color": "rgb(251, 94, 255)"
+          }
+        ]
+      },
+      {
+        "atMs": 150,
+        "title": {
+          "transform": "none",
+          "letterSpacing": "normal",
+          "color": "rgb(251, 94, 255)"
+        },
+        "chars": [
+          {
+            "text": "M",
+            "transform": "none",
+            "color": "rgb(251, 94, 255)"
+          },
+          {
+            "text": "a",
+            "transform": "none",
+            "color": "rgb(251, 94, 255)"
+          },
+          {
+            "text": "n",
+            "transform": "none",
+            "color": "rgb(251, 94, 255)"
+          },
+          {
+            "text": "s",
+            "transform": "none",
+            "color": "rgb(251, 94, 255)"
+          },
+          {
+            "text": "c",
+            "transform": "none",
+            "color": "rgb(251, 94, 255)"
+          }
+        ]
+      },
+      {
+        "atMs": 300,
+        "title": {
+          "transform": "none",
+          "letterSpacing": "normal",
+          "color": "rgb(251, 94, 255)"
+        },
+        "chars": [
+          {
+            "text": "M",
+            "transform": "none",
+            "color": "rgb(251, 94, 255)"
+          },
+          {
+            "text": "a",
+            "transform": "none",
+            "color": "rgb(251, 94, 255)"
+          },
+          {
+            "text": "n",
+            "transform": "none",
+            "color": "rgb(251, 94, 255)"
+          },
+          {
+            "text": "s",
+            "transform": "none",
+            "color": "rgb(251, 94, 255)"
+          },
+          {
+            "text": "c",
+            "transform": "none",
+            "color": "rgb(251, 94, 255)"
+          }
+        ]
+      },
+      {
+        "atMs": 500,
+        "title": {
+          "transform": "none",
+          "letterSpacing": "normal",
+          "color": "rgb(251, 94, 255)"
+        },
+        "chars": [
+          {
+            "text": "M",
+            "transform": "none",
+            "color": "rgb(251, 94, 255)"
+          },
+          {
+            "text": "a",
+            "transform": "none",
+            "color": "rgb(251, 94, 255)"
+          },
+          {
+            "text": "n",
+            "transform": "none",
+            "color": "rgb(251, 94, 255)"
+          },
+          {
+            "text": "s",
+            "transform": "none",
+            "color": "rgb(251, 94, 255)"
+          },
+          {
+            "text": "c",
+            "transform": "none",
+            "color": "rgb(251, 94, 255)"
+          }
+        ]
+      },
+      {
+        "atMs": 800,
+        "title": {
+          "transform": "none",
+          "letterSpacing": "normal",
+          "color": "rgb(251, 94, 255)"
+        },
+        "chars": [
+          {
+            "text": "M",
+            "transform": "none",
+            "color": "rgb(251, 94, 255)"
+          },
+          {
+            "text": "a",
+            "transform": "none",
+            "color": "rgb(251, 94, 255)"
+          },
+          {
+            "text": "n",
+            "transform": "none",
+            "color": "rgb(251, 94, 255)"
+          },
+          {
+            "text": "s",
+            "transform": "none",
+            "color": "rgb(251, 94, 255)"
+          },
+          {
+            "text": "c",
+            "transform": "none",
+            "color": "rgb(251, 94, 255)"
+          }
+        ]
+      }
+    ],
+    "afterRelease": {
+      "title": {
+        "transform": "none",
+        "color": "rgb(19, 19, 19)"
+      },
+      "chars": [
+        {
+          "text": "M",
+          "transform": "none",
+          "color": "rgb(19, 19, 19)"
+        },
+        {
+          "text": "a",
+          "transform": "none",
+          "color": "rgb(19, 19, 19)"
+        },
+        {
+          "text": "n",
+          "transform": "none",
+          "color": "rgb(19, 19, 19)"
+        },
+        {
+          "text": "s",
+          "transform": "none",
+          "color": "rgb(19, 19, 19)"
+        },
+        {
+          "text": "c",
+          "transform": "none",
+          "color": "rgb(19, 19, 19)"
+        }
+      ]
+    }
+  }
+}

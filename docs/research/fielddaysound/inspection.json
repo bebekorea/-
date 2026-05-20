@@ -1,0 +1,445 @@
+{
+  "url": "https://www.fielddaysound.tv/?ref=godly",
+  "capturedAt": "2026-05-01T10:11:54.422Z",
+  "libraries": {
+    "scriptSrcs": [
+      "https://www.googletagmanager.com/gtag/js?id=G-CVTRBF5T6Q&l=dataLayer",
+      "https://www.fielddaysound.tv/_nuxt/entry.bdabb5c6.js",
+      "https://www.fielddaysound.tv/_nuxt/default.c8ec9ed4.js",
+      "https://www.fielddaysound.tv/_nuxt/index.9637997c.js"
+    ],
+    "hasGSAP": false,
+    "hasScrollTrigger": false,
+    "hasLenis": false,
+    "hasLocomotive": false,
+    "hasSplitType": false,
+    "hasSplitText": false,
+    "hasFramerMotion": false,
+    "hasWebflow": false,
+    "hasBarba": false
+  },
+  "marquee": {
+    "track": null,
+    "sampleBigText": {
+      "tag": "H1",
+      "text": "Nike",
+      "classes": "title",
+      "fontSize": "190px",
+      "fontFamily": "Tusker, sans-serif",
+      "fontWeight": "100",
+      "lineHeight": "340px",
+      "letterSpacing": "normal",
+      "color": "rgb(19, 19, 19)",
+      "display": "block",
+      "transform": "none",
+      "transition": "all",
+      "transformOrigin": "112.203px 170px",
+      "opacity": "1",
+      "overflow": "visible",
+      "overflowX": "visible",
+      "overflowY": "visible",
+      "position": "static",
+      "whiteSpace": "nowrap"
+    },
+    "sampleLetters": [
+      {
+        "tag": "DIV",
+        "text": "N",
+        "classes": "SplitTextJS-char",
+        "fontSize": "190px",
+        "fontFamily": "Tusker, sans-serif",
+        "fontWeight": "100",
+        "lineHeight": "340px",
+        "letterSpacing": "normal",
+        "color": "rgb(19, 19, 19)",
+        "display": "inline-block",
+        "transform": "none",
+        "transition": "all",
+        "transformOrigin": "34.5859px 170px",
+        "opacity": "1",
+        "overflow": "visible",
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "position": "relative",
+        "whiteSpace": "nowrap"
+      },
+      {
+        "tag": "DIV",
+        "text": "i",
+        "classes": "SplitTextJS-char",
+        "fontSize": "190px",
+        "fontFamily": "Tusker, sans-serif",
+        "fontWeight": "100",
+        "lineHeight": "340px",
+        "letterSpacing": "normal",
+        "color": "rgb(19, 19, 19)",
+        "display": "inline-block",
+        "transform": "none",
+        "transition": "all",
+        "transformOrigin": "17.1016px 170px",
+        "opacity": "1",
+        "overflow": "visible",
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "position": "relative",
+        "whiteSpace": "nowrap"
+      },
+      {
+        "tag": "DIV",
+        "text": "k",
+        "classes": "SplitTextJS-char",
+        "fontSize": "190px",
+        "fontFamily": "Tusker, sans-serif",
+        "fontWeight": "100",
+        "lineHeight": "340px",
+        "letterSpacing": "normal",
+        "color": "rgb(19, 19, 19)",
+        "display": "inline-block",
+        "transform": "none",
+        "transition": "all",
+        "transformOrigin": "33.8203px 170px",
+        "opacity": "1",
+        "overflow": "visible",
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "position": "relative",
+        "whiteSpace": "nowrap"
+      },
+      {
+        "tag": "DIV",
+        "text": "e",
+        "classes": "SplitTextJS-char",
+        "fontSize": "190px",
+        "fontFamily": "Tusker, sans-serif",
+        "fontWeight": "100",
+        "lineHeight": "340px",
+        "letterSpacing": "normal",
+        "color": "rgb(19, 19, 19)",
+        "display": "inline-block",
+        "transform": "none",
+        "transition": "all",
+        "transformOrigin": "26.6953px 170px",
+        "opacity": "1",
+        "overflow": "visible",
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "position": "relative",
+        "whiteSpace": "nowrap"
+      },
+      {
+        "tag": "DIV",
+        "text": "Y",
+        "classes": "SplitTextJS-char",
+        "fontSize": "190px",
+        "fontFamily": "Tusker, sans-serif",
+        "fontWeight": "100",
+        "lineHeight": "340px",
+        "letterSpacing": "normal",
+        "color": "rgb(19, 19, 19)",
+        "display": "inline-block",
+        "transform": "none",
+        "transition": "all",
+        "transformOrigin": "33.8203px 170px",
+        "opacity": "1",
+        "overflow": "visible",
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "position": "relative",
+        "whiteSpace": "nowrap"
+      },
+      {
+        "tag": "DIV",
+        "text": "E",
+        "classes": "SplitTextJS-char",
+        "fontSize": "190px",
+        "fontFamily": "Tusker, sans-serif",
+        "fontWeight": "100",
+        "lineHeight": "340px",
+        "letterSpacing": "normal",
+        "color": "rgb(19, 19, 19)",
+        "display": "inline-block",
+        "transform": "none",
+        "transition": "all",
+        "transformOrigin": "26.6953px 170px",
+        "opacity": "1",
+        "overflow": "visible",
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "position": "relative",
+        "whiteSpace": "nowrap"
+      }
+    ],
+    "maskCandidates": [
+      {
+        "tag": "DIV",
+        "text": "Nike",
+        "classes": "SplitTextJS-wrapper",
+        "fontSize": "190px",
+        "fontFamily": "Tusker, sans-serif",
+        "fontWeight": "100",
+        "lineHeight": "340px",
+        "letterSpacing": "normal",
+        "color": "rgb(19, 19, 19)",
+        "display": "inline-block",
+        "transform": "none",
+        "transition": "all",
+        "transformOrigin": "112.203px 170px",
+        "opacity": "1",
+        "overflow": "visible",
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "position": "relative",
+        "whiteSpace": "nowrap"
+      },
+      {
+        "tag": "DIV",
+        "text": "Nike",
+        "classes": "SplitTextJS-wrapper",
+        "fontSize": "190px",
+        "fontFamily": "Tusker, sans-serif",
+        "fontWeight": "100",
+        "lineHeight": "340px",
+        "letterSpacing": "normal",
+        "color": "rgb(19, 19, 19)",
+        "display": "inline-block",
+        "transform": "none",
+        "transition": "all",
+        "transformOrigin": "112.203px 170px",
+        "opacity": "1",
+        "overflow": "visible",
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "position": "relative",
+        "whiteSpace": "nowrap"
+      },
+      {
+        "tag": "DIV",
+        "text": "Nike",
+        "classes": "SplitTextJS-wrapper",
+        "fontSize": "190px",
+        "fontFamily": "Tusker, sans-serif",
+        "fontWeight": "100",
+        "lineHeight": "340px",
+        "letterSpacing": "normal",
+        "color": "rgb(19, 19, 19)",
+        "display": "inline-block",
+        "transform": "none",
+        "transition": "all",
+        "transformOrigin": "112.203px 170px",
+        "opacity": "1",
+        "overflow": "visible",
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "position": "relative",
+        "whiteSpace": "nowrap"
+      },
+      {
+        "tag": "DIV",
+        "text": "Nike",
+        "classes": "SplitTextJS-wrapper",
+        "fontSize": "190px",
+        "fontFamily": "Tusker, sans-serif",
+        "fontWeight": "100",
+        "lineHeight": "340px",
+        "letterSpacing": "normal",
+        "color": "rgb(19, 19, 19)",
+        "display": "inline-block",
+        "transform": "none",
+        "transition": "all",
+        "transformOrigin": "112.203px 170px",
+        "opacity": "1",
+        "overflow": "visible",
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "position": "relative",
+        "whiteSpace": "nowrap"
+      },
+      {
+        "tag": "DIV",
+        "text": "YETI",
+        "classes": "SplitTextJS-wrapper",
+        "fontSize": "190px",
+        "fontFamily": "Tusker, sans-serif",
+        "fontWeight": "100",
+        "lineHeight": "340px",
+        "letterSpacing": "normal",
+        "color": "rgb(19, 19, 19)",
+        "display": "inline-block",
+        "transform": "none",
+        "transition": "all",
+        "transformOrigin": "106.312px 170px",
+        "opacity": "1",
+        "overflow": "visible",
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "position": "relative",
+        "whiteSpace": "nowrap"
+      },
+      {
+        "tag": "DIV",
+        "text": "YETI",
+        "classes": "SplitTextJS-wrapper",
+        "fontSize": "190px",
+        "fontFamily": "Tusker, sans-serif",
+        "fontWeight": "100",
+        "lineHeight": "340px",
+        "letterSpacing": "normal",
+        "color": "rgb(19, 19, 19)",
+        "display": "inline-block",
+        "transform": "none",
+        "transition": "all",
+        "transformOrigin": "106.312px 170px",
+        "opacity": "1",
+        "overflow": "visible",
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "position": "relative",
+        "whiteSpace": "nowrap"
+      }
+    ],
+    "letterCount": 35
+  },
+  "letters": {
+    "entryCaptures": [
+      {
+        "atMs": 50,
+        "count": 0,
+        "sample": []
+      },
+      {
+        "atMs": 200,
+        "count": 0,
+        "sample": []
+      },
+      {
+        "atMs": 400,
+        "count": 0,
+        "sample": []
+      },
+      {
+        "atMs": 700,
+        "count": 0,
+        "sample": []
+      },
+      {
+        "atMs": 1200,
+        "count": 0,
+        "sample": []
+      },
+      {
+        "atMs": 1800,
+        "count": 0,
+        "sample": []
+      },
+      {
+        "atMs": 2600,
+        "count": 1,
+        "sample": [
+          {
+            "tag": "H2",
+            "text": "Loading",
+            "transform": "matrix(1, 0, 0, 1, 0, 3.9062)",
+            "opacity": "0.9922",
+            "transition": "all",
+            "classes": "preloader__loading"
+          }
+        ]
+      },
+      {
+        "atMs": 3500,
+        "count": 0,
+        "sample": []
+      }
+    ]
+  },
+  "hover": {
+    "before": [],
+    "after": [],
+    "target": {
+      "selector": "[data-fds-hover-target='1']",
+      "boundingRect": {
+        "x": 2336,
+        "y": 560,
+        "width": 224.40625,
+        "height": 340
+      },
+      "fontSize": 190,
+      "text": "Nike"
+    },
+    "parentSpacing": {
+      "letterSpacing": "normal",
+      "transition": "all"
+    }
+  },
+  "background": [
+    {
+      "tag": "IMG",
+      "src": "https://www.fielddaysound.tv/_nuxt/logo-fds.e2b84414.svg",
+      "opacity": "1",
+      "transition": "all",
+      "transform": "matrix(1, 0, 0, 1, -125, -42.4297)",
+      "zIndex": "1"
+    },
+    {
+      "tag": "VIDEO",
+      "src": "https://field-day-sound.cdn.prismic.io/field-day-sound/Zs66mUaF0TcGJcx1_short_nike_AmIABadPerson.mp4",
+      "opacity": "1",
+      "transition": "all",
+      "transform": "none",
+      "zIndex": "auto"
+    },
+    {
+      "tag": "VIDEO",
+      "src": "https://field-day-sound.cdn.prismic.io/field-day-sound/aRzWjGGnmrmGp__a_YetiSmall.mp4",
+      "opacity": "1",
+      "transition": "all",
+      "transform": "none",
+      "zIndex": "auto"
+    },
+    {
+      "tag": "VIDEO",
+      "src": "https://field-day-sound.cdn.prismic.io/field-day-sound/acMQUZGXnQHGY7pR_manscapedshort.mp4",
+      "opacity": "1",
+      "transition": "all",
+      "transform": "none",
+      "zIndex": "auto"
+    },
+    {
+      "tag": "VIDEO",
+      "src": "https://field-day-sound.cdn.prismic.io/field-day-sound/Z7_5z57c43Q3gScO_SHORT_NIKE_WOMENS_SO_WIN_60_16X9_SOCIA.mp4",
+      "opacity": "1",
+      "transition": "all",
+      "transform": "none",
+      "zIndex": "auto"
+    },
+    {
+      "tag": "VIDEO",
+      "src": "https://field-day-sound.cdn.prismic.io/field-day-sound/aK4HvGGNHVfTOVrg_PellaShort.mp4",
+      "opacity": "1",
+      "transition": "all",
+      "transform": "none",
+      "zIndex": "auto"
+    },
+    {
+      "tag": "VIDEO",
+      "src": "https://field-day-sound.cdn.prismic.io/field-day-sound/aK4bp2GNHVfTOVzl_LuluShort.mp4",
+      "opacity": "1",
+      "transition": "all",
+      "transform": "none",
+      "zIndex": "auto"
+    }
+  ],
+  "scroll": {
+    "htmlClasses": "",
+    "bodyClasses": "--homepage-modifier",
+    "htmlScrollBehavior": "auto",
+    "bodyScrollBehavior": "auto",
+    "hasLenisClass": false,
+    "htmlHasLenis": false,
+    "bodyHasLenis": false,
+    "customScrollContainer": false
+  },
+  "raw": {
+    "marqueeCandidates": []
+  }
+}

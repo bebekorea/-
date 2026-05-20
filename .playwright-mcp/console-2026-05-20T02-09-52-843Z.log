@@ -1,0 +1,4095 @@
+[  109123ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  109197ms] [LOG] [Fast Refresh] done in 174ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  204652ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  204702ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/?_rsc=wnywt:0
+[  204734ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[  204776ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_react-dom_0bruynb._.js:15305
+[  204789ms] Error: ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+
+    at <unknown> (Error: ./src/components/sections/AssetsMobile.tsx:140:11)
+    at Object.getCompilationErrors (file://C:\Users\rjsdu\Downloads\bebepet2-20260519-1751\node_modules\next\dist\server\dev\hot-reloader-turbopack.js:1186:59)
+    at DevBundlerService.getCompilationError (file://C:\Users\rjsdu\Downloads\bebepet2-20260519-1751\node_modules\next\dist\server\lib\dev-bundler-service.js:44:55)
+    at DevServer.getCompilationError (file://C:\Users\rjsdu\Downloads\bebepet2-20260519-1751\node_modules\next\dist\server\dev\next-dev-server.js:719:42)
+    at DevServer.findPageComponents (file://C:\Users\rjsdu\Downloads\bebepet2-20260519-1751\node_modules\next\dist\server\dev\next-dev-server.js:689:43)
+    at async DevServer.renderErrorToResponseImpl (file://C:\Users\rjsdu\Downloads\bebepet2-20260519-1751\node_modules\next\dist\server\base-server.js:1745:26)
+[  204790ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[  204794ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  204862ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  204912ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  204974ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  205035ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  205097ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  205159ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  205221ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  205283ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  205345ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  205408ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  205469ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  205530ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  205592ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  205653ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  205731ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  205793ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  205856ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  205918ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  205980ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  206042ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  206104ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  206166ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  206228ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  206289ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  206352ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  206413ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  206475ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  206538ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  206599ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  206660ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  206722ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  206784ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  206845ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  206907ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  206968ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  207030ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  207092ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  207154ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  207217ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  207280ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  207341ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  207401ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  207463ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  207525ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  207587ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  207648ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  207711ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  207772ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  207833ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  207894ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  207955ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  208017ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  208079ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  208141ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  208202ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  208262ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  208324ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  208385ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  208446ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  208506ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  208567ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  208628ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  208690ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  208751ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  208812ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  208873ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  208935ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  208996ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  209058ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  209119ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  209180ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  209241ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  209302ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  209363ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  209424ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  209485ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  209546ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  209607ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  209670ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  209731ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  209792ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  209853ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  209915ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  209977ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  210039ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  210101ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  210162ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  210224ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  210285ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  210347ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  210408ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  210469ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  210530ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  210592ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  210655ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  210716ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  210779ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  210840ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  210901ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  210962ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  211023ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  211084ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  211145ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  211206ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  211267ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  211328ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  211389ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  211450ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  211511ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  211573ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  211635ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  211695ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  211757ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  211819ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  211880ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  211942ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  212004ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  212064ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  212126ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  212187ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  212248ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  212309ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  212370ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  212431ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  212492ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  212553ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  212615ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  212676ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  212739ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  212801ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  212862ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  212925ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  212986ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  213048ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  213109ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  213170ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  213232ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  213294ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  213355ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  213417ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  213478ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  213539ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  213600ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  213662ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  213723ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  213784ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  213846ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  213907ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  213969ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  214032ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  214092ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  214154ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  214215ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  214276ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  214338ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  214399ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  214460ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  214523ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  214583ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  214645ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  214708ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  214769ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  214830ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  214891ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  214954ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  215015ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  215076ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  215138ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  215199ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  215261ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  215322ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  215383ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  215443ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  215504ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  215565ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  215626ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  215688ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  215749ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  215810ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  215872ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  215934ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  215995ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  216046ms] [ERROR] ./src/components/sections/AssetsMobile.tsx:140:11
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  138 |             </SwiperSlide>
+  139 |           );
+> 140 |         })}
+      |           ^
+  141 |       </Swiper>
+  142 |       </div>
+  143 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/sections/AssetsMobile.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sections/AssetsMobile.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  216102ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[  216318ms] [LOG] [Fast Refresh] done in 63ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[  216610ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  216652ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  263046ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  263181ms] [LOG] [Fast Refresh] done in 78ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  296954ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  297070ms] [LOG] [Fast Refresh] done in 92ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  322968ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  323019ms] [LOG] [Fast Refresh] done in 123ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431

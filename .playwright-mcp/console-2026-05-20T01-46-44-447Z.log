@@ -1,0 +1,9 @@
+[    2043ms] [WARNING] "setAttributes" is deprecated, please use "setAttributeForElements" instead. @ https://www.apple.com/v/iphone-air/f/built/scripts/overview/main.built.js:0
+[    3259ms] [LOG] BubbleGum::addComponent unsupported component 'InlineMediaDefault'. Reason: 'InlineMediaDefault.IS_SUPPORTED' returned false @ https://www.apple.com/v/iphone-air/f/built/scripts/overview/main.built.js:0
+[    3331ms] [LOG] BubbleGum::addComponent unsupported component 'CustomProductScene'. Reason: 'CustomProductScene.IS_SUPPORTED' returned false @ https://www.apple.com/v/iphone-air/f/built/scripts/overview/main.built.js:0
+[    3331ms] [LOG] BubbleGum::addComponent unsupported component 'ProductViewerGallery'. Reason: 'ProductViewerGallery.IS_SUPPORTED' returned false @ https://www.apple.com/v/iphone-air/f/built/scripts/overview/main.built.js:0
+[    3331ms] [LOG] BubbleGum::addComponent unsupported component 'ProductViewerMediaDefault'. Reason: 'ProductViewerMediaDefault.IS_SUPPORTED' returned false @ https://www.apple.com/v/iphone-air/f/built/scripts/overview/main.built.js:0
+[    3332ms] [LOG] BubbleGum::addComponent unsupported component 'IntroTurntable'. Reason: 'IntroTurntable.IS_SUPPORTED' returned false @ https://www.apple.com/v/iphone-air/f/built/scripts/overview/main.built.js:0
+[    3332ms] [LOG] BubbleGum::addComponent unsupported component 'VideoScrubLoader'. Reason: 'VideoScrubLoader.IS_SUPPORTED' returned false @ https://www.apple.com/v/iphone-air/f/built/scripts/overview/main.built.js:0
+[    3337ms] [LOG] BubbleGum::addComponent unsupported component 'GarageDoor'. Reason: 'GarageDoor.IS_SUPPORTED' returned false @ https://www.apple.com/v/iphone-air/f/built/scripts/overview/main.built.js:0
+[    3339ms] [LOG] BubbleGum::addComponent unsupported component 'CopyReveal'. Reason: 'CopyReveal.IS_SUPPORTED' returned false @ https://www.apple.com/v/iphone-air/f/built/scripts/overview/main.built.js:0

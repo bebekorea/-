@@ -1,0 +1,295 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Pretendard", "Pretendard Variable", -apple-system, BlinkMacSystemFont,
+    system-ui, Roboto, "Helvetica Neue", "Apple SD Gothic Neo", sans-serif;
+  --font-jost: var(--font-jost);
+  --font-serif-kr: var(--font-noto-serif-kr);
+
+  --color-text-default: rgb(102 102 102);
+  --color-text-strong: rgb(0 0 0);
+  --color-text-soft: rgb(35 35 35);
+  --color-text-muted: rgba(0 0 0 / 0.4);
+  --color-bg-light: rgb(248 248 248);
+  --color-bg-grey: rgb(240 240 240);
+  --color-bg-dark: rgb(32 32 32);
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  color: rgb(102, 102, 102);
+  scrollbar-width: none;
+}
+
+body {
+  font-family: var(--font-sans);
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* 한국어 어절 단위 줄바꿈 — 좁은 모바일 폭에서 단어가 글자 중간에서
+     끊겨 두 줄이 되는 문제 방지. CJK에만 영향, 영어 줄바꿈은 그대로. */
+  word-break: keep-all;
+  overflow-wrap: break-word;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Tailwind v4: unlayered styles take priority over @layer utilities,
+   so a bare `button { ... }` reset would beat Tailwind utility classes
+   like `border` / `border-black/40`. Wrapping in @layer base puts the
+   reset below utilities in cascade order — utilities like `border`,
+   `border-solid`, `border-black/40` then override per-element resets
+   on individual buttons that opt back in to a border (e.g. CategoryHover-
+   Preview's "예약하기" pill CTA). */
+@layer base {
+  button {
+    background: transparent;
+    border-width: 0;
+    cursor: pointer;
+    font-family: inherit;
+    color: inherit;
+    padding: 0;
+  }
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.writing-vertical-rl {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+}
+
+/* Global keyboard focus indicator — Tailwind 유틸이 focus 스타일을 따로
+   주지 않는 인터랙티브 요소에 일관된 가시 포커스 링을 제공한다.
+   :focus-visible은 키보드 포커스에서만 발화하므로 마우스 클릭 시
+   불필요한 outline은 안 보임. 어두운 헤더/영상 위에서도 보이도록
+   2px 검정 outline + offset, dark 컨텍스트에선 흰색으로 자동 전환. */
+:focus-visible {
+  outline: 2px solid #000;
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+[data-theme="dark"] :focus-visible,
+section[id="hero"] :focus-visible,
+section[id="hero-recap"] :focus-visible,
+section[id="contact"] :focus-visible {
+  outline-color: #fff;
+}
+
+.fp-container {
+  height: 100dvh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.fp-container::-webkit-scrollbar {
+  display: none;
+}
+
+.fp-section {
+  height: 100dvh;
+  position: relative;
+  overflow: hidden;
+}
+
+.fp-section--auto {
+  height: auto;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes blink {
+  0%,
+  50% {
+    opacity: 1;
+  }
+  50.01%,
+  100% {
+    opacity: 0;
+  }
+}
+
+.animate-blink {
+  animation: blink 1s steps(1) infinite;
+}
+
+/* Hero scroll indicator — a short vertical track with a soft highlight that
+   travels from top to bottom on a slow loop. The highlight is sized to 1/3
+   of the track and translated from -100% (just above the track) to +300%
+   (past the bottom) so it enters and exits cleanly. */
+@keyframes scrollFlow {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(300%);
+    opacity: 0;
+  }
+}
+
+.animate-scroll-flow {
+  animation: scrollFlow 2.2s cubic-bezier(0.65, 0, 0.35, 1) infinite;
+}
+
+/* Gentle bobbing for the CategoryIndex CTA arrow — small vertical
+   bob with a soft easing so the arrow reads as an invitation rather
+   than a demand. */
+@keyframes arrowFloat {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(6px); }
+}
+.animate-arrow-float {
+  animation: arrowFloat 1.8s cubic-bezier(0.45, 0, 0.55, 1) infinite;
+}
+
+/* Right-to-left marquee. The track contains the items duplicated, so a
+   translation of -50% lands exactly on the start of the second copy —
+   visually identical to the original position, which makes the loop seamless. */
+@keyframes marqueeLeft {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee-left {
+  animation: marqueeLeft linear infinite;
+}
+
+/* Instagram CTA hover — Instagram-brand gradient that fades in behind the
+   text on hover. The gradient lives in a ::before layer with z-index:-1
+   inside an `isolation: isolate` stacking context so it stays painted
+   between the element's own background and its in-flow content. The
+   previous "lift children with > *" approach didn't work because the CTA
+   text is a bare text node (not an element) and couldn't be selected;
+   isolating + sending the pseudo behind the text reaches both. */
+.btn-instagram-hover {
+  position: relative;
+  isolation: isolate;
+  /* Self-contained border so the pill ring renders even when ancestor
+     resets (e.g. button { border-width: 0 }) or @layer ordering make
+     Tailwind `border` utility unreliable. Class is unlayered → highest
+     priority over both layered utilities and base resets. */
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  transition: color 250ms ease, border-color 250ms ease;
+}
+.btn-instagram-hover::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 9999px;
+  background: linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  opacity: 0;
+  transition: opacity 250ms ease;
+  z-index: -1;
+  pointer-events: none;
+}
+.btn-instagram-hover:hover {
+  color: #fff;
+  border-color: transparent;
+}
+.btn-instagram-hover:hover::before {
+  opacity: 1;
+}
+
+/* Swipe hint chevron — Assets/Services 모바일 캐러셀의 dots 옆에 작은 화살표를
+   추가해 "옆으로 넘길 수 있음" 시각 은유를 만든다. dots만으로는 즉시 swipe
+   가능함이 읽히지 않는다는 사용자 피드백 반영. translateX 살짝 반복으로
+   자연스러운 유도 모션. */
+@keyframes swipeHint {
+  0%, 100% { transform: translateX(0); opacity: 0.55; }
+  50% { transform: translateX(4px); opacity: 1; }
+}
+
+.assets-mobile-swiper .swiper-pagination::after,
+.categories-mobile-swiper .swiper-pagination::after {
+  content: "›";
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 20px;
+  line-height: 1;
+  font-weight: 300;
+  margin-left: 14px;
+  animation: swipeHint 1.6s cubic-bezier(0.45, 0, 0.55, 1) infinite;
+  pointer-events: none;
+}
+.assets-mobile-swiper .swiper-pagination::after {
+  color: rgba(0, 0, 0, 0.55);
+}
+.categories-mobile-swiper .swiper-pagination::after {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+/* Brand green hover variant — same fill/swap pattern as btn-instagram-hover
+   but with a flat brand green (#3aa676, matches the detail bullet markers
+   used in 6대자산 detail panel and category sections) instead of the
+   Instagram gradient. Used by BEAUTY "예약하기" CTA. */
+.btn-green-hover {
+  position: relative;
+  isolation: isolate;
+  /* Self-contained border — see .btn-instagram-hover comment above. */
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  transition: color 250ms ease, border-color 250ms ease;
+}
+.btn-green-hover::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 9999px;
+  background: #3aa676;
+  opacity: 0;
+  transition: opacity 250ms ease;
+  z-index: -1;
+  pointer-events: none;
+}
+.btn-green-hover:hover {
+  color: #fff;
+  border-color: transparent;
+}
+.btn-green-hover:hover::before {
+  opacity: 1;
+}

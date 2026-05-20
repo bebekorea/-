@@ -1,0 +1,281 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e5]:
+        - link "toss" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img [ref=e9]
+        - generic [ref=e16]:
+          - button "앱 다운로드" [ref=e17] [cursor=pointer]
+          - button "메뉴 열기" [ref=e18] [cursor=pointer]:
+            - img [ref=e20]
+        - generic:
+          - list
+          - list [ref=e22]:
+            - listitem [ref=e23]:
+              - link "회사 소개" [ref=e24] [cursor=pointer]:
+                - /url: /team
+                - generic [ref=e25]: 회사 소개
+            - listitem [ref=e26]:
+              - link "공지사항" [ref=e27] [cursor=pointer]:
+                - /url: /notice
+                - generic [ref=e28]: 공지사항
+            - listitem [ref=e29]:
+              - link "고객센터" [ref=e30] [cursor=pointer]:
+                - /url: https://support.toss.im
+                - generic [ref=e31]: 고객센터
+            - listitem [ref=e32]:
+              - link "자주 묻는 질문" [ref=e33] [cursor=pointer]:
+                - /url: https://support.toss.im/faq
+                - generic [ref=e34]: 자주 묻는 질문
+            - listitem [ref=e35]:
+              - link "토스인증서" [ref=e36] [cursor=pointer]:
+                - /url: /tosscert
+                - generic [ref=e37]: 토스인증서
+            - listitem [ref=e38]:
+              - link "채용" [ref=e39] [cursor=pointer]:
+                - /url: /career
+                - generic [ref=e40]: 채용
+            - generic [ref=e41]:
+              - listitem [ref=e42]:
+                - link "KOR" [ref=e43] [cursor=pointer]:
+                  - /url: /
+              - generic [ref=e44]: "|"
+              - listitem [ref=e45]:
+                - link "ENG" [ref=e46] [cursor=pointer]:
+                  - /url: /en
+    - main [ref=e47]:
+      - paragraph [ref=e53]: 내 모든 금융 내역을 한눈에 조회하고 한 곳에서 관리하세요. 이제껏 경험 못 했던 쉽고 편리한 금융 서비스, 토스와 함께라면 당신의 일상이 새로워질 거예요.
+      - generic [ref=e80]: 꼭 필요했던 금융
+      - generic [ref=e83]:
+        - heading "금융을 넘어 일상을 더 편리하게" [level=1] [ref=e84]
+        - generic [ref=e86]:
+          - generic [ref=e87]:
+            - heading "세금 납부, 등본 발급까지" [level=2] [ref=e88]
+            - heading "토스로 한 번에" [level=3] [ref=e89]
+          - paragraph [ref=e90]: 놓치기 쉬운 세금 납부 및 환급은 물론 발급을 받을 때마다 귀찮았던 주민등록 등초본까지. 이제 토스로 편하게 신청하고 받아보세요.
+        - generic [ref=e91]:
+          - generic [ref=e93]:
+            - heading "보험" [level=2] [ref=e94]
+            - heading "조회부터 상담, 병원비 돌려받기를 간편하게" [level=3] [ref=e95]
+          - paragraph [ref=e97]: 또래보다 보험료는 적절하게 내고 있는지, 낸 만큼 보장받고 있는지 확인해 보세요. 전문가와의 상담을 통해 내게 딱 맞는 보험을 추천 받고, 병원비를 간편하게 청구할 수 있어요.
+        - generic [ref=e99]:
+          - generic [ref=e100]:
+            - heading "내 부동산 · 자동차" [level=2] [ref=e101]
+            - heading "정기적으로 관리해보세요" [level=3] [ref=e102]
+          - paragraph [ref=e103]: 집과 자동차의 공통점은 잘 사서, 잘 관리하고, 잘 팔아야 한다는 것. 시세조회부터 아파트 관리비 납부, 자동차 보험료 조회까지 부동산과 자동차 관리도 토스에서 시작해 보세요.
+      - generic [ref=e118]:
+        - heading "비즈니스 고객 제보" [level=1] [ref=e119]
+        - paragraph [ref=e120]: 토스팀과의 협업 중 불편을 느끼셨나요? 지금 바로 알려주세요.
+        - link "접수하기" [ref=e121] [cursor=pointer]:
+          - /url: https://toss.im/ethics
+    - contentinfo [ref=e122]:
+      - generic [ref=e123]:
+        - generic [ref=e124]:
+          - list [ref=e125]:
+            - listitem [ref=e126]:
+              - generic [ref=e127]: 서비스
+            - listitem [ref=e128]:
+              - link "공지사항" [ref=e129] [cursor=pointer]:
+                - /url: https://toss.im/notice
+            - listitem [ref=e130]:
+              - link "자주 묻는 질문" [ref=e131] [cursor=pointer]:
+                - /url: https://support.toss.im/faq
+            - listitem [ref=e132]:
+              - link "공동인증서 관리" [ref=e133] [cursor=pointer]:
+                - /url: https://toss.im/cert
+            - listitem [ref=e134]:
+              - link "계정 일시잠금" [ref=e135] [cursor=pointer]:
+                - /url: http://support.toss.im/suspend
+            - listitem [ref=e136]:
+              - link "고객센터" [ref=e137] [cursor=pointer]:
+                - /url: https://support.toss.im
+            - listitem [ref=e138]:
+              - link "개인(신용)정보 이용·제공 내역 조회" [ref=e139] [cursor=pointer]:
+                - /url: https://toss.im/user/privacy-history
+            - listitem [ref=e140]:
+              - link "브랜드 리소스센터" [ref=e141] [cursor=pointer]:
+                - /url: https://brand.toss.im/
+            - listitem [ref=e142]:
+              - link "토스의 개인정보 보호" [ref=e143] [cursor=pointer]:
+                - /url: https://privacy.toss.im
+            - listitem [ref=e144]:
+              - link "토스유스카드" [ref=e145] [cursor=pointer]:
+                - /url: https://toss.im/teens/uss-card
+            - listitem [ref=e146]:
+              - link "앱인토스" [ref=e147] [cursor=pointer]:
+                - /url: https://toss.im/apps-in-toss
+            - listitem [ref=e148]:
+              - link "토스 카드라운지" [ref=e149] [cursor=pointer]:
+                - /url: https://card-lounge.toss.im/?utm_source=tossofficial&utm_campaign=traffic_cardpc_footer
+          - list [ref=e150]:
+            - listitem [ref=e151]:
+              - generic [ref=e152]: 회사
+            - listitem [ref=e153]:
+              - link "회사 소개" [ref=e154] [cursor=pointer]:
+                - /url: https://toss.im/team
+            - listitem [ref=e155]:
+              - link "토스페이먼츠" [ref=e156] [cursor=pointer]:
+                - /url: https://tosspayments.com/
+            - listitem [ref=e157]:
+              - link "토스인슈어런스" [ref=e158] [cursor=pointer]:
+                - /url: https://toss.im/insurance
+            - listitem [ref=e159]:
+              - link "토스증권" [ref=e160] [cursor=pointer]:
+                - /url: https://corp.tossinvest.com/
+            - listitem [ref=e161]:
+              - link "토스씨엑스" [ref=e162] [cursor=pointer]:
+                - /url: https://tosscx.com
+            - listitem [ref=e163]:
+              - link "토스뱅크" [ref=e164] [cursor=pointer]:
+                - /url: https://www.tossbank.com/
+            - listitem [ref=e165]:
+              - link "토스플레이스" [ref=e166] [cursor=pointer]:
+                - /url: https://tossplace.com/?referrer=toss_recruit_footer
+            - listitem [ref=e167]:
+              - link "토스모바일" [ref=e168] [cursor=pointer]:
+                - /url: https://tossmobile.co.kr
+            - listitem [ref=e169]:
+              - link "토스인컴" [ref=e170] [cursor=pointer]:
+                - /url: https://tossincome.com/?utm_source=tosshomepage_footer
+            - listitem [ref=e171]:
+              - link "토스임팩트" [ref=e172] [cursor=pointer]:
+                - /url: https://toss.im/impact
+            - listitem [ref=e173]:
+              - link "토스인사이트" [ref=e174] [cursor=pointer]:
+                - /url: https://tossinsight.im/
+            - listitem [ref=e175]:
+              - link "채용" [ref=e176] [cursor=pointer]:
+                - /url: https://toss.im/career
+            - listitem [ref=e177]:
+              - link "기술 블로그" [ref=e178] [cursor=pointer]:
+                - /url: https://toss.tech/
+            - listitem [ref=e179]:
+              - link "블로그" [ref=e180] [cursor=pointer]:
+                - /url: https://blog.toss.im/
+            - listitem [ref=e181]:
+              - link "공고" [ref=e182] [cursor=pointer]:
+                - /url: https://toss.im/announcement
+          - list [ref=e183]:
+            - listitem [ref=e184]:
+              - generic [ref=e185]: 문의
+            - listitem [ref=e186]:
+              - link "사업 제휴" [ref=e187] [cursor=pointer]:
+                - /url: mailto:partnership@toss.im
+            - listitem [ref=e188]:
+              - link "토스쇼핑 입점문의" [ref=e189] [cursor=pointer]:
+                - /url: https://toss.im/shopping-seller?utm_source=homepage&utm_medium=homepage_lead&utm_campaign=traffic_homepage_performance&utm_content=traffic_homepage_231103
+            - listitem [ref=e190]:
+              - link "광고 문의" [ref=e191] [cursor=pointer]:
+                - /url: https://ads-platform.toss.im/login
+            - listitem [ref=e192]:
+              - link "인증 사업 문의" [ref=e193] [cursor=pointer]:
+                - /url: https://toss.im/tosscert
+            - listitem [ref=e194]:
+              - link "마케팅·PR" [ref=e195] [cursor=pointer]:
+                - /url: mailto:support@toss.im
+            - listitem [ref=e196]:
+              - link "IR" [ref=e197] [cursor=pointer]:
+                - /url: mailto:ir@toss.im
+          - list [ref=e198]:
+            - listitem [ref=e199]:
+              - generic [ref=e200]: 고객센터
+            - listitem [ref=e201]:
+              - 'link "전화: 1599-4905 (24시간 연중무휴)" [ref=e202] [cursor=pointer]':
+                - /url: tel:1599-4905
+            - listitem [ref=e203]:
+              - 'link "이메일(고객전용): support@toss.im" [ref=e204] [cursor=pointer]':
+                - /url: mailto:support@toss.im
+            - listitem [ref=e205]:
+              - 'link "이메일(외부기관전용): safe@toss.im" [ref=e206] [cursor=pointer]':
+                - /url: mailto:safe@toss.im
+            - listitem [ref=e207]:
+              - link "민원 접수" [ref=e208] [cursor=pointer]:
+                - /url: https://support.toss.im/customer-complaint
+          - list [ref=e209]:
+            - listitem [ref=e210]:
+              - generic [ref=e211]: 윤리경영
+            - listitem [ref=e212]:
+              - link "상담/신고" [ref=e213] [cursor=pointer]:
+                - /url: https://toss.im/ethics
+        - generic [ref=e214]:
+          - strong [ref=e215]: ㈜비바리퍼블리카
+          - text: "사업자 등록번호 : 120-88-01280 | 대표 : 이승건"
+          - text: "호스팅 서비스 : 주식회사 비바리퍼블리카 | 통신판매업 신고번호 : 2014-서울강남-03377"
+          - link "사업자정보확인" [ref=e216] [cursor=pointer]:
+            - /url: https://www.ftc.go.kr/bizCommPop.do?wrkr_no=1208801280
+          - text: 06236 서울특별시 강남구 테헤란로 142, 4층, 10층, 11층, 12층, 13층, 22층, 23층 (역삼동, 아크플레이스)
+          - text: "고객센터 : 서울시 구로구 경인로662, 디큐브시티 12층, 13층 토스씨엑스"
+        - list [ref=e217]:
+          - listitem [ref=e218]:
+            - link "서비스 이용약관" [ref=e219] [cursor=pointer]:
+              - /url: https://toss.im/terms
+          - listitem [ref=e220]:
+            - link "통합 금융정보 서비스 약관" [ref=e221] [cursor=pointer]:
+              - /url: https://toss.im/docs/500
+          - listitem [ref=e222]:
+            - link "마이데이터 서비스 이용약관" [ref=e223] [cursor=pointer]:
+              - /url: https://toss.im/docs/11567
+          - listitem [ref=e224]:
+            - link "이용자의 권리 및 유의사항" [ref=e225] [cursor=pointer]:
+              - /url: https://static-docs.toss.im/privacy/safety
+          - listitem [ref=e226]:
+            - link "개인정보 처리방침" [ref=e227] [cursor=pointer]:
+              - /url: https://toss.im/privacy-policy?categoryId=325
+              - strong [ref=e228]: 개인정보 처리방침
+          - listitem [ref=e229]:
+            - link "채용팀 개인정보 처리방침" [ref=e230] [cursor=pointer]:
+              - /url: https://toss.im/privacy-policy?categoryId=2027
+              - strong [ref=e231]: 채용팀 개인정보 처리방침
+          - listitem [ref=e232]:
+            - link "어드민 서비스 개인정보 처리방침" [ref=e233] [cursor=pointer]:
+              - /url: https://toss.im/privacy-policy?categoryId=2025
+              - strong [ref=e234]: 어드민 서비스 개인정보 처리방침
+          - listitem [ref=e235]:
+            - link "위치기반서비스 이용약관" [ref=e236] [cursor=pointer]:
+              - /url: https://toss.im/agreement/locationInfo
+              - strong [ref=e237]: 위치기반서비스 이용약관
+          - listitem [ref=e238]:
+            - link "가맹점 고지사항" [ref=e239] [cursor=pointer]:
+              - /url: https://toss.im/docs/10290
+          - listitem [ref=e240]:
+            - link "토스 전자서명인증업무준칙" [ref=e241] [cursor=pointer]:
+              - /url: https://toss.im/tosscert/cps
+          - listitem [ref=e242]:
+            - link "토스 전자인증서비스 약관" [ref=e243] [cursor=pointer]:
+              - /url: https://toss.im/docs/49
+          - listitem [ref=e244]:
+            - link "금융소비자보호" [ref=e245] [cursor=pointer]:
+              - /url: https://toss.im/financial-consumer-protection
+          - listitem [ref=e246]:
+            - link "토스비즈니스 개인정보 처리방침" [ref=e247] [cursor=pointer]:
+              - /url: https://toss.im/privacy-policy?categoryId=2023
+              - strong [ref=e248]: 토스비즈니스 개인정보 처리방침
+          - listitem [ref=e249]:
+            - link "퀵계좌이체 개인정보 처리방침" [ref=e250] [cursor=pointer]:
+              - /url: https://toss.im/privacy-policy?categoryId=2029
+              - strong [ref=e251]: 퀵계좌이체 개인정보 처리방침
+          - listitem [ref=e252]:
+            - link "정산자금 보호조치" [ref=e253] [cursor=pointer]:
+              - /url: https://service.toss.im/terms/72977
+          - listitem [ref=e254]:
+            - link "청소년 보호정책" [ref=e255] [cursor=pointer]:
+              - /url: https://service.toss.im/terms/86571
+        - list [ref=e256]:
+          - listitem [ref=e257]:
+            - link "Toss Blog" [ref=e258] [cursor=pointer]:
+              - /url: https://toss.im/tossfeed
+              - img "Toss Blog" [ref=e259]
+          - listitem [ref=e260]:
+            - link "Toss Naver Post" [ref=e261] [cursor=pointer]:
+              - /url: https://blog.naver.com/tossblog
+              - img "Toss Naver Post" [ref=e262]
+          - listitem [ref=e263]:
+            - link "Toss X" [ref=e264] [cursor=pointer]:
+              - /url: https://x.com/toss__official
+              - img "Toss X" [ref=e265]
+          - listitem [ref=e266]:
+            - link "Toss Instagram" [ref=e267] [cursor=pointer]:
+              - /url: https://www.instagram.com/toss.im/
+              - img "Toss Instagram" [ref=e268]
+  - alert [ref=e269]
