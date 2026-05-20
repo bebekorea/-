@@ -50,7 +50,9 @@ const PHASE_MS = {
 const STAGE_TRANS = 750; // wheel-driven stage transition (post-intro) — copy fades, header swap. 550 → 750ms로 살짝 느리게.
 // Frame layout uses the same rhythm as the intro's banner/full unfolds, so
 // the stage 1↔2↔3 morph feels like it belongs to the same motion language.
-const FRAME_STAGE_TRANS = PHASE_MS.banner;
+// 800ms로 쿨다운 단축 — 1100ms는 Mac 트랙패드 사용자가 두 번째 swipe할 때
+// 쿨다운에 막혀 "스크롤이 안 먹는다"는 인상을 받음.
+const FRAME_STAGE_TRANS = 800;
 
 // Eases
 //   INTRO_EASE — soft easeInOut, used for the line + video expansion AND
@@ -359,10 +361,12 @@ export default function ScrollHero({ isActive = true, onStageChange, resetTick }
 
     const isInView = () => {
       const r = sec.getBoundingClientRect();
-      // Mac 레티나 sub-pixel 렌더링 + 브라우저 줌(100% 아닌 경우)에서 r.top이
-      // 0.5~3px 정도 비정수로 나오면 ≤1 검사로는 false → stage 2/3로 전환이
-      // 영영 안 됨. tolerance를 10px로 풀어 같은 화면 안에 있으면 in-view.
-      return r.top <= 10 && r.bottom >= window.innerHeight - 10;
+      // 매우 관대한 in-view 검사 — 섹션의 중심이 viewport 안에 들어있는지만
+      // 체크. Mac 레티나/브라우저 줌/관성 스크롤 등 sub-pixel 변동에 강함.
+      // 또한 top/bottom 양 끝 정렬 강제 대신 "겹치기만 하면 OK"로 완화.
+      const vh = window.innerHeight;
+      const sectionMidInView = r.top < vh && r.bottom > 0;
+      return sectionMidInView;
     };
 
     const tryAdvance = (dir: 1 | -1, ev: Event) => {
@@ -416,7 +420,10 @@ export default function ScrollHero({ isActive = true, onStageChange, resetTick }
      // 내 후속 이벤트가 Page 핸들러까지 차단되어 다른 섹션 사이에서
      // 스크롤이 "한 번씩만 먹는" 느낌이 난다. hero 밖에서는 그냥 즉시
      // 리턴해서 Page의 일반 jump 로직(자체 쿨다운 보유)에 맡긴다.
-    const GESTURE_QUIET_MS = 200;
+    // GESTURE_QUIET_MS — 마지막 휠 이벤트로부터 이 시간 이상 조용했다 들어
+    // 오는 첫 이벤트만 "새 제스처"로. Mac 트랙패드 관성이 1-2s이지만 사용자
+    // 가 빨리 다시 swipe하는 케이스에서 200ms는 막힘. 120ms로 단축.
+    const GESTURE_QUIET_MS = 120;
     let lastWheelEventTime = 0;
     let wheelGestureCaught = false;
     // 모바일(< md, 767px 이하) + 인트로 완료 상태에서는 hero의 stage 전환
