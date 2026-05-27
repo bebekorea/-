@@ -133,9 +133,9 @@ export default function Header({ theme, onOpenRegister, onMenuToggle, menuOpen, 
           background: isDark ? "rgba(0,0,0,0.28)" : "rgba(255,255,255,0.55)",
           backdropFilter: "blur(14px) saturate(140%)",
           WebkitBackdropFilter: "blur(14px) saturate(140%)",
-          borderBottom: isDark
-            ? "1px solid rgba(255,255,255,0.08)"
-            : "1px solid rgba(0,0,0,0.06)",
+          // borderBottom 제거 — 사용자가 hero 로고 위쪽에 보이는 "가로선"의
+          // 정체였음. backdrop-filter 만으로 헤더 영역 충분히 구분됨.
+          borderBottom: "none",
           transition: COLOR_TRANS,
         }}
       >
