@@ -125,7 +125,9 @@ export const CATEGORY_DETAILS: Record<string, CategoryDetail> = {
     label: "FOOD",
     captionKey: "index.caption.partners",
     bodyKey: "index.body.partners",
-    logoFlow: PARTNER_LOGOS,
+    // logoFlow 임시 제거 — 실제 파트너 로고 자산 입고 후 재추가 예정.
+    // 기존 PARTNER_LOGOS placeholder는 다른 브랜드/프로젝트의 로고였음.
+    // logoFlow: PARTNER_LOGOS,
     pointsByLang: {
       ko: [
         { label: "전문가 소싱", body: "수의사가 성분을 분석한 해외 프리미엄 브랜드를 직접 들여옵니다" },
