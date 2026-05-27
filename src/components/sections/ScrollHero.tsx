@@ -123,9 +123,9 @@ export default function ScrollHero({ isActive = true, onStageChange, resetTick }
   // 비어 있으면 placeholder org chart 사용.
   const heroVideoUrl = useAsset("hero_video", "");
   const orgChartUrl = useAsset("org_chart", "/images/org-chart-a.png");
-  // Hero 중앙 로고 placeholder — Notion에 "logo" 등록 시 그 이미지 노출,
-  // 없으면 점선 박스 LOGO placeholder.
-  const heroLogoUrl = useAsset("logo", "");
+  // Hero 중앙 로고 — BEBE PET 흰색 세로 워드마크 SVG (.ai 원본의 SVG 변환).
+  // Notion Assets DB의 "logo" URL이 등록되면 그걸로 덮어쓰기.
+  const heroLogoUrl = useAsset("logo", "/images/logo-wh-ver.svg");
   const introTypingText = t("intro.typing");
 
   useEffect(() => {
@@ -644,7 +644,7 @@ export default function ScrollHero({ isActive = true, onStageChange, resetTick }
             willChange: "opacity, transform",
             backfaceVisibility: "hidden",
           }}
-          src="/videos/vis.mp4"
+          src="/videos/hero-main.mp4"
           autoPlay
           muted
           loop
