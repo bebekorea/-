@@ -670,12 +670,16 @@ export default function ScrollHero({ isActive = true, onStageChange, resetTick }
           playsInline
           preload="auto"
         />
-        {/* Dark overlay only on stage 1 (white hero copy on top of vis.mp4).
-            Stage 3 keeps the left-side brand copy in BLACK on top of the
-            full-bleed brand.mp4, so we leave the video un-dimmed there. */}
+        {/* Dark overlay on stage 1.
+            영상 콘텐츠(건물 외벽 가로 패널 이음새)가 viewport 상단에 가로선
+            처럼 보이는 이슈를 가리기 위해 상→하 그라데이션으로 영상 상단
+            영역을 더 진하게 덮음. 로고가 노출되는 중앙은 가독성 위해
+            적당한 톤. */}
         <div
-          className="absolute inset-0 bg-black/25"
+          className="absolute inset-0"
           style={{
+            background:
+              "linear-gradient(180deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.55) 35%, rgba(0,0,0,0.4) 60%, rgba(0,0,0,0.55) 100%)",
             opacity: phase === "done" && stage === 1 && isActive ? 1 : 0,
             transition: `opacity ${videoFadeMs}ms ${EASE}`,
           }}
