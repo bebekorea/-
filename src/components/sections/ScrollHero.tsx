@@ -644,7 +644,7 @@ export default function ScrollHero({ isActive = true, onStageChange, resetTick }
             willChange: "opacity, transform",
             backfaceVisibility: "hidden",
           }}
-          src="/videos/hero-main.mp4"
+          src="/videos/vis.mp4"
           autoPlay
           muted
           loop
