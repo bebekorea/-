@@ -1044,7 +1044,7 @@ export default function ScrollHero({ isActive = true, onStageChange, resetTick }
                 {/* 조직도 — Notion Assets "org_chart" URL이 있으면 그 이미지,
                     없으면 placeholder OrgNode 묶음을 노출. */}
                 <div
-                  className="w-full max-w-[28vw] mt-[4vh]"
+                  className="w-full max-w-[44vw] mt-[4vh]"
                   style={fadeStyle(2)}
                 >
                   <p className="text-[clamp(11px,0.7292vw,13px)] tracking-[0.18em] uppercase text-white/65 font-medium mb-[0.6vw]">

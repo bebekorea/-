@@ -104,7 +104,7 @@ const ko: Dict = {
   "adopt.species.large": "대형견",
   "adopt.species.small": "소형견",
   "adopt.species.cat": "고양이",
-  "adopt.cta.instagram": "@bebep_et 인스타그램",
+  "adopt.cta.instagram": "베베펫 인스타그램 보러가기",
 
   // ── Product cards (인덱스 PRODUCT 프리뷰의 3×2 카드 라벨) ──────
   "product.card.care": "케어용품",
@@ -263,7 +263,7 @@ const en: Dict = {
   "adopt.species.large": "Large dogs",
   "adopt.species.small": "Small dogs",
   "adopt.species.cat": "Cats",
-  "adopt.cta.instagram": "Follow @bebep_et",
+  "adopt.cta.instagram": "Visit our Instagram",
 
   // ── Product cards ──────────────────────────────────────────────
   "product.card.care": "Care",
