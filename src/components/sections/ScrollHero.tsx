@@ -123,9 +123,10 @@ export default function ScrollHero({ isActive = true, onStageChange, resetTick }
   // 비어 있으면 placeholder org chart 사용.
   const heroVideoUrl = useAsset("hero_video", "");
   const orgChartUrl = useAsset("org_chart", "/images/org-chart-a.png");
-  // Hero 중앙 로고 — BEBE PET 흰색 세로 워드마크 SVG (.ai 원본의 SVG 변환).
-  // Notion Assets DB의 "logo" URL이 등록되면 그걸로 덮어쓰기.
-  const heroLogoUrl = useAsset("logo", "/images/logo-wh-ver.svg");
+  // Hero 중앙 로고 — BEBE PET 진짜 브랜드 로고 (BEBE PET_logo.ai의 흰색
+  // 변형을 PNG로 변환 + 다크 배경 투명 처리). Notion Assets DB의 "logo"
+  // URL이 등록되면 그걸로 덮어쓰기.
+  const heroLogoUrl = useAsset("logo", "/images/bebepet-logo-hero.png");
   const introTypingText = t("intro.typing");
 
   useEffect(() => {
