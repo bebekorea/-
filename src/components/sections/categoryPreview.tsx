@@ -141,7 +141,9 @@ export const CATEGORY_DETAILS: Record<string, CategoryDetail> = {
   },
   product: {
     visualSide: "left",
-    visual: { type: "cards", cards: PRODUCT_CARDS },
+    // 6개 카테고리 카드 그리드 → 단일 메인 사진 (베베펫_용품.jpg).
+    // 다른 카테고리(병원/사료/뷰티/글로벌)와 동일한 "photo" 타입으로 통일.
+    visual: { type: "photo", src: "/images/category-product.jpg" },
     label: "PRODUCT",
     captionKey: "index.caption.product",
     bodyKey: "index.body.product",
