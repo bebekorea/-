@@ -23,7 +23,7 @@ export default function TrustMobile() {
   const { t, ta } = useLang();
   const { ref, inView } = useInView<HTMLElement>(0.2);
   // Notion Assets "org_chart" URL — 있으면 placeholder 대신 이미지 노출.
-  const orgChartUrl = useAsset("org_chart", "");
+  const orgChartUrl = useAsset("org_chart", "/images/org-chart-a.png");
 
   const fadeUp = (idx: number): React.CSSProperties => ({
     opacity: inView ? 1 : 0,

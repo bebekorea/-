@@ -263,6 +263,11 @@ export default function Page() {
       />
 
       <main ref={containerRef} className="fp-container">
+        {/* SEO/스크린리더용 단일 h1 — Hero의 시각적 h1("평생 함께할 첫만남")이
+            중앙 로고 placeholder로 대체되면서 시각적 h1이 사라졌기 때문에,
+            sr-only로 의미 단위 h1을 페이지에 1개 유지. 검색 봇 + 보조 기술
+            사용자에게 페이지 주제를 명확히 전달. */}
+        <h1 className="sr-only">베베펫 — 반려동물 토탈 케어 (분양·병원·사료·미용·스파)</h1>
         <ScrollHero
           isActive={activeSection === "hero"}
           onStageChange={setHeroStage}

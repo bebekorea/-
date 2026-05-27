@@ -122,7 +122,7 @@ export default function ScrollHero({ isActive = true, onStageChange, resetTick }
   // Notion Assets 자산 URL — 비어 있으면 코드의 기본 /videos/brand.mp4 사용,
   // 비어 있으면 placeholder org chart 사용.
   const heroVideoUrl = useAsset("hero_video", "");
-  const orgChartUrl = useAsset("org_chart", "");
+  const orgChartUrl = useAsset("org_chart", "/images/org-chart-a.png");
   // Hero 중앙 로고 placeholder — Notion에 "logo" 등록 시 그 이미지 노출,
   // 없으면 점선 박스 LOGO placeholder.
   const heroLogoUrl = useAsset("logo", "");
@@ -644,7 +644,7 @@ export default function ScrollHero({ isActive = true, onStageChange, resetTick }
             willChange: "opacity, transform",
             backfaceVisibility: "hidden",
           }}
-          src="/videos/vis.mp4"
+          src="/videos/hero-main.mp4"
           autoPlay
           muted
           loop
@@ -662,7 +662,7 @@ export default function ScrollHero({ isActive = true, onStageChange, resetTick }
             willChange: "opacity, transform",
             backfaceVisibility: "hidden",
           }}
-          src={heroVideoUrl || "/videos/brand.mp4"}
+          src={heroVideoUrl || "/videos/hero-sub.mp4"}
           autoPlay
           muted
           loop

@@ -40,19 +40,22 @@ const PARTNER_LOGOS = [
   "/images/partner-name8.png",
 ];
 
+// PRODUCT cards — 운영자에게 받은 단일 사진이 없어 6개 카드 모두 product 메인
+// 사진을 공유. 추후 개별 사진 받으면 각 labelKey 옆 photo 경로만 교체.
 const PRODUCT_CARDS: Array<{ labelKey: string; photo: string }> = [
-  { labelKey: "product.card.care", photo: "https://images.unsplash.com/photo-1592194996308-7b43878e84a6?auto=format&fit=crop&w=900&q=70" },
-  { labelKey: "product.card.apparel", photo: "https://images.unsplash.com/photo-1611003228941-98852ba62227?auto=format&fit=crop&w=900&q=70" },
-  { labelKey: "product.card.travel", photo: "https://images.unsplash.com/photo-1598133894008-61f7fdb8cc3a?auto=format&fit=crop&w=900&q=70" },
-  { labelKey: "product.card.hygiene", photo: "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&w=900&q=70" },
-  { labelKey: "product.card.toys", photo: "https://images.unsplash.com/photo-1605568427561-40dd23c2acea?auto=format&fit=crop&w=900&q=70" },
-  { labelKey: "product.card.bedding", photo: "https://images.unsplash.com/photo-1581888227599-779811939961?auto=format&fit=crop&w=900&q=70" },
+  { labelKey: "product.card.care", photo: "/images/category-product.jpg" },
+  { labelKey: "product.card.apparel", photo: "/images/category-product.jpg" },
+  { labelKey: "product.card.travel", photo: "/images/category-product.jpg" },
+  { labelKey: "product.card.hygiene", photo: "/images/category-product.jpg" },
+  { labelKey: "product.card.toys", photo: "/images/category-product.jpg" },
+  { labelKey: "product.card.bedding", photo: "/images/category-product.jpg" },
 ];
 
+// ADOPT — 3종 분양 사진 (대형견, 소형견, 고양이) 실제 자산 입고.
 const ADOPT_SPECIES: Array<{ labelKey: string; photo: string }> = [
-  { labelKey: "adopt.species.large", photo: "https://images.unsplash.com/photo-1551717743-49959800b1f6?auto=format&fit=crop&w=900&q=70" },
-  { labelKey: "adopt.species.small", photo: "https://images.unsplash.com/photo-1583512603805-3cc6b41f3edb?auto=format&fit=crop&w=900&q=70" },
-  { labelKey: "adopt.species.cat", photo: "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&w=900&q=70" },
+  { labelKey: "adopt.species.large", photo: "/images/category-adopt-large.jpg" },
+  { labelKey: "adopt.species.small", photo: "/images/category-adopt-small.jpg" },
+  { labelKey: "adopt.species.cat", photo: "/images/category-adopt-cat.jpg" },
 ];
 
 export type CategoryDetail = {
@@ -95,7 +98,7 @@ export const CATEGORY_DETAILS: Record<string, CategoryDetail> = {
     visualSide: "right",
     visual: {
       type: "photo",
-      src: "https://images.unsplash.com/photo-1583511655826-05700d52f4d9?auto=format&fit=crop&w=1600&q=70",
+      src: "/images/category-location.jpg",
     },
     label: "HOSPITALITY",
     captionKey: "index.caption.location",
@@ -117,7 +120,7 @@ export const CATEGORY_DETAILS: Record<string, CategoryDetail> = {
     visualSide: "left",
     visual: {
       type: "photo",
-      src: "https://images.unsplash.com/photo-1576201836106-db1758fd1c97?auto=format&fit=crop&w=1600&q=70",
+      src: "/images/category-partners.jpg",
     },
     label: "FOOD",
     captionKey: "index.caption.partners",
@@ -159,7 +162,7 @@ export const CATEGORY_DETAILS: Record<string, CategoryDetail> = {
     visualSide: "right",
     visual: {
       type: "photo",
-      src: "https://images.unsplash.com/photo-1601758228041-f3b2795255f1?auto=format&fit=crop&w=1600&q=70",
+      src: "/images/category-beauty.jpg",
     },
     label: "BEAUTY & SPA",
     captionKey: "index.caption.beauty",
@@ -180,7 +183,7 @@ export const CATEGORY_DETAILS: Record<string, CategoryDetail> = {
     visualSide: "right",
     visual: {
       type: "photo",
-      src: "https://images.unsplash.com/photo-1494412651409-8963ce7935a7?auto=format&fit=crop&w=1600&q=70",
+      src: "/images/category-global.jpg",
     },
     label: "GLOBAL",
     captionKey: "global.caption",

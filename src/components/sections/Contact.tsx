@@ -13,7 +13,7 @@ export default function Contact() {
   const { t, ta } = useLang();
   const { ref, inView } = useInView<HTMLElement>(0.3);
   // Notion Assets "contact_bg" URL — 데스크탑 배경 사진 교체용.
-  const contactBgUrl = useAsset("contact_bg", "/images/contact-bg.jpg");
+  const contactBgUrl = useAsset("contact_bg", "/images/contact-bg-new.png");
   // Sub-stage 3.5.6 — 모바일 전용 탭 상태. 데스크탑은 지도 2개를 위아래로
   // 동시에 보여주므로 이 상태를 사용하지 않는다.
   const [activeTab, setActiveTab] = useState<ContactTab>("hq");

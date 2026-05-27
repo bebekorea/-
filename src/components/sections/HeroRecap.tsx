@@ -53,7 +53,7 @@ export default function HeroRecap({ isActive = true }: HeroRecapProps) {
       <video
         ref={videoRef}
         className="absolute inset-0 w-full h-full object-cover"
-        src="/videos/vis.mp4"
+        src="/videos/hero-main.mp4"
         autoPlay
         muted
         loop

@@ -148,13 +148,8 @@ const ko: Dict = {
   "footer.company.address": "충남 천안시 서북구 원두정8길 40 도정빌딩 1층",
   "footer.company.phone": "1577-3401",
   "footer.company.email": "bebepet0409@naver.com",
-  // 사업자 정보 — 운영 전 실제값으로 반드시 교체.
-  "footer.biz.ceo.label": "대표",
-  "footer.biz.ceo.value": "홍길동",
-  "footer.biz.regnum.label": "사업자등록번호",
-  "footer.biz.regnum.value": "000-00-00000",
-  "footer.biz.salesnum.label": "통신판매업신고번호",
-  "footer.biz.salesnum.value": "제0000-천안서북-0000호",
+  // 사업자 정보 키(대표/사업자등록번호/통신판매업신고번호)는 푸터에서 제거
+  // 됨 + 실제값 미정이라 i18n에서도 정리. 추후 실데이터 받으면 다시 추가.
 
   // ── Register Modal ─────────────────────────────────────────────
   "reg.title": "RESERVATION",
@@ -311,12 +306,8 @@ const en: Dict = {
   "footer.company.address": "1F Dojeong Bldg, 40 Wondujeong 8-gil, Seobuk-gu, Cheonan, Chungnam",
   "footer.company.phone": "1577-3401",
   "footer.company.email": "bebepet0409@naver.com",
-  "footer.biz.ceo.label": "CEO",
-  "footer.biz.ceo.value": "Hong Gildong",
-  "footer.biz.regnum.label": "Business Reg. No.",
-  "footer.biz.regnum.value": "000-00-00000",
-  "footer.biz.salesnum.label": "Mail-order Reg. No.",
-  "footer.biz.salesnum.value": "No. 0000-Cheonan-0000",
+  // 사업자 정보 키는 푸터에서 제거 + 실제값 미정이라 정리. 추후 실데이터
+  // 받으면 footer.biz.ceo / regnum / salesnum 다시 추가.
 
   // ── Register Modal ─────────────────────────────────────────────
   "reg.title": "RESERVATION",
