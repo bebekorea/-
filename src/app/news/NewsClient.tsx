@@ -58,7 +58,7 @@ const FALLBACK_BILINGUAL: BilingualArticle[] = [
     id: "fallback-3",
     date: "2026.03.28",
     ko: {
-      title: "베베펫, 분양·진료·미용 원스톱 시스템으로 차별화",
+      title: "베베펫, 입양·진료·미용 원스톱 시스템으로 차별화",
       source: "조선일보",
     },
     en: {
@@ -70,7 +70,7 @@ const FALLBACK_BILINGUAL: BilingualArticle[] = [
     id: "fallback-4",
     date: "2026.03.20",
     ko: {
-      title: "\"가족이 된 반려동물\"...베베펫의 책임 분양 철학",
+      title: "\"가족이 된 반려동물\"...베베펫의 책임 입양 철학",
       source: "동아일보",
     },
     en: {

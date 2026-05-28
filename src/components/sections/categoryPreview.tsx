@@ -51,7 +51,7 @@ const PRODUCT_CARDS: Array<{ labelKey: string; photo: string }> = [
   { labelKey: "product.card.bedding", photo: "/images/category-product.jpg" },
 ];
 
-// ADOPT — 3종 분양 사진 (대형견, 소형견, 고양이) 실제 자산 입고.
+// ADOPT — 3종 입양 사진 (대형견, 소형견, 고양이) 실제 자산 입고.
 const ADOPT_SPECIES: Array<{ labelKey: string; photo: string }> = [
   { labelKey: "adopt.species.large", photo: "/images/category-adopt-large.jpg" },
   { labelKey: "adopt.species.small", photo: "/images/category-adopt-small.jpg" },
@@ -83,14 +83,14 @@ export const CATEGORY_DETAILS: Record<string, CategoryDetail> = {
     },
     pointsByLang: {
       ko: [
-        { label: "수의사 전담 관리", body: "자체 동물병원 수의사가 입양 전 건강검진을 직접 진행합니다" },
-        { label: "투명한 건강 정보", body: "검진 결과와 예방접종 기록을 빠짐없이 투명하게 공개합니다" },
-        { label: "생애주기 의료 지원", body: "입양 후에도 평생 동안 전문 의료 서비스를 책임지고 제공합니다" },
+        { label: "라이프스타일 맞춤 상담", body: "보호자의 거주 환경과 일상을 종합적으로 고려하여 상담합니다" },
+        { label: "검증된 브리더 협력", body: "생명 존중 철학에 공감하는 올바른 환경의 브리더와만 안전하게 협력합니다" },
+        { label: "평생 안심 케어", body: "입양 후에도 평생 동안 전문 의료 서비스를 책임지고 제공합니다" },
       ],
       en: [
-        { label: "Dedicated vet care", body: "Our in-house vet runs a full pre-adoption health check on every animal" },
-        { label: "Transparent health records", body: "We share full checkup and vaccination history with every adopter" },
-        { label: "Lifelong medical support", body: "Professional veterinary care continues for life after adoption" },
+        { label: "Lifestyle-matched consultation", body: "We consult comprehensively, taking your living environment and daily routine into account" },
+        { label: "Verified breeder partnership", body: "We partner only with ethical breeders who share our respect for life" },
+        { label: "Lifelong peace-of-mind care", body: "Professional veterinary care continues for life after adoption" },
       ],
     },
   },
@@ -105,14 +105,14 @@ export const CATEGORY_DETAILS: Record<string, CategoryDetail> = {
     bodyKey: "index.body.location",
     pointsByLang: {
       ko: [
-        { label: "의료팀 구성 공개", body: "진료·간호·원무팀이 각자 역할을 명확히 분담하여 운영합니다" },
-        { label: "위생·소독 원칙", body: "쾌적한 환경을 위해 매일 정해진 시간에 매장 전체를 소독합니다" },
-        { label: "예방접종·전문 수술 라인업", body: "예방접종부터 전문 수술까지 전 의료 서비스를 갖추고 있습니다" },
+        { label: "전문 의료체계", body: "진료, 간호, 원무팀이 각자의 역할에 전문성을 더해 체계적으로 운영합니다" },
+        { label: "철저한 원내 청정 방역", body: "쾌적하고 안전한 치유 환경을 위해 매일 정해진 시간에 원내 전체를 소독합니다" },
+        { label: "종합 메디컬 솔루션", body: "필수 예방접종부터 난이도 높은 전문 수술까지 전방위 의료 서비스를 제공합니다" },
       ],
       en: [
-        { label: "Open medical team", body: "Clinical, nursing, and front-desk teams operate in clear divisions" },
-        { label: "Hygiene & sanitation", body: "The entire store is sanitized at scheduled times every single day" },
-        { label: "Vaccines & specialized surgery", body: "From vaccinations to advanced surgery, the full medical lineup is in place" },
+        { label: "Specialist medical system", body: "Clinical, nursing, and front-desk teams each bring specialized expertise to a systematically run practice" },
+        { label: "Thorough in-clinic sanitation", body: "For a clean, safe healing environment, the entire clinic is sanitized daily at set times" },
+        { label: "Comprehensive medical solutions", body: "From essential vaccinations to advanced specialist surgery — a full-spectrum medical service" },
       ],
     },
   },
@@ -130,14 +130,14 @@ export const CATEGORY_DETAILS: Record<string, CategoryDetail> = {
     // logoFlow: PARTNER_LOGOS,
     pointsByLang: {
       ko: [
-        { label: "전문가 소싱", body: "수의사가 성분을 분석한 해외 프리미엄 브랜드를 직접 들여옵니다" },
-        { label: "독점적 가치", body: "국내에서 구하기 힘든 고품질 처방식을 독점적으로 공급합니다" },
-        { label: "신선도와 안정성", body: "중간 유통을 생략하고 안전한 통관 절차로 신선하게 전달합니다" },
+        { label: "수의사 성분 분석 소싱", body: "영양학적 기준과 원료의 안전성을 계량적으로 분석하여 우수제품을 선별합니다" },
+        { label: "독점 공급 처방식 라인업", body: "시중에서 구하기 힘든 고품질 글로벌 처방식을 독점적으로 공급합니다" },
+        { label: "입맛에 맞춘 기호성 테스트", body: "사전 급여 테스트를 거쳐 거부감 없이 맛있게 먹을 수 있는 제품만 엄선합니다" },
       ],
       en: [
-        { label: "Expert sourcing", body: "We import premium overseas brands vetted by our in-house veterinarian" },
-        { label: "Exclusive access", body: "Rare prescription diets are supplied exclusively to BEBE PET customers" },
-        { label: "Freshness & safety", body: "Skipping middle distributors keeps food fresh through the safest route" },
+        { label: "Vet-analyzed ingredient sourcing", body: "Nutritional standards and ingredient safety are quantitatively analyzed to select only the best products" },
+        { label: "Exclusive prescription lineup", body: "Premium global prescription diets, hard to find in market, supplied exclusively" },
+        { label: "Palatability tested for real appetites", body: "Only products that pass our pre-feed taste testing — eaten happily, no hesitation — make the shelf" },
       ],
     },
   },
@@ -151,14 +151,14 @@ export const CATEGORY_DETAILS: Record<string, CategoryDetail> = {
     bodyKey: "index.body.product",
     pointsByLang: {
       ko: [
-        { label: "카테고리별 직수입 라벨", body: "케어부터 잠자리까지 6개 전 카테고리를 직접 수입해 갖춥니다" },
-        { label: "수의사 추천 마크", body: "모든 카테고리 용품을 수의사가 직접 확인하고 추천합니다" },
-        { label: "통관 및 검역 안전성", body: "까다로운 통관과 검역을 모두 통과한 안전한 용품만 엄선합니다" },
+        { label: "모든 일상을 위한 라인업", body: "케어, 외출, 휴식까지 반려생활에 필요한 모든 용품을 빠짐없이 한곳에 갖췄습니다" },
+        { label: "엄격한 안심 기준 적용", body: "건강을 최우선으로 하여, 까다로운 유해 물질 및 성분 기준을 통과한 제품만 엄선합니다" },
+        { label: "직접 사용해본 글로벌 직수입", body: "베베펫 수입팀이 직접 사용하고 검증한 해외 프리미엄 브랜드 제품만을 직수입하여 선보입니다" },
       ],
       en: [
-        { label: "Directly imported, by category", body: "We import all six categories directly, from care to bedding" },
-        { label: "Vet-approved mark", body: "Every item in every category is personally vetted by our veterinarian" },
-        { label: "Customs & quarantine safety", body: "Only goods cleared by strict customs and quarantine procedures are stocked" },
+        { label: "A lineup for every day", body: "From care to outings to rest, every supply your pet life needs — all gathered in one place" },
+        { label: "Strict peace-of-mind standards", body: "Pet health comes first; only products that pass strict harmful-substance and ingredient screens make the shelf" },
+        { label: "Tried-and-tested global imports", body: "We directly import only the premium overseas brands our import team has personally used and verified" },
       ],
     },
   },
@@ -174,12 +174,14 @@ export const CATEGORY_DETAILS: Record<string, CategoryDetail> = {
     // 예약하기 CTA 제거 — 사용자 요청. 액션은 contact 섹션의 통합 채널로.
     pointsByLang: {
       ko: [
-        { label: "전문 디자이너 케어", body: "견종·묘종 특성을 이해한 미용사가 스트레스 없는 케어를 제공합니다" },
-        { label: "의료·미용 협업", body: "미용 중 이상 발견 시 즉시 자체 의료진과 공유하여 대응합니다" },
+        { label: "전문 디자이너 케어", body: "아이들의 특성을 완벽히 이해한 미용사가 스트레스 없는 1:1 맞춤 미용을 제공합니다" },
+        { label: "의료·미용 협업 시스템", body: "미용 중 피부나 건강 이상 발견 시, 즉시 자체 의료진과 연계하여 신속하게 대응합니다" },
+        { label: "교차 오염 없는 안심 위생", body: "모든 도구의 철저한 멸균 소독 원칙을 준수하여 감염 위험을 차단합니다" },
       ],
       en: [
-        { label: "Specialist designer care", body: "Groomers trained per breed deliver low-stress grooming sessions" },
-        { label: "Medical · grooming bridge", body: "Anything spotted during grooming reaches our in-house vets at once" },
+        { label: "Specialist designer care", body: "Groomers who fully understand each pet's traits deliver stress-free, 1:1 tailored grooming" },
+        { label: "Medical · grooming system", body: "Any skin or health issue noticed during grooming is escalated to our in-house medical team at once" },
+        { label: "Cross-contamination-free hygiene", body: "Strict sterilization of every tool blocks infection risk" },
       ],
     },
   },

@@ -267,7 +267,7 @@ export default function Page() {
             중앙 로고 placeholder로 대체되면서 시각적 h1이 사라졌기 때문에,
             sr-only로 의미 단위 h1을 페이지에 1개 유지. 검색 봇 + 보조 기술
             사용자에게 페이지 주제를 명확히 전달. */}
-        <h1 className="sr-only">베베펫 — 반려동물 토탈 케어 (분양·병원·사료·미용·스파)</h1>
+        <h1 className="sr-only">베베펫 — 반려동물 토탈 케어 (입양·병원·사료·미용·스파)</h1>
         <ScrollHero
           isActive={activeSection === "hero"}
           onStageChange={setHeroStage}
@@ -343,7 +343,7 @@ export default function Page() {
         type="button"
         onClick={scrollTop}
         aria-label="맨 위로"
-        className="max-md:hidden fixed z-[60] md:bottom-[2vw] md:right-[2vw] md:w-[3vw] md:h-[3vw] rounded-full flex items-center justify-center backdrop-blur-sm shadow-lg"
+        className="max-md:hidden fixed z-[60] md:bottom-[1.8vw] md:right-[1.8vw] md:w-[2.2vw] md:h-[2.2vw] md:min-w-[34px] md:min-h-[34px] rounded-full flex items-center justify-center backdrop-blur-sm shadow-lg"
         style={(() => {
           // 모바일에서 contact는 흰 bg라 dark 톤이 아니므로 검정 버튼 + 흰
           // 화살표 (light 섹션 스타일). 데스크탑 contact는 다크 그대로.
@@ -362,8 +362,8 @@ export default function Page() {
         })()}
       >
         <svg
-          width="14"
-          height="14"
+          width="11"
+          height="11"
           viewBox="0 0 14 14"
           fill="none"
           aria-hidden="true"
@@ -371,7 +371,7 @@ export default function Page() {
           <path
             d="M7 12V2M7 2L2 7M7 2L12 7"
             stroke="currentColor"
-            strokeWidth="1.5"
+            strokeWidth="1.6"
             strokeLinecap="round"
             strokeLinejoin="round"
           />

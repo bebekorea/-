@@ -64,7 +64,7 @@ export default function PrivacyPolicyPage() {
           <Section number={2} title="개인정보의 수집 및 이용 목적">
             <ul className="list-disc pl-5 space-y-1.5 marker:text-black/40">
               <li>방문 예약 접수 및 상담 진행 안내</li>
-              <li>분양·진료·미용·스파 등 서비스 제공 관련 연락</li>
+              <li>입양·진료·미용·스파 등 서비스 제공 관련 연락</li>
               <li>고객 문의 및 불만 사항 처리</li>
               <li>서비스 운영을 위한 통계 자료 작성</li>
             </ul>

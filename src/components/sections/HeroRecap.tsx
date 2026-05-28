@@ -37,11 +37,16 @@ export default function HeroRecap({ isActive = true }: HeroRecapProps) {
   }, [isActive, inView]);
 
   const heroLines = ta("hero.lines");
+  // 메인 타이틀("평생 함께할 첫만남")을 상단으로, 3줄 서브카피를 그 아래로.
+  // 원래는 tagline이 하단이라 `mt-[2vw]`만으로도 sub-copy의 leading-2em
+  // half-leading(~7.5px)이 위쪽으로 가서 보이지 않았는데, 순서를 뒤집으면
+  // 그 half-leading이 tagline ↔ sub-copy 사이 gap에 추가되어 시각적으로
+  // 약 7-8px 더 벌어진다. 그만큼 margin을 줄여서 원래 인상을 맞춘다.
   const lines: { text: string; cls?: string; tag?: "p" | "tagline" }[] = [
-    { text: heroLines[0] ?? "" },
+    { text: t("hero.tagline"), tag: "tagline" },
+    { text: heroLines[0] ?? "", cls: "mt-3 md:mt-[1vw]" },
     { text: heroLines[1] ?? "", cls: "hidden md:block" },
     { text: heroLines[2] ?? "", cls: "hidden md:block" },
-    { text: t("hero.tagline"), tag: "tagline", cls: "mt-6 md:mt-[2vw]" },
   ];
 
   return (

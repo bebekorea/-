@@ -21,25 +21,21 @@ type Theme = "light" | "dark";
 //   베베펫 / 서비스 (dropdown) / 글로벌 / 공지사항 / 방문예약등록
 // REGISTER ('방문예약등록') is rendered separately as a button.
 //
-// Each item's fixed `width` is sized to the **Korean** label (with a small
-// breathing margin). English labels — which are longer for most items —
-// are allowed to overflow each box symmetrically (text-center +
-// whitespace-nowrap), so KOR mode reads as the canonical layout and ENG
-// mode just swaps text without reflowing the nav.
+// 각 항목은 자체 텍스트 폭으로 렌더(고정 vw 폭 사용 안 함). 좁은 viewport
+// 에서 고정 vw 박스가 텍스트보다 좁아져 인접 항목과 겹치던 이슈를 근본
+// 차단. 항목 사이 간격은 ul의 gap이 담당하며, 그 gap도 clamp로 좁은
+// viewport 하한을 px로 보호.
 type NavItem = {
   key: string;
   href: string;
-  width: string;
   type?: "dropdown";
 };
 
 const NAV_ITEMS: NavItem[] = [
-  { key: "nav.brand", href: "#hero", width: "3.6vw" },
-  // 서비스 width is bumped a touch to make room for the chevron icon
-  // next to the label without crowding the adjacent items.
-  { key: "nav.service", href: "#index", width: "4vw", type: "dropdown" },
-  { key: "nav.global", href: "#global", width: "3.2vw" },
-  { key: "nav.press", href: "/news", width: "4vw" },
+  { key: "nav.brand", href: "#hero" },
+  { key: "nav.service", href: "#index", type: "dropdown" },
+  { key: "nav.global", href: "#global" },
+  { key: "nav.press", href: "/news" },
 ];
 
 // Service dropdown — 5 sub-items, each routed to the matching in-page anchor.
@@ -54,13 +50,9 @@ const SERVICE_ITEMS: { key: string; href: string }[] = [
   { key: "nav.partners", href: "#partners" },
 ];
 
-const REGISTER_NAV_WIDTH = "6.4vw";
-
-// Total horizontal footprint of the Korean nav:
-//   3.6 + 4.0 + 3.2 + 4 + 6.4 = 21.2vw + 4 gaps × 2.0833vw ≈ 29.5vw
-// max 값을 함께 둬서 매우 좁은 데스크탑(1024px 이하)에서 nav가 좌우
-// 로고/언어토글과 겹치지 않도록 한다 (32vw → 380px max).
-const NAV_TOTAL_WIDTH_KO = "30vw";
+// Nav 전체 가로 footprint 상한 — 매우 큰 모니터에서 5개 항목이 과하게
+// 퍼지지 않도록. 좁은 viewport에서는 자연스럽게 줄어드는 gap + 자체 폭
+// 으로 fit, max는 큰 화면 보호용.
 const NAV_TOTAL_MAX_WIDTH = "560px";
 
 interface HeaderProps {
@@ -167,12 +159,16 @@ export default function Header({ theme, onOpenRegister, onMenuToggle, menuOpen, 
         <nav
           className="hidden md:block absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 pointer-events-auto"
           style={{
-            width: isKo ? "auto" : NAV_TOTAL_WIDTH_KO,
             maxWidth: NAV_TOTAL_MAX_WIDTH,
           }}
         >
+          {/* gap을 vw에서 clamp(px, vw, px)로 — 좁은 viewport에서 vw가
+              과도하게 줄어들면서 인접 라벨들이 거의 붙어 보이는 문제를
+              방지. 각 li는 고정 vw 폭 대신 텍스트 자체 폭을 쓰도록 변경
+              (좁은 viewport에서 vw 박스가 텍스트보다 좁아져 겹치던 이슈
+              근본 해결). */}
           <ul
-            className={`flex items-center ${isKo ? "gap-[2.0833vw]" : "justify-between"}`}
+            className={`flex items-center ${isKo ? "gap-[clamp(14px,2.0833vw,42px)]" : "gap-[clamp(12px,1.6vw,32px)]"}`}
           >
             {NAV_ITEMS.map((item) => {
               const isDropdown = item.type === "dropdown";
@@ -180,7 +176,6 @@ export default function Header({ theme, onOpenRegister, onMenuToggle, menuOpen, 
                 <li
                   key={item.key}
                   className="relative flex justify-center overflow-visible shrink-0"
-                  style={{ width: isKo ? item.width : "auto" }}
                   onMouseEnter={isDropdown ? openService : undefined}
                   onMouseLeave={isDropdown ? closeService : undefined}
                 >
@@ -300,10 +295,7 @@ export default function Header({ theme, onOpenRegister, onMenuToggle, menuOpen, 
                 </li>
               );
             })}
-            <li
-              className="flex justify-center overflow-visible shrink-0"
-              style={{ width: isKo ? REGISTER_NAV_WIDTH : "auto" }}
-            >
+            <li className="flex justify-center overflow-visible shrink-0">
               <button
                 type="button"
                 onClick={onOpenRegister}

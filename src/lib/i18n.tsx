@@ -31,7 +31,7 @@ const ko: Dict = {
   "intro.typing": "당신의 반려가족을 위한 모든 것, 베베펫입니다.",
   "hero.lines": [
     "베베펫에서 시작되는 평생의 동행",
-    "건강한 분양부터 의료, 사료, 미용까지",
+    "건강한 입양부터 의료, 사료, 미용까지",
     "당신의 반려가족을 위한 모든 것",
   ],
   "hero.tagline": "평생 함께할 첫만남",
@@ -43,7 +43,7 @@ const ko: Dict = {
   "assets.label": "베베펫 6대 자산",
   "assets.medical.title": "의료자산",
   "assets.medical.summary": [
-    "단순한 분양을 넘어",
+    "단순한 입양을 넘어",
     "생명을 책임지는",
     "전문성을 상징합니다.",
   ],
@@ -61,9 +61,9 @@ const ko: Dict = {
   ],
   "assets.system.title": "시스템 자산",
   "assets.system.summary": [
-    "개인이 아닌, 각 분야의",
-    "전문가가 포진된 기업형",
-    "매니징을 지향합니다",
+    "각 분야의 전문가가",
+    "포진된 기업형 매니징을",
+    "지향합니다",
   ],
   "assets.trust.title": "신뢰 자산",
   "assets.trust.summary": [
@@ -89,16 +89,16 @@ const ko: Dict = {
 
   // ── Category index (#index) ───────────────────────────────────
   "index.cta": "베베펫이 제공하는 서비스를 확인해보세요.",
-  "index.caption.adopt": "건강한 첫만남",
-  "index.caption.location": "24시간 신뢰",
-  "index.caption.partners": "엄선된 영양",
-  "index.caption.product": "일상의 도구",
-  "index.caption.beauty": "교감의 시간",
-  "index.body.adopt": "전문 수의 검진을 거친 건강한 친구들과 평생을 함께할 책임 있는 분양.",
-  "index.body.location": "전문 수의의 정기 진료부터 24시간 응급 케어까지, 신뢰의 의료 서비스.",
-  "index.body.partners": "프리미엄 사료부터 정성 가득 간식까지, 베베펫이 엄선한 안심의 영양.",
-  "index.body.product": "케어, 외출, 휴식의 매 순간을 채우는 신중하게 고른 일상의 도구들.",
-  "index.body.beauty": "그루밍, 스파, 워시. 부드러운 손길 아래 깊어지는 교감의 시간.",
+  "index.caption.adopt": "완벽한 반려 라이프의 시작",
+  "index.caption.location": "365일 · 24시간 안심 의료",
+  "index.caption.partners": "엄선된 영양 케어",
+  "index.caption.product": "건강한 일상을 위한 용품",
+  "index.caption.beauty": "전문 미용·스파",
+  "index.body.adopt": "전문 수의사 검진을 거친 건강한 가족을 안겨드리는 안심 입양",
+  "index.body.location": "정기 진료부터 24시간 응급 상황까지 믿을 수 있는 의료 서비스",
+  "index.body.partners": "프리미엄 사료부터 정성 가득한 간식까지, 깐깐하게 고른 푸드 셀렉션",
+  "index.body.product": "매 순간을 안전하고 풍요롭게 채워줄 프리미엄 제품",
+  "index.body.beauty": "견종과 묘종의 특성에 맞춘 안전하고 섬세한 전문 메디컬 케어",
 
   // ── Adopt species cards (인덱스 ADOPT 프리뷰의 3분할 카드 라벨) ─
   "adopt.species.large": "대형견",
@@ -248,16 +248,16 @@ const en: Dict = {
 
   // ── Category index ─────────────────────────────────────────────
   "index.cta": "Explore the services BEBE PET provides.",
-  "index.caption.adopt": "A healthy first meeting",
-  "index.caption.location": "Trust around the clock",
-  "index.caption.partners": "Hand-picked nutrition",
-  "index.caption.product": "Tools for everyday",
-  "index.caption.beauty": "Time for tenderness",
-  "index.body.adopt": "Healthy companions vetted for a lifelong partnership.",
-  "index.body.location": "Routine care to 24/7 emergencies, trusted always.",
-  "index.body.partners": "Premium food and curated treats, hand-picked daily.",
-  "index.body.product": "Carefully chosen essentials for everyday care and rest.",
-  "index.body.beauty": "Grooming, spa, wash. Quiet bonding under gentle hands.",
+  "index.caption.adopt": "Where your perfect pet life begins",
+  "index.caption.location": "Trusted medical care, 24/7 · 365",
+  "index.caption.partners": "Curated nutrition care",
+  "index.caption.product": "Supplies for healthy everyday life",
+  "index.caption.beauty": "Professional grooming · spa",
+  "index.body.adopt": "Healthy family members vetted by our veterinarians, brought home with peace of mind",
+  "index.body.location": "From routine checkups to 24-hour emergencies — medical service you can trust",
+  "index.body.partners": "From premium kibble to thoughtfully made treats — a meticulously curated food selection",
+  "index.body.product": "Premium products that fill every moment, safely and abundantly",
+  "index.body.beauty": "Safe, refined medical-grade care tailored to each breed",
 
   // ── Adopt species cards ────────────────────────────────────────
   "adopt.species.large": "Large dogs",

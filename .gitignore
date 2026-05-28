@@ -44,3 +44,6 @@ next-env.d.ts
 
 # large media originals (exceed GitHub 100MB single-file limit)
 /public/videos/*-original.mp4
+
+# playwright-mcp browser session artifacts (console logs, page snapshots)
+/.playwright-mcp/

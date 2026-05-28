@@ -112,6 +112,9 @@ export default function ScrollHero({ isActive = true, onStageChange, resetTick }
   // "보이는지 여부"를 분리해서 단계별로 토글한다.
   const [displayedDetail, setDisplayedDetail] = useState<number | null>(null);
   const [detailVisible, setDetailVisible] = useState(false);
+  // Stage 3 조직도 펼침/접힘. 기본은 펼침. 우측 강아지 영상의 얼굴을
+  // 보고 싶을 때 사용자가 접을 수 있도록 토글 버튼을 라벨 옆에 둔다.
+  const [orgChartOpen, setOrgChartOpen] = useState(true);
   // Stage 2 텍스트(상단 카피 + 6장 카드) 노출 게이트. stage가 2로 바뀐
   // 직후엔 영상 프레임이 아직 좌측을 덮고 있어서 텍스트가 영상 위에
   // 미리 떠 보이는 현상이 생긴다. 프레임 morph가 충분히 진행된 뒤에
@@ -731,7 +734,7 @@ export default function ScrollHero({ isActive = true, onStageChange, resetTick }
         );
       })()}
 
-      {/* ── Hero 우측 하단 — 스크롤 인디케이터만 (텍스트 카피는 제거됨) ─ */}
+      {/* ── Hero 우측 하단 — 스크롤 인디케이터 ─ */}
       <div className="absolute inset-0 z-30 flex flex-col items-end justify-end text-right text-white pointer-events-none px-5 pb-10 md:px-[5vw] md:pb-[10vh]">
         {/* Minimal scroll indicator — thin vertical track + a soft highlight
             looping top→bottom. Visible only on stage 1; fades with the rest
@@ -1048,19 +1051,86 @@ export default function ScrollHero({ isActive = true, onStageChange, resetTick }
                 {/* 조직도 — Notion Assets "org_chart" URL이 있으면 그 이미지,
                     없으면 placeholder OrgNode 묶음을 노출. */}
                 <div
-                  className="w-full max-w-[44vw] mt-[4vh]"
+                  className="w-full max-w-[37vw] mt-[7vh]"
                   style={fadeStyle(2)}
                 >
-                  <p className="text-[clamp(11px,0.7292vw,13px)] tracking-[0.18em] uppercase text-white/65 font-medium mb-[0.6vw]">
-                    {t("stage3.orgChart.title")}
-                  </p>
+                  {/* 라벨 + 토글 — 라벨 우측에 작은 ± 버튼을 두고, 클릭하면
+                      차트가 부드럽게 접히거나 펼쳐진다. 기본은 펼침. */}
+                  <button
+                    type="button"
+                    onClick={() => setOrgChartOpen((o) => !o)}
+                    aria-expanded={orgChartOpen}
+                    aria-label={orgChartOpen ? "조직도 접기" : "조직도 펼치기"}
+                    className="flex items-center gap-[0.5vw] mb-[0.6vw] group"
+                    style={{ background: "transparent", border: "none", padding: 0, cursor: "pointer" }}
+                  >
+                    <span className="text-[clamp(11px,0.7292vw,13px)] tracking-[0.18em] uppercase text-white/65 group-hover:text-white/90 font-medium transition-colors">
+                      {t("stage3.orgChart.title")}
+                    </span>
+                    {/* 세모 화살표 — 동그라미 보더 없이 세모만. 펼침
+                        상태에선 위(▲, 접을 수 있음), 접힘 상태에선
+                        아래(▼, 펼칠 수 있음). transform rotate로 회전 전환. */}
+                    <svg
+                      aria-hidden="true"
+                      width="0.6vw"
+                      height="0.6vw"
+                      viewBox="0 0 10 10"
+                      fill="currentColor"
+                      className="text-white/70 group-hover:text-white/95 transition-colors"
+                      style={{
+                        minWidth: "8px",
+                        minHeight: "8px",
+                        transform: orgChartOpen ? "rotate(0deg)" : "rotate(180deg)",
+                        transition: "transform 240ms ease, color 200ms ease",
+                      }}
+                    >
+                      <path d="M5 2L9 8H1Z" />
+                    </svg>
+                  </button>
+
+                  {/* 차트 컨테이너 — orgChartOpen에 따라 max-height + opacity
+                      애니메이션. max-height는 차트 실측보다 넉넉히 잡고
+                      overflow: hidden으로 자연스러운 접힘 효과. */}
+                  <div
+                    style={{
+                      maxHeight: orgChartOpen ? "60vh" : "0px",
+                      opacity: orgChartOpen ? 1 : 0,
+                      overflow: "hidden",
+                      transition: `max-height 420ms ${INTRO_EASE}, opacity 260ms ${EASE}`,
+                    }}
+                  >
                   {orgChartUrl ? (
-                    // eslint-disable-next-line @next/next/no-img-element
-                    <img
-                      src={orgChartUrl}
-                      alt={t("stage3.orgChart.title")}
-                      className="w-full h-auto"
-                    />
+                    // 조직도 이미지 — 원본은 흰 배경 + 검은 텍스트 PNG.
+                    // 배경 패널을 깔면 강아지 얼굴이 가려지므로, CSS만으로
+                    // 색상을 반전시켜 영상 위에 흰 텍스트로 띄운다.
+                    //   1) filter: invert(1) — 검은 텍스트/박스 → 흰색,
+                    //      흰 배경 → 검은색
+                    //   2) mix-blend-mode: screen — invert 후 생긴 검은
+                    //      배경은 screen 모드에서 투명으로 처리되고, 흰
+                    //      텍스트/박스만 영상 위로 밝게 떠오른다.
+                    // 결과: 배경 패널 없이 강아지 얼굴이 그대로 보이고
+                    // 조직도는 흰색 라인 아트처럼 노출. 추가로 차트 영역
+                    // 뒤에 옅은 어두운 dim을 깔아 흰 텍스트 가독성을 끌어
+                    // 올리되, 강아지 얼굴이 비치는 톤은 유지한다.
+                    <div
+                      className="relative w-full"
+                      style={{
+                        background: "rgba(0,0,0,0.22)",
+                        borderRadius: "2px",
+                        padding: "0.8vw",
+                      }}
+                    >
+                      {/* eslint-disable-next-line @next/next/no-img-element */}
+                      <img
+                        src={orgChartUrl}
+                        alt={t("stage3.orgChart.title")}
+                        className="w-full h-auto block"
+                        style={{
+                          filter: "invert(1)",
+                          mixBlendMode: "screen",
+                        }}
+                      />
+                    </div>
                   ) : (
                     <div
                       className="relative w-full"
@@ -1091,9 +1161,28 @@ export default function ScrollHero({ isActive = true, onStageChange, resetTick }
                       </div>
                     </div>
                   )}
+                  </div>
                 </div>
               </div>
             </>
+          );
+        })()}
+
+        {/* AI 영상 디스클레이머 — stage 3 우하단. 영상이 컨셉 참고용
+            AI 제작물임을 미세 안내. 영상 위에 얹히므로 흰색 반투명,
+            select-none + pointer-events 비활성으로 인터랙션 비방해. */}
+        {(() => {
+          const visible = phase === "done" && stage === 3;
+          return (
+            <p
+              className="absolute right-5 md:right-[2vw] bottom-3 md:bottom-[1.2vw] text-[0.625rem] md:text-[clamp(10px,0.6771vw,12px)] tracking-[-0.01em] text-white/55 pointer-events-none select-none"
+              style={{
+                opacity: visible ? 1 : 0,
+                transition: `opacity ${STAGE_TRANS}ms ${EASE} ${5 * STAGGER_MS}ms`,
+              }}
+            >
+              본 영상은 이해를 돕기 위해 AI로 제작된 참고 영상입니다.
+            </p>
           );
         })()}
       </div>
