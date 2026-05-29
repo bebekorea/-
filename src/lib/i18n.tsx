@@ -171,6 +171,8 @@ const ko: Dict = {
   "news.search.placeholder": "검색어 입력",
   "news.empty": "공지사항이 없습니다.",
   "news.crumb.home": "HOME",
+  "news.back": "목록으로",
+  "news.source.link": "원문 보기",
 };
 
 const en: Dict = {
@@ -329,6 +331,8 @@ const en: Dict = {
   "news.search.placeholder": "Search keyword",
   "news.empty": "No notices.",
   "news.crumb.home": "HOME",
+  "news.back": "Back to list",
+  "news.source.link": "View source",
 };
 
 const dictionaries: Record<Lang, Dict> = { ko, en };

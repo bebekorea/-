@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
+import Link from "next/link";
 import { useRouter } from "next/navigation";
 import Header from "@/components/Header";
 import MobileMenu from "@/components/MobileMenu";
@@ -116,8 +117,11 @@ export default function NewsClient({ articles }: { articles: Article[] }) {
   const { t, lang } = useLang();
 
   // Notion이 비었거나 미설정이면 — 내장 fallback을 현재 언어로 변환.
+  // fromNotion=true일 때만 실제 Notion 글이라 상세페이지(/news/[id])가 존재.
+  // fallback 글은 상세 본문이 없으므로 외부 링크(href)만 사용.
+  const fromNotion = articles.length > 0;
   const resolved: Article[] =
-    articles.length > 0
+    fromNotion
       ? articles
       : FALLBACK_BILINGUAL.map((b) => ({
           id: b.id,
@@ -242,14 +246,29 @@ export default function NewsClient({ articles }: { articles: Article[] }) {
                   className="border-b border-black/10 py-4 md:py-[1.1vw] grid grid-cols-[1fr_72px_96px] md:grid-cols-[1fr_6vw_10vw] gap-3 md:gap-[1.6vw] items-center"
                   style={fadeUp(2 + i)}
                 >
-                  <a
-                    href={a.href ?? "#"}
-                    target={a.href ? "_blank" : undefined}
-                    rel={a.href ? "noopener noreferrer" : undefined}
-                    className="text-[0.8125rem] md:text-[clamp(12px,0.8125vw,14px)] tracking-[-0.04em] text-black hover:text-black/60 leading-[1.5] truncate"
-                  >
-                    {a.title}
-                  </a>
+                  {fromNotion ? (
+                    // 실제 Notion 글 — 내부 상세페이지로 이동
+                    <Link
+                      href={`/news/${a.id}`}
+                      className="text-[0.8125rem] md:text-[clamp(12px,0.8125vw,14px)] tracking-[-0.04em] text-black hover:text-black/60 leading-[1.5] truncate"
+                    >
+                      {a.title}
+                    </Link>
+                  ) : a.href ? (
+                    // fallback 글에 외부 링크가 있으면 새 탭으로
+                    <a
+                      href={a.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-[0.8125rem] md:text-[clamp(12px,0.8125vw,14px)] tracking-[-0.04em] text-black hover:text-black/60 leading-[1.5] truncate"
+                    >
+                      {a.title}
+                    </a>
+                  ) : (
+                    <span className="text-[0.8125rem] md:text-[clamp(12px,0.8125vw,14px)] tracking-[-0.04em] text-black leading-[1.5] truncate">
+                      {a.title}
+                    </span>
+                  )}
                   <time
                     dateTime={a.date.replaceAll(".", "-")}
                     className="text-[0.6875rem] md:text-[clamp(10px,0.65vw,12px)] tracking-[0.04em] text-black/55 tabular-nums whitespace-nowrap text-right"

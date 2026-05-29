@@ -20,7 +20,12 @@
  * 셋업 단계는 .env.local.example 주석 참조.
  */
 
-import { Client, isFullPage } from "@notionhq/client";
+import { Client, isFullPage, isFullBlock } from "@notionhq/client";
+import type {
+  PageObjectResponse,
+  BlockObjectResponse,
+  RichTextItemResponse,
+} from "@notionhq/client/build/src/api-endpoints";
 
 const NOTION_TOKEN = process.env.NOTION_TOKEN;
 const NOTION_NEWS_DB_ID = process.env.NOTION_NEWS_DB_ID;
@@ -39,6 +44,44 @@ function getClient(): Client | null {
   if (!NOTION_TOKEN) return null;
   if (!cachedClient) cachedClient = new Client({ auth: NOTION_TOKEN });
   return cachedClient;
+}
+
+/**
+ * Notion 페이지(공지 1건)의 속성을 NewsArticle로 변환.
+ * 목록(fetchNewsArticles)과 상세(fetchArticleDetail)에서 공용으로 사용.
+ * 필수 필드(Title/Date) 누락 시 null.
+ */
+function parsePageToArticle(page: PageObjectResponse): NewsArticle | null {
+  const props = page.properties;
+
+  const titleProp = props.Title;
+  const title =
+    titleProp?.type === "title"
+      ? titleProp.title.map((t) => t.plain_text).join("")
+      : "";
+
+  const dateProp = props.Date;
+  let date = "";
+  if (dateProp?.type === "date" && dateProp.date?.start) {
+    const d = new Date(dateProp.date.start);
+    const y = d.getFullYear();
+    const m = String(d.getMonth() + 1).padStart(2, "0");
+    const day = String(d.getDate()).padStart(2, "0");
+    date = `${y}.${m}.${day}`;
+  }
+
+  const sourceProp = props.Source;
+  const source =
+    sourceProp?.type === "rich_text"
+      ? sourceProp.rich_text.map((t) => t.plain_text).join("")
+      : "";
+
+  const urlProp = props.URL;
+  const href =
+    urlProp?.type === "url" && urlProp.url ? urlProp.url : undefined;
+
+  if (!title || !date) return null;
+  return { id: page.id, date, title, source, href };
 }
 
 /**
@@ -79,51 +122,159 @@ export async function fetchNewsArticles(): Promise<NewsArticle[] | null> {
     const articles: NewsArticle[] = [];
     for (const page of res.results) {
       if (!isFullPage(page)) continue;
-      const props = page.properties;
-
-      // Title (title 타입) — 첫 번째 text 조각의 plain_text
-      const titleProp = props.Title;
-      const title =
-        titleProp?.type === "title"
-          ? titleProp.title.map((t) => t.plain_text).join("")
-          : "";
-
-      // Date (date 타입) — start 사용, YYYY.MM.DD 포맷
-      const dateProp = props.Date;
-      let date = "";
-      if (dateProp?.type === "date" && dateProp.date?.start) {
-        const d = new Date(dateProp.date.start);
-        const y = d.getFullYear();
-        const m = String(d.getMonth() + 1).padStart(2, "0");
-        const day = String(d.getDate()).padStart(2, "0");
-        date = `${y}.${m}.${day}`;
-      }
-
-      // Source (rich_text)
-      const sourceProp = props.Source;
-      const source =
-        sourceProp?.type === "rich_text"
-          ? sourceProp.rich_text.map((t) => t.plain_text).join("")
-          : "";
-
-      // URL (url, optional)
-      const urlProp = props.URL;
-      const href =
-        urlProp?.type === "url" && urlProp.url ? urlProp.url : undefined;
-
-      if (!title || !date) continue; // 필수 필드 누락 시 스킵
-      articles.push({
-        id: page.id,
-        date,
-        title,
-        source,
-        href,
-      });
+      const article = parsePageToArticle(page);
+      if (article) articles.push(article); // 필수 필드 누락 시 null → 스킵
     }
 
     return articles;
   } catch (err) {
     console.error("[notion] fetchNewsArticles failed:", err);
+    return null;
+  }
+}
+
+/* ────────────────────────────────────────────────────────────────────
+ * 공지 상세 — /news/[id]. Notion DB의 각 행은 페이지이므로, 그 페이지 본문
+ * (블록)을 가져와 상세 화면에 렌더링한다. 운영자는 Notion에서 공지 행을 열고
+ * 본문에 글/사진/목록 등을 자유롭게 작성하면 됨.
+ * ──────────────────────────────────────────────────────────────────── */
+
+/** 텍스트 조각 + 서식. Notion rich_text를 단순화한 형태. */
+export type RichText = {
+  text: string;
+  bold?: boolean;
+  italic?: boolean;
+  underline?: boolean;
+  strikethrough?: boolean;
+  code?: boolean;
+  href?: string;
+};
+
+/** 렌더러가 다루는 블록 종류. 미지원 블록은 normalizeBlock에서 null 처리. */
+export type ArticleBlock =
+  | { type: "paragraph"; rich: RichText[] }
+  | { type: "heading_1"; rich: RichText[] }
+  | { type: "heading_2"; rich: RichText[] }
+  | { type: "heading_3"; rich: RichText[] }
+  | { type: "bulleted_list_item"; rich: RichText[] }
+  | { type: "numbered_list_item"; rich: RichText[] }
+  | { type: "quote"; rich: RichText[] }
+  | { type: "callout"; rich: RichText[] }
+  | { type: "code"; rich: RichText[]; language: string }
+  | { type: "divider" }
+  | { type: "image"; url: string; caption: string };
+
+export type ArticleDetail = {
+  article: NewsArticle;
+  blocks: ArticleBlock[];
+};
+
+function toRich(arr: RichTextItemResponse[]): RichText[] {
+  return arr.map((t) => ({
+    text: t.plain_text,
+    bold: t.annotations.bold || undefined,
+    italic: t.annotations.italic || undefined,
+    underline: t.annotations.underline || undefined,
+    strikethrough: t.annotations.strikethrough || undefined,
+    code: t.annotations.code || undefined,
+    href: t.href ?? undefined,
+  }));
+}
+
+function normalizeBlock(block: BlockObjectResponse): ArticleBlock | null {
+  switch (block.type) {
+    case "paragraph":
+      return { type: "paragraph", rich: toRich(block.paragraph.rich_text) };
+    case "heading_1":
+      return { type: "heading_1", rich: toRich(block.heading_1.rich_text) };
+    case "heading_2":
+      return { type: "heading_2", rich: toRich(block.heading_2.rich_text) };
+    case "heading_3":
+      return { type: "heading_3", rich: toRich(block.heading_3.rich_text) };
+    case "bulleted_list_item":
+      return {
+        type: "bulleted_list_item",
+        rich: toRich(block.bulleted_list_item.rich_text),
+      };
+    case "numbered_list_item":
+      return {
+        type: "numbered_list_item",
+        rich: toRich(block.numbered_list_item.rich_text),
+      };
+    case "quote":
+      return { type: "quote", rich: toRich(block.quote.rich_text) };
+    case "callout":
+      return { type: "callout", rich: toRich(block.callout.rich_text) };
+    case "code":
+      return {
+        type: "code",
+        rich: toRich(block.code.rich_text),
+        language: block.code.language,
+      };
+    case "divider":
+      return { type: "divider" };
+    case "image": {
+      const img = block.image;
+      const url = img.type === "external" ? img.external.url : img.file.url;
+      const caption = img.caption.map((c) => c.plain_text).join("");
+      return { type: "image", url, caption };
+    }
+    default:
+      return null; // 미지원 블록(테이블/임베드 등)은 스킵
+  }
+}
+
+/**
+ * 공지 1건의 메타(NewsArticle) + 본문 블록을 반환.
+ * 반환 null 조건:
+ *   - 환경변수 미설정
+ *   - 페이지를 못 찾음 / 권한 없음
+ *   - 해당 페이지가 공지사항 DB 소속이 아님 (임의 페이지 ID 접근 차단)
+ *   - 필수 필드(Title/Date) 누락
+ */
+export async function fetchArticleDetail(
+  id: string
+): Promise<ArticleDetail | null> {
+  const notion = getClient();
+  if (!notion || !NOTION_NEWS_DB_ID) return null;
+
+  try {
+    const page = await notion.pages.retrieve({ page_id: id });
+    if (!isFullPage(page)) return null;
+
+    // 이 페이지가 공지사항 DB 소속인지 확인 — 다른 페이지 ID로 임의 접근 차단.
+    const parent = page.parent;
+    const norm = (s: string) => s.replace(/-/g, "");
+    if (
+      parent.type !== "database_id" ||
+      norm(parent.database_id) !== norm(NOTION_NEWS_DB_ID)
+    ) {
+      return null;
+    }
+
+    const article = parsePageToArticle(page);
+    if (!article) return null;
+
+    // 본문 블록 — 페이지네이션 처리(최대 100개씩).
+    const blocks: ArticleBlock[] = [];
+    let cursor: string | undefined = undefined;
+    do {
+      const resp = await notion.blocks.children.list({
+        block_id: id,
+        start_cursor: cursor,
+        page_size: 100,
+      });
+      for (const b of resp.results) {
+        if (!isFullBlock(b)) continue;
+        const nb = normalizeBlock(b);
+        if (nb) blocks.push(nb);
+      }
+      cursor = resp.has_more ? resp.next_cursor ?? undefined : undefined;
+    } while (cursor);
+
+    return { article, blocks };
+  } catch (err) {
+    console.error("[notion] fetchArticleDetail failed:", err);
     return null;
   }
 }
