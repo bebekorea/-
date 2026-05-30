@@ -115,7 +115,7 @@ const ko: Dict = {
   "product.card.bedding": "침구·매트",
 
   // ── Beauty CTA ─────────────────────────────────────────────────
-  "beauty.cta.book": "예약하기",
+  "category.cta.reserve": "예약하기",
 
   // ── Global 섹션 (미용 다음의 B2B/파트너십 섹션) ──
   "global.caption": "글로벌 소싱 파트너",
@@ -276,7 +276,7 @@ const en: Dict = {
   "product.card.bedding": "Bedding",
 
   // ── Beauty CTA ─────────────────────────────────────────────────
-  "beauty.cta.book": "Book Now",
+  "category.cta.reserve": "Book Now",
 
   // ── Global section (B2B / partnership) ──
   "global.caption": "Global sourcing partner",

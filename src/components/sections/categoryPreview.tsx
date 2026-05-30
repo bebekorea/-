@@ -103,6 +103,12 @@ export const CATEGORY_DETAILS: Record<string, CategoryDetail> = {
     label: "HOSPITALITY",
     captionKey: "index.caption.location",
     bodyKey: "index.body.location",
+    // 예약하기 CTA — RegisterModal 오픈. 입양 파트(인스타 link CTA)와 같은
+    // 버튼 위치/스타일 구조. 2026-05-30 클라이언트 요청으로 추가.
+    cta: {
+      kind: "register",
+      textKey: "category.cta.reserve",
+    },
     pointsByLang: {
       ko: [
         { label: "전문 의료체계", body: "진료, 간호, 원무팀이 각자의 역할에 전문성을 더해 체계적으로 운영합니다" },
@@ -171,7 +177,12 @@ export const CATEGORY_DETAILS: Record<string, CategoryDetail> = {
     label: "BEAUTY & SPA",
     captionKey: "index.caption.beauty",
     bodyKey: "index.body.beauty",
-    // 예약하기 CTA 제거 — 사용자 요청. 액션은 contact 섹션의 통합 채널로.
+    // 예약하기 CTA — RegisterModal 오픈. 입양 파트(인스타 link CTA)와 같은
+    // 버튼 위치/스타일 구조. 2026-05-30 클라이언트 요청으로 재추가.
+    cta: {
+      kind: "register",
+      textKey: "category.cta.reserve",
+    },
     pointsByLang: {
       ko: [
         { label: "전문 디자이너 케어", body: "아이들의 특성을 완벽히 이해한 미용사가 스트레스 없는 1:1 맞춤 미용을 제공합니다" },

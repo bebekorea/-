@@ -86,11 +86,11 @@ export default function AssetsMobile() {
           return (
             <SwiperSlide key={card.titleKey}>
               {/* Toss 스타일 카드 — 외곽 mx-2로 양옆 8px 간격, 내부 따뜻한
-                  크림 베이지(#faf5ec) + rounded-3xl로 한 장의 카드처럼.
-                  회색 톤(#f7f8fa)은 차갑게 느껴져 펫 케어 브랜드 따뜻한 무드와
-                  안 맞아 바꿈. h-full로 가장 긴 슬라이드 높이 통일. */}
+                  베이지(#ECEAE0) + rounded-3xl로 한 장의 카드처럼. 회색 톤
+                  (#f7f8fa)은 차갑게 느껴져 펫 케어 브랜드 따뜻한 무드와 안 맞아
+                  살짝 누른 베이지로 통일. h-full로 가장 긴 슬라이드 높이 통일. */}
               <div className="px-2 h-full">
-              <div className="bg-[#faf5ec] rounded-3xl px-6 pt-6 pb-7 h-full">
+              <div className="bg-[#ECEAE0] rounded-3xl px-6 pt-6 pb-7 h-full">
                 {/* 번호 + 영문 라벨을 한 줄로 인라인 — 별도 줄로 나누면 카드
                     상단이 비대해진다. 챕터 마커처럼 컴팩트하게. */}
                 <p className="text-[0.75rem] tracking-[0.18em] uppercase text-black/65 font-medium mb-2">
