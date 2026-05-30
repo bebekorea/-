@@ -70,7 +70,10 @@ const BANNER_HEIGHT = "28vh";
 // and top edges — the box appears to grow leftward + upward to fill,
 // keeping the right + bottom corners glued in place.
 const PANEL_W_VW = 22;
-const PANEL_H_VH = 80;
+// Stage 2/3 영상 패널 높이. narrow viewport(viewport 높이가 폭과 비슷한
+// 비율)에선 80vh가 시각적으로 영상이 화면을 압도하는 인상을 줘서 75로
+// 살짝 축소. wide viewport(16:9 이상)에선 5vh 차이가 거의 인지되지 않음.
+const PANEL_H_VH = 75;
 
 // Sub-pixel anti-shimmer overscan. During the morph, width/left/top get
 // interpolated to non-integer pixel values; combined with the video's
