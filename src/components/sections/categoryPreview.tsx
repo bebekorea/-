@@ -141,9 +141,9 @@ export const CATEGORY_DETAILS: Record<string, CategoryDetail> = {
         { label: "입맛에 맞춘 기호성 테스트", body: "사전 급여 테스트를 거쳐 거부감 없이 맛있게 먹을 수 있는 제품만 엄선합니다" },
       ],
       en: [
-        { label: "Vet-analyzed ingredient sourcing", body: "Nutritional standards and ingredient safety are quantitatively analyzed to select only the best products" },
+        { label: "Vet-analyzed ingredient sourcing", body: "Nutritional standards and ingredient safety are quantitatively analyzed to select only the best pet foods" },
         { label: "Exclusive prescription lineup", body: "Premium global prescription diets, hard to find in market, supplied exclusively" },
-        { label: "Palatability tested for real appetites", body: "Only products that pass our pre-feed taste testing — eaten happily, no hesitation — make the shelf" },
+        { label: "Palatability tested for real appetites", body: "Only pet foods that pass our pre-feed taste testing — eaten happily, no hesitation — make the shelf" },
       ],
     },
   },

@@ -257,7 +257,7 @@ const en: Dict = {
   "index.caption.beauty": "Professional grooming · spa",
   "index.body.adopt": "Healthy family members vetted by our veterinarians, brought home with peace of mind",
   "index.body.location": "From routine checkups to 24-hour emergencies — medical service you can trust",
-  "index.body.partners": "From premium kibble to thoughtfully made treats — a meticulously curated food selection",
+  "index.body.partners": "From premium kibble to thoughtfully made treats — a meticulously curated pet food selection",
   "index.body.product": "Premium products that fill every moment, safely and abundantly",
   "index.body.beauty": "Safe, refined medical-grade care tailored to each breed",
 
