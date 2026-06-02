@@ -138,6 +138,7 @@ function CategoryMobileVerticalCard({ categoryId }: CategoryMobileVerticalCardPr
   return (
     <article
       ref={ref}
+      id={`m-${categoryId}`}
       className="px-6 pt-10 pb-16"
       aria-label={`${props.label} 카테고리`}
     >

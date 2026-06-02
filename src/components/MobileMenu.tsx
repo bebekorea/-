@@ -13,16 +13,21 @@ const TOP_NAV: { key: string; href: string }[] = [
   { key: "nav.brand", href: "#hero" },
 ];
 
+// 모바일 메뉴의 서비스/글로벌 항목은 모바일 viewport에서 보이는 실제
+// 카테고리 article(CategoriesMobile.tsx의 각 article id=`m-${categoryId}`)
+// 으로 라우팅. 데스크탑 CategorySection(id=adopt/location/...)은 모바일
+// 에서 max-md:hidden(display:none)이라 offsetTop=0 → 그 ID로 scroll하면
+// 페이지 최상단으로 튀는 버그 있었음. `m-` 프리픽스로 모바일 전용 타겟.
 const SERVICE_ITEMS: { key: string; href: string }[] = [
-  { key: "nav.adopt", href: "#adopt" },
-  { key: "nav.location", href: "#location" },
-  { key: "nav.product", href: "#product" },
-  { key: "nav.beauty", href: "#beauty" },
-  { key: "nav.partners", href: "#partners" },
+  { key: "nav.adopt", href: "#m-adopt" },
+  { key: "nav.location", href: "#m-location" },
+  { key: "nav.product", href: "#m-product" },
+  { key: "nav.beauty", href: "#m-beauty" },
+  { key: "nav.partners", href: "#m-partners" },
 ];
 
 const BOTTOM_NAV: { key: string; href: string }[] = [
-  { key: "nav.global", href: "#global" },
+  { key: "nav.global", href: "#m-global" },
   { key: "nav.press", href: "/news" },
 ];
 
