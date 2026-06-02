@@ -128,7 +128,7 @@ export const CATEGORY_DETAILS: Record<string, CategoryDetail> = {
       type: "photo",
       src: "/images/category-partners.jpg",
     },
-    label: "FOOD",
+    label: "PET FOOD",
     captionKey: "index.caption.partners",
     bodyKey: "index.body.partners",
     // logoFlow 임시 제거 — 실제 파트너 로고 자산 입고 후 재추가 예정.

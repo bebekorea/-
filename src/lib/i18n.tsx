@@ -182,7 +182,7 @@ const en: Dict = {
   "nav.global": "GLOBAL",
   "nav.adopt": "ADOPT",
   "nav.location": "HOSPITALITY",
-  "nav.partners": "FOOD",
+  "nav.partners": "PET FOOD",
   "nav.product": "PRODUCT",
   "nav.beauty": "BEAUTY & SPA",
   "nav.press": "NOTICE",
