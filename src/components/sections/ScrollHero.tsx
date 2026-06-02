@@ -609,7 +609,7 @@ export default function ScrollHero({ isActive = true, onStageChange, resetTick }
           transition: `opacity ${skipped ? 0 : PHASE_MS.fadeOut}ms ${INTRO_EASE}`,
         }}
       >
-        <span className="text-black text-[1.125rem] md:text-[clamp(20px,1.6667vw,28px)] leading-[1.5] tracking-[-0.025em] font-light">
+        <span className="text-black text-[1.125rem] md:text-[clamp(20px,1.6667vw,28px)] leading-[1.5] tracking-[-0.025em] font-light whitespace-pre-line">
           {introTypingText.slice(0, typedChars)}
           {(phase === "line" || phase === "copy") && (
             <span
