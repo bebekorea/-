@@ -1199,7 +1199,13 @@ export default function ScrollHero({ isActive = true, onStageChange, resetTick }
           line, which also fades in place rather than dropping. While
           `skipped` is true the transition collapses to 0ms so a Skip
           click vanishes synchronously with the typing line and the
-          frame snap. */}
+          frame snap.
+
+          모바일에선 typing text가 2-3줄로 wrap되면서 line-height(27px) ×
+          줄수만큼 viewport 중앙 아래로 내려옴. Skip을 center+28px에 두면
+          2줄 wrap 시 text bottom(center+27px)과 사실상 겹쳐 보임. 충분한
+          간격(center+80px)을 확보해 2줄/3줄 wrap 모두 깔끔하게 분리.
+          Desktop은 typing text가 한 줄로 들어와 기존 2.6vw 간격으로 충분. */}
       {(() => {
         const skipReady = phase === "line" || phase === "copy";
         const exitMs = skipped ? 0 : PHASE_MS.fadeOut;
@@ -1212,7 +1218,7 @@ export default function ScrollHero({ isActive = true, onStageChange, resetTick }
             type="button"
             onClick={skipIntro}
             aria-label="Skip intro"
-            className="absolute z-40 left-1/2 flex items-center gap-1.5 md:gap-[0.4vw] text-black hover:opacity-70 top-[calc(50%+28px)] md:top-[calc(50%+2.6vw)]"
+            className="absolute z-40 left-1/2 flex items-center gap-1.5 md:gap-[0.4vw] text-black hover:opacity-70 top-[calc(50%+80px)] md:top-[calc(50%+2.6vw)]"
             style={{
               transform: `translate(calc(-50% + 14.5vw), ${yOffset})`,
               opacity: skipReady ? 1 : 0,
