@@ -838,14 +838,21 @@ export default function ScrollHero({ isActive = true, onStageChange, resetTick }
                     hover 콘텐츠(~280-310px)보다 작아서 overflow가 발생. narrow
                     에선 카드가 3×2 그리드라 두 줄 모두 덮어야 깔끔 → min-h
                     440px + bg-white + z-10으로 overflow 영역이 두 줄 카드를
-                    모두 덮음. wide(xl+)에선 inset-0으로 parent 380px 안에 fit. */}
+                    모두 덮음. wide(xl+)에선 inset-0으로 parent 380px 안에 fit.
+
+                    ⚠️ pointer-events: none 고정 — 이게 auto면 hover detail이
+                    카드 위에 z-10으로 떠 있어서 마우스가 hover detail로
+                    "건너뛰는" 효과 발생. 그러면 grid container의 onMouseLeave가
+                    발화 → hoveredCard null → detail 사라짐 → 마우스 다시 카드
+                    → hover 재시작 → 커서 무한 깜빡임 버그. 패널은 정보 표시
+                    용도라 클릭 인터랙션 필요 없음. */}
                 <div
                   className="absolute left-0 right-0 top-0 min-h-[440px] xl:bottom-0 xl:min-h-0 bg-white z-10"
                   style={{
                     opacity: detailVisible ? 1 : 0,
                     transform: detailVisible ? "translateY(0)" : "translateY(8px)",
                     transition: `opacity 260ms ${INTRO_EASE}, transform 320ms ${INTRO_EASE}`,
-                    pointerEvents: detailVisible ? "auto" : "none",
+                    pointerEvents: "none",
                   }}
                 >
                   {detail && (
