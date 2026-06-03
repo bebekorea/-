@@ -834,8 +834,13 @@ export default function ScrollHero({ isActive = true, onStageChange, resetTick }
                     fade-out → 컨텐츠 교체 → fade-in 단계에서 토글하므로,
                     카드 01 → 02 전환 시에도 자연스러운 스르륵 인터랙션이
                     이어진다. */}
+                {/* Hover detail panel — narrow(< xl)에선 parent minHeight(100px)이
+                    hover 콘텐츠(~280-310px)보다 작아서 overflow가 발생. narrow
+                    에선 카드가 3×2 그리드라 두 줄 모두 덮어야 깔끔 → min-h
+                    440px + bg-white + z-10으로 overflow 영역이 두 줄 카드를
+                    모두 덮음. wide(xl+)에선 inset-0으로 parent 380px 안에 fit. */}
                 <div
-                  className="absolute inset-0"
+                  className="absolute left-0 right-0 top-0 min-h-[440px] xl:bottom-0 xl:min-h-0 bg-white z-10"
                   style={{
                     opacity: detailVisible ? 1 : 0,
                     transform: detailVisible ? "translateY(0)" : "translateY(8px)",
