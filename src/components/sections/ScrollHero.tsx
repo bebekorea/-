@@ -901,7 +901,7 @@ export default function ScrollHero({ isActive = true, onStageChange, resetTick }
                   // -ml-[0.9vw]로 그리드 전체를 좌측으로 살짝 이동 — 카드 안
                   // 좌측 padding(0.9vw)을 상쇄해 첫 카드의 "01"이 위 라벨
                   // ("BEBE PET'S 6 BRAND ASSETS")의 시작 X와 정렬되도록.
-                  className="grid grid-cols-3 md:grid-cols-6 md:-ml-[0.9vw]"
+                  className="grid grid-cols-3 md:grid-cols-3 xl:grid-cols-6 md:-ml-[0.9vw] max-xl:gap-y-[2.5vw]"
                   onMouseLeave={() => setHoveredCard(null)}
                 >
                   {ASSET_CARDS.map((card, i) => {
@@ -927,7 +927,11 @@ export default function ScrollHero({ isActive = true, onStageChange, resetTick }
                           cursor: "pointer",
                           position: "relative",
                         }}
-                        className="flex flex-col"
+                        // narrow desktop(< xl)에선 3-col × 2-row 레이아웃이라 2번째 줄
+                        // 시작 카드(i=3)는 좌측 모서리에 위치 → 좌측 보더 불필요. xl
+                        // 이상(6-col 1-row)에선 이 override가 해제되어 inline borderLeft가
+                        // 그대로 적용된다 (i=0만 none, 나머지는 divider).
+                        className={`flex flex-col ${i === 3 ? "max-xl:!border-l-0" : ""}`}
                       >
                         {/* 번호만 — 액센트 바(_/하이픈 모양) 제거 */}
                         <div className="mb-2 md:mb-[0.7vw]">
@@ -1035,7 +1039,7 @@ export default function ScrollHero({ isActive = true, onStageChange, resetTick }
             <>
               {/* TRUST 라벨 + 태그라인 + 조직도 — 모두 좌측 컬럼에
                   세로로 쌓이는 단일 뭉치. 우측 영역은 영상 그대로 노출. */}
-              <div className="relative flex-1 flex flex-col justify-start max-w-[44vw]">
+              <div className="relative flex-1 flex flex-col justify-start max-w-[44vw] max-xl:max-w-[58vw]">
                 <p
                   className="text-[clamp(13px,0.9375vw,16px)] tracking-[0.22em] uppercase text-white/70 font-medium mb-[1vw]"
                   style={fadeStyle(0)}
@@ -1054,7 +1058,7 @@ export default function ScrollHero({ isActive = true, onStageChange, resetTick }
                 {/* 조직도 — Notion Assets "org_chart" URL이 있으면 그 이미지,
                     없으면 placeholder OrgNode 묶음을 노출. */}
                 <div
-                  className="w-full max-w-[37vw] mt-[7vh]"
+                  className="w-full max-w-[37vw] mt-[7vh] max-xl:max-w-[55vw]"
                   style={fadeStyle(2)}
                 >
                   {/* 라벨 + 토글 — 라벨 우측에 작은 ± 버튼을 두고, 클릭하면
