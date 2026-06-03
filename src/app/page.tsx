@@ -129,6 +129,63 @@ export default function Page() {
     };
   }, []);
 
+  // Resize re-snap — viewport 변경 시 fp-container scrollTop을 현재 활성
+  // 섹션 boundary로 다시 정렬한다. 각 fp-section이 100vh 기반이라 viewport
+  // 높이가 바뀌면 scrollHeight도 변하는데, 현재 scrollTop이 새 섹션 경계와
+  // 어긋나서 "섹션이 겹쳐 보이거나" "두 섹션 사이에 끼인" 인상이 발생한다.
+  // 리사이즈 시작 시점의 활성 섹션을 기억해두고, 그 섹션의 새 offsetTop으로
+  // 부드럽게 재정렬. 디바운스 120ms.
+  // (단순 "가장 가까운 섹션"은 큰 폭 resize에서 다른 섹션으로 잘못 점프하는
+  // 경우가 있어 활성 섹션 ID 기반으로 변경.)
+  useEffect(() => {
+    const container = containerRef.current;
+    if (!container) return;
+    let timer: ReturnType<typeof setTimeout> | null = null;
+    let snappedActiveId: string | null = null;
+    const reSnap = () => {
+      if (!snappedActiveId) return;
+      if (window.matchMedia("(max-width: 767px)").matches) return;
+      const target = container.querySelector<HTMLElement>(`#${snappedActiveId}`);
+      if (!target) return;
+      const cTop = container.scrollTop;
+      if (Math.abs(target.offsetTop - cTop) < 4) return;
+      animateScrollTo(container, target.offsetTop, 300);
+    };
+    const onResize = () => {
+      // 첫 resize 이벤트 때만 현재 활성 섹션을 캡처(연속 resize 중에는 유지)
+      if (!snappedActiveId) {
+        // setActiveSection의 클로저 값보다 latest DOM 상태에서 직접 판정 —
+        // 활성 추적 useEffect와 동일 로직(섹션 mid가 viewport mid에 가장 가까운 것)
+        const sections = topLevelSections(container);
+        const containerRect = container.getBoundingClientRect();
+        const midpoint = containerRect.top + containerRect.height / 2;
+        let closestId = sections[0]?.id ?? "hero";
+        let closestDist = Infinity;
+        sections.forEach((s) => {
+          const r = s.getBoundingClientRect();
+          const mid = (r.top + r.bottom) / 2;
+          const dist = Math.abs(mid - midpoint);
+          if (dist < closestDist) {
+            closestDist = dist;
+            closestId = s.id;
+          }
+        });
+        snappedActiveId = closestId;
+      }
+      if (timer) clearTimeout(timer);
+      // 디바운스 — resize 진행 중엔 매번 jump하지 않고, 멈춘 직후 한 번만
+      timer = setTimeout(() => {
+        reSnap();
+        snappedActiveId = null;
+      }, 150);
+    };
+    window.addEventListener("resize", onResize);
+    return () => {
+      window.removeEventListener("resize", onResize);
+      if (timer) clearTimeout(timer);
+    };
+  }, []);
+
   // Wheel/touch jump between sections (ScrollHero handles its own internal stages)
   useEffect(() => {
     const container = containerRef.current;
