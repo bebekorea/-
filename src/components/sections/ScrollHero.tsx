@@ -799,10 +799,15 @@ export default function ScrollHero({ isActive = true, onStageChange, resetTick }
                      카드 hover 시 같은 자리에 해당 자산의 상세 패널이
                      크로스페이드로 들어온다. 두 블록을 absolute로 겹쳐
                      opacity로만 전환 — 레이아웃 점프 없음. ── */}
-              {/* ⚠️ minHeight: "min(22vw, 380px)" — wide(1920+)에서 카드 위치
-                  사용자 확정값. 380px cap이 wide에서의 적정 hover detail 공간
-                  + 카드 위치 균형점. 절대 변경 금지 (2026-06-03 사용자 확정). */}
-              <div className="relative max-w-[58vw]" style={{ color: "#000", minHeight: "min(22vw, 380px)" }}>
+              {/* ⚠️ Wide(1280px+): minHeight 380px — 카드 위치 사용자 확정값,
+                  절대 변경 금지 (2026-06-03 사용자 확정).
+                  Narrow(<1280px): 22vw도 카드 fit엔 큼. 100px로 cap해서 카드
+                  공간 확보. 헤드라인 default 콘텐츠(~78px) fit + hover detail
+                  overflow는 narrow에선 어차피 22vw도 부족해서 동일 UX. */}
+              <div
+                className="relative max-w-[58vw] min-h-[100px] xl:min-h-[min(22vw,380px)]"
+                style={{ color: "#000" }}
+              >
                 {/* 기본: 베베펫코리아 */}
                 <div
                   style={{
