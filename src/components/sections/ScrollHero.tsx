@@ -769,7 +769,7 @@ export default function ScrollHero({ isActive = true, onStageChange, resetTick }
           카드 리스트로 별도 재구성될 예정. 데스크탑(md 이상)에서는 기존
           stage 2 컴포지션(6장 가로 카드 + 호버 디테일) 그대로 유지. */}
       <div
-        className="absolute z-20 hidden md:flex flex-col gap-10 md:gap-[3vh] px-5 md:pl-[11.1111vw] pt-10 md:pt-[5vh] pb-16 md:pb-[10vh]"
+        className="absolute z-20 hidden md:flex flex-col gap-10 md:gap-[3vh] px-5 md:pl-[11.1111vw] pt-10 md:pt-0 pb-16 md:pb-[10vh]"
         style={{
           top: `${100 - PANEL_H_VH}vh`,
           left: 0,
