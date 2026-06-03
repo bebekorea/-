@@ -799,7 +799,7 @@ export default function ScrollHero({ isActive = true, onStageChange, resetTick }
                      카드 hover 시 같은 자리에 해당 자산의 상세 패널이
                      크로스페이드로 들어온다. 두 블록을 absolute로 겹쳐
                      opacity로만 전환 — 레이아웃 점프 없음. ── */}
-              <div className="relative max-w-[58vw]" style={{ color: "#000", minHeight: "min(22vw, 300px)" }}>
+              <div className="relative max-w-[58vw]" style={{ color: "#000", minHeight: "min(22vw, 380px)" }}>
                 {/* 기본: 베베펫코리아 */}
                 <div
                   style={{
