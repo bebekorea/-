@@ -769,7 +769,7 @@ export default function ScrollHero({ isActive = true, onStageChange, resetTick }
           카드 리스트로 별도 재구성될 예정. 데스크탑(md 이상)에서는 기존
           stage 2 컴포지션(6장 가로 카드 + 호버 디테일) 그대로 유지. */}
       <div
-        className="absolute z-20 hidden md:flex flex-col gap-10 md:gap-[3vh] px-5 md:pl-[11.1111vw] pt-10 md:pt-0 xl:pt-[5vh] pb-16 md:pb-[10vh]"
+        className="absolute z-20 hidden md:flex flex-col gap-10 md:gap-[3vh] px-5 md:pl-[11.1111vw] pt-10 md:pt-[5vh] pb-16 md:pb-[10vh]"
         style={{
           top: `${100 - PANEL_H_VH}vh`,
           left: 0,
@@ -890,7 +890,7 @@ export default function ScrollHero({ isActive = true, onStageChange, resetTick }
                   → 그리드 폭 ≤ ~66vw. 영상까지 시각적 여유 약 3vw를 두려고
                   64vw로 고정 — 카드 6개가 영상 박스를 침범하지 않는다.
                   mt-[4vh]로 상단 태그라인 블록과의 간격을 살짝 띄움. */}
-              <div className="max-w-[64vw] md:mt-[8vh] xl:mt-[3vh]" style={{ color: "#000" }}>
+              <div className="max-w-[64vw] md:mt-[3vh]" style={{ color: "#000" }}>
                 <p
                   className="text-[0.9375rem] md:text-[clamp(12px,0.8333vw,15px)] tracking-[0.18em] uppercase text-black/70 mb-4 md:mb-[1.2vw] font-medium"
                   style={lineStyle(2)}
