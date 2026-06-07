@@ -96,7 +96,7 @@ export default function AssetsMobile() {
                 <p className="text-[0.75rem] tracking-[0.18em] uppercase text-black/65 font-medium mb-2">
                   <span style={{ color: "#3aa676" }}>{String(i + 1).padStart(2, "0")}</span>
                   <span className="mx-2 text-black/30">·</span>
-                  <span>{detail?.name.en ?? ""}</span>
+                  <span style={{ color: "#3aa676" }}>{detail?.name.en ?? ""}</span>
                 </p>
 
                 {/* 한글 자산 제목 */}
