@@ -103,7 +103,7 @@ export default function Contact() {
 
       {/* 모바일 — VISIT 헤더(4섹션 공통 2계층) + 탭 + 지도 + dl.
           배경 사진 + 다크 overlay 제거 → 흰 bg로 다른 모바일 섹션과 동일한 톤. */}
-      <div className="md:hidden relative pt-20 pb-10 min-h-[100dvh] bg-white">
+      <div className="md:hidden relative pt-20 pb-10 min-h-[100dvh] bg-[#f5f5f5]">
         <div
           className="relative z-10 px-5 text-black"
           style={{

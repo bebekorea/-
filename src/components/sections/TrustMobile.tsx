@@ -36,7 +36,7 @@ export default function TrustMobile() {
     <section
       ref={ref}
       id="trust"
-      className="md:hidden bg-white text-black pt-20 pb-10 px-6"
+      className="md:hidden bg-[#f5f5f5] text-black pt-20 pb-10 px-6"
     >
       {/* Toss 스타일 헤더 — 라벨 "신뢰" + 큰 헤드라인(2줄 tagline). */}
       <header className="mb-10">

@@ -93,10 +93,11 @@ export default function CategoriesMobile({
 
       {/* 카드 6장 — 세로로 쌓아 사용자가 스크롤하며 차례로 읽음 */}
       <div className="flex flex-col">
-        {CATEGORY_ORDER.map((categoryId) => (
+        {CATEGORY_ORDER.map((categoryId, i) => (
           <CategoryMobileVerticalCard
             key={categoryId}
             categoryId={categoryId}
+            index={i}
           />
         ))}
       </div>
@@ -108,9 +109,10 @@ export default function CategoriesMobile({
 
 interface CategoryMobileVerticalCardProps {
   categoryId: string;
+  index: number;
 }
 
-function CategoryMobileVerticalCard({ categoryId }: CategoryMobileVerticalCardProps) {
+function CategoryMobileVerticalCard({ categoryId, index }: CategoryMobileVerticalCardProps) {
   const { t, lang } = useLang();
   const assetMap = useAssetMap();
   const { ref, inView } = useInView<HTMLElement>(0.18);
@@ -147,7 +149,9 @@ function CategoryMobileVerticalCard({ categoryId }: CategoryMobileVerticalCardPr
         className="text-[0.6875rem] tracking-[0.3em] uppercase font-semibold text-[#3aa676] mb-4"
         style={fadeUp(0)}
       >
-        {props.label}
+        <span>{String(index + 1).padStart(2, "0")}</span>
+        <span className="mx-2 text-black/30">·</span>
+        <span>{props.label}</span>
       </p>
 
       {/* ── 2. 메인카피 — 헤드라인 ── */}

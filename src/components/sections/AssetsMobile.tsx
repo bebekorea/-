@@ -41,7 +41,7 @@ export default function AssetsMobile() {
     <section
       ref={ref}
       id="assets"
-      className="md:hidden bg-white text-black pt-20 pb-6"
+      className="md:hidden bg-white text-black pt-20 pb-16"
     >
       {/* Toss 스타일 헤더 — 작은 한글 라벨(브랜드 그린) + 큰 굵은 한글 헤드라인.
           이전 영문 ASSET eyebrow를 한글 라벨 "자산"으로 대체, 본문이 진짜
