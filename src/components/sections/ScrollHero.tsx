@@ -619,7 +619,7 @@ export default function ScrollHero({ isActive = true, onStageChange, resetTick }
           transition: `opacity ${skipped ? 0 : PHASE_MS.fadeOut}ms ${INTRO_EASE}`,
         }}
       >
-        <span className="text-black text-[1.125rem] md:text-[clamp(20px,1.6667vw,28px)] leading-[1.5] tracking-[-0.025em] font-light whitespace-pre-line md:whitespace-normal">
+        <span className="text-black text-[clamp(14px,4.6vw,22px)] md:text-[clamp(20px,1.6667vw,28px)] leading-[1.5] tracking-[-0.025em] font-light whitespace-nowrap md:whitespace-normal">
           {introTypingText.slice(0, typedChars)}
           {(phase === "line" || phase === "copy") && (
             <span
@@ -1253,11 +1253,12 @@ export default function ScrollHero({ isActive = true, onStageChange, resetTick }
           click vanishes synchronously with the typing line and the
           frame snap.
 
-          모바일에선 typing text가 2-3줄로 wrap되면서 line-height(27px) ×
-          줄수만큼 viewport 중앙 아래로 내려옴. Skip을 center+28px에 두면
-          2줄 wrap 시 text bottom(center+27px)과 사실상 겹쳐 보임. 충분한
-          간격(center+80px)을 확보해 2줄/3줄 wrap 모두 깔끔하게 분리.
-          Desktop은 typing text가 한 줄로 들어와 기존 2.6vw 간격으로 충분. */}
+          모바일도 이제 typing text가 한 줄(whitespace-nowrap)로 들어오므로,
+          Skip을 그 한 줄의 우하단에 붙인다. 세로는 center+24px(한 줄 bottom
+          바로 아래), 가로는 문장 우측 끝 쪽(center+30vw)으로 민다. 가로
+          오프셋은 mobile/desktop이 달라 CSS 변수(--skip-x)로 분기 —
+          inline transform이 translateY(boot 8px)도 같이 물고 있어 class
+          translate-x와 합칠 수 없기 때문. Desktop은 기존 14.5vw 유지. */}
       {(() => {
         const skipReady = phase === "line" || phase === "copy";
         const exitMs = skipped ? 0 : PHASE_MS.fadeOut;
@@ -1270,9 +1271,9 @@ export default function ScrollHero({ isActive = true, onStageChange, resetTick }
             type="button"
             onClick={skipIntro}
             aria-label="Skip intro"
-            className="absolute z-40 left-1/2 flex items-center gap-1.5 md:gap-[0.4vw] text-black hover:opacity-70 top-[calc(50%+80px)] md:top-[calc(50%+2.6vw)]"
+            className="absolute z-40 left-1/2 flex items-center gap-1.5 md:gap-[0.4vw] text-black hover:opacity-70 top-[calc(50%+24px)] md:top-[calc(50%+2.6vw)] [--skip-x:calc(-50%+30vw)] md:[--skip-x:calc(-50%+14.5vw)]"
             style={{
-              transform: `translate(calc(-50% + 14.5vw), ${yOffset})`,
+              transform: `translate(var(--skip-x), ${yOffset})`,
               opacity: skipReady ? 1 : 0,
               pointerEvents: skipReady ? "auto" : "none",
               transition: `opacity ${exitMs}ms ${INTRO_EASE}, transform ${exitMs}ms ${INTRO_EASE}`,
