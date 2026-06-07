@@ -17,9 +17,10 @@ import { ASSET_CARDS, ASSET_DETAILS } from "@/lib/assets";
  *   full     → band expands vertically to fill the viewport, line fades
  *
  * Stages (wheel-driven):
- *   1 — full-screen vis.mp4 + hero body copy
- *   2 — narrow right panel of brand.mp4 + brand copy on the left
- *   3 — full-width brand.mp4 (panel expands to cover left)
+ *   1 — full-screen hero-main.mp4 + hero body copy
+ *   2 — narrow right panel of hero-cheonan.mp4 (천안) + brand copy on the left
+ *   3 — full-width hero-sub.mp4 (panel expands to cover left; video crossfades
+ *       from 천안 → hero-sub during the morph)
  */
 
 interface ScrollHeroProps {
@@ -87,6 +88,9 @@ export default function ScrollHero({ isActive = true, onStageChange, resetTick }
   const sectionRef = useRef<HTMLElement>(null);
   const visRef = useRef<HTMLVideoElement>(null);
   const brandRef = useRef<HTMLVideoElement>(null);
+  // Stage 2 전용 영상(천안). brandRef(hero-sub)는 stage 3 전용으로 분리되어,
+  // stage 2→3 morph 동안 이 영상이 fade out / brandRef가 fade in 하며 교차한다.
+  const cheonanRef = useRef<HTMLVideoElement>(null);
   const [phase, setPhase] = useState<Phase>("boot");
   const [stage, setStage] = useState<1 | 2 | 3>(1);
   const [typedChars, setTypedChars] = useState(0);
@@ -160,6 +164,7 @@ export default function ScrollHero({ isActive = true, onStageChange, resetTick }
   useEffect(() => {
     visRef.current?.play().catch(() => {});
     brandRef.current?.play().catch(() => {});
+    cheonanRef.current?.play().catch(() => {});
   }, []);
 
   // Pause / resume the videos as the hero section enters and leaves
@@ -170,9 +175,11 @@ export default function ScrollHero({ isActive = true, onStageChange, resetTick }
     if (isActive) {
       visRef.current?.play().catch(() => {});
       brandRef.current?.play().catch(() => {});
+      cheonanRef.current?.play().catch(() => {});
     } else {
       visRef.current?.pause();
       brandRef.current?.pause();
+      cheonanRef.current?.pause();
     }
   }, [isActive]);
 
@@ -589,7 +596,10 @@ export default function ScrollHero({ isActive = true, onStageChange, resetTick }
   const videoFadeMs = skipped ? 0 : STAGE_TRANS;
 
   const showVis = stage <= 1;
-  const showBrand = stage >= 2;
+  // Stage 2 = 천안 영상 전용, Stage 3 = 기존 hero-sub(brand) 영상 전용.
+  // 둘은 stage 2↔3 frame morph 동안 opacity로 교차된다.
+  const showCheonan = stage === 2;
+  const showBrand = stage >= 3;
 
   return (
     <section
@@ -652,6 +662,24 @@ export default function ScrollHero({ isActive = true, onStageChange, resetTick }
             backfaceVisibility: "hidden",
           }}
           src="/videos/hero-main.mp4"
+          autoPlay
+          muted
+          loop
+          playsInline
+          preload="auto"
+        />
+        <video
+          ref={cheonanRef}
+          className="absolute inset-0 w-full h-full object-cover"
+          style={{
+            opacity: showCheonan && showVideo && isActive ? 1 : 0,
+            transition: `opacity ${videoFadeMs}ms ${EASE}`,
+            transform: "translateZ(0) scale(1.01)",
+            transformOrigin: "center center",
+            willChange: "opacity, transform",
+            backfaceVisibility: "hidden",
+          }}
+          src="/videos/hero-cheonan.mp4"
           autoPlay
           muted
           loop
