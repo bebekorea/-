@@ -19,7 +19,7 @@ const notoSerifKr = Noto_Serif_KR({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://bebepet.vercel.app"),
+  metadataBase: new URL("https://www.bebepetkorea.co.kr"),
   title: "BEBE PET KOREA | 반려동물 토탈 케어 — 입양·병원·사료·미용",
   description:
     "베베펫은 평생 함께할 첫만남부터 입양·병원·사료·미용·스파까지, 반려동물 토탈 케어를 제공합니다. 충청남도 천안 본점에서 만나보세요.",
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     title: "BEBE PET KOREA | 반려동물 토탈 케어",
     description:
       "베베펫은 평생 함께할 첫만남부터 입양·병원·사료·미용·스파까지, 반려동물 토탈 케어를 제공합니다.",
-    url: "https://bebepet.vercel.app",
+    url: "https://www.bebepetkorea.co.kr",
     siteName: "BEBE PET KOREA",
     images: [
       {

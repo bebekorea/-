@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 
-const SITE_URL = "https://bebepet.vercel.app";
+const SITE_URL = "https://www.bebepetkorea.co.kr";
 
 /**
  * Next.js App Router의 동적 sitemap.xml 생성.
