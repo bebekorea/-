@@ -177,10 +177,12 @@ export const CATEGORY_DETAILS: Record<string, CategoryDetail> = {
     label: "BEAUTY & SPA",
     captionKey: "index.caption.beauty",
     bodyKey: "index.body.beauty",
-    // 예약하기 CTA — RegisterModal 오픈. 입양 파트(인스타 link CTA)와 같은
-    // 버튼 위치/스타일 구조. 2026-05-30 클라이언트 요청으로 재추가.
+    // 미용 예약 CTA — 인스타그램(@bebe_beauty__) DM 예약으로 연결.
+    // 2026-07-02 클라이언트 요청으로 RegisterModal → 인스타 link CTA로 변경.
+    // (병원 location CTA는 기존 register 모달 그대로 유지.)
     cta: {
-      kind: "register",
+      kind: "link",
+      href: "https://www.instagram.com/bebe_beauty__/",
       textKey: "category.cta.reserve",
     },
     pointsByLang: {
