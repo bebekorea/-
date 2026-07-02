@@ -649,14 +649,29 @@ export default function ScrollHero({ isActive = true, onStageChange, resetTick }
       >
         <video
           ref={visRef}
-          className="absolute inset-0 w-full h-full object-cover"
+          className="absolute object-cover"
           style={{
+            // Stage 1 video is pinned to the FULL-SCREEN frame size (viewport +
+            // overscan) and centered — NOT sized to the animating frame. So the
+            // object-cover crop is computed once and stays fixed while the frame
+            // morphs open (banner 28vh → full 100vh); the frame's overflow:hidden
+            // just reveals more of this stationary video, like a curtain.
+            // Why: with `h-full` the video re-covered the frame every animation
+            // tick. For portrait-ish clips (aspect < viewport) that overflow
+            // vertically, the centering offset rounded to a different sub-pixel
+            // each tick → the video visibly shook up/down during the vertical
+            // unfold ("위아래로 떨림"), then settled once height stopped animating.
+            // Pinning the size removes the per-tick recompute → no jitter, and
+            // the final full-screen appearance is pixel-identical to before.
+            width: `calc(100vw + ${OS}px)`,
+            height: `calc(100vh + ${OS}px)`,
+            left: "50%",
+            top: "50%",
             opacity: showVis && showVideo && isActive ? 1 : 0,
             transition: `opacity ${videoFadeMs}ms ${EASE}`,
-            // scale(1.01) over-fills the frame by ~0.5% on every side so the
-            // object-cover crop line falls outside the visible box, hiding
-            // the sub-pixel shimmer that surfaces during morph interpolation.
-            transform: "translateZ(0) scale(1.01)",
+            // scale(1.01) over-fills by ~0.5% on every side so the object-cover
+            // crop line falls just outside the visible box.
+            transform: "translate(-50%, -50%) translateZ(0) scale(1.01)",
             transformOrigin: "center center",
             willChange: "opacity, transform",
             backfaceVisibility: "hidden",
