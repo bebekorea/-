@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Jost, Noto_Serif_KR } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 import { LanguageProvider } from "@/lib/i18n";
 import { AssetsProvider } from "@/lib/useAssets";
@@ -62,6 +63,7 @@ export default function RootLayout({
         <LanguageProvider>
           <AssetsProvider>{children}</AssetsProvider>
         </LanguageProvider>
+        <Analytics />
       </body>
     </html>
   );
