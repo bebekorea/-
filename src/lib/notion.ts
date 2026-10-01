@@ -285,7 +285,7 @@ export async function fetchArticleDetail(
  * GitHub raw 등)에 올리고, 직접 링크 URL을 Notion의 URL 필드에 붙여넣는다.
  *
  * Notion DB 스키마 (열 이름 정확히 일치):
- *   - Key       (title)         — 자산 식별자. 예: "logo", "category_adopt",
+ *   - Key       (title)         — 자산 식별자. 예: "logo",
  *                                  "category_location", "category_partners",
  *                                  "category_product", "category_beauty",
  *                                  "category_global", "org_chart",
@@ -308,7 +308,6 @@ export async function fetchArticleDetail(
 /** 코드에서 인식하는 자산 키 목록. Notion DB의 Key는 이 중 하나여야 한다. */
 export const ASSET_KEYS = [
   "logo",
-  "category_adopt",
   "category_location",
   "category_partners",
   "category_product",

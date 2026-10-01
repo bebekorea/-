@@ -10,10 +10,10 @@ import {
   resolveCategoryPreviewProps,
 } from "./categoryPreview";
 
-// 데스크탑 page.tsx <CategorySection /> 순서와 1:1 일치 — adopt/location/
+// 데스크탑 page.tsx <CategorySection /> 순서와 1:1 일치: location/
 // product/beauty/partners(사료/간식)/global. 서비스 드롭다운 표시 순서도 동일.
+// (adopt는 2026-09-30 클라이언트 요청으로 삭제)
 const CATEGORY_ORDER = [
-  "adopt",
   "location",
   "product",
   "beauty",

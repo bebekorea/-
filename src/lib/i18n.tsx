@@ -19,7 +19,6 @@ const ko: Dict = {
   "nav.brand": "베베펫",
   "nav.service": "서비스",
   "nav.global": "글로벌",
-  "nav.adopt": "입양",
   "nav.location": "병원",
   "nav.partners": "사료/간식",
   "nav.product": "용품",
@@ -89,22 +88,14 @@ const ko: Dict = {
 
   // ── Category index (#index) ───────────────────────────────────
   "index.cta": "베베펫이 제공하는 서비스를 확인해보세요.",
-  "index.caption.adopt": "완벽한 반려 라이프의 시작",
   "index.caption.location": "365일 · 24시간 안심 의료",
   "index.caption.partners": "엄선된 영양 케어",
   "index.caption.product": "건강한 일상을 위한 용품",
   "index.caption.beauty": "전문 미용·스파",
-  "index.body.adopt": "전문 수의사 검진을 거친 건강한 가족을 안겨드리는 안심 입양",
   "index.body.location": "정기 진료부터 24시간 응급 상황까지 믿을 수 있는 의료 서비스",
   "index.body.partners": "프리미엄 사료부터 정성 가득한 간식까지, 깐깐하게 고른 푸드 셀렉션",
   "index.body.product": "매 순간을 안전하고 풍요롭게 채워줄 프리미엄 제품",
   "index.body.beauty": "견종과 묘종의 특성에 맞춘 안전하고 섬세한 전문 메디컬 케어",
-
-  // ── Adopt species cards (인덱스 ADOPT 프리뷰의 3분할 카드 라벨) ─
-  "adopt.species.large": "대형견",
-  "adopt.species.small": "소형견",
-  "adopt.species.cat": "고양이",
-  "adopt.cta.instagram": "베베펫 인스타그램 보러가기",
 
   // ── Product cards (인덱스 PRODUCT 프리뷰의 3×2 카드 라벨) ──────
   "product.card.care": "케어용품",
@@ -180,7 +171,6 @@ const en: Dict = {
   "nav.brand": "BEBE PET",
   "nav.service": "SERVICE",
   "nav.global": "GLOBAL",
-  "nav.adopt": "ADOPT",
   "nav.location": "HOSPITALITY",
   "nav.partners": "PET FOOD",
   "nav.product": "PRODUCT",
@@ -250,22 +240,14 @@ const en: Dict = {
 
   // ── Category index ─────────────────────────────────────────────
   "index.cta": "Explore the services BEBE PET provides.",
-  "index.caption.adopt": "Where your perfect pet life begins",
   "index.caption.location": "Trusted medical care, 24/7 · 365",
   "index.caption.partners": "Curated nutrition care",
   "index.caption.product": "Supplies for healthy everyday life",
   "index.caption.beauty": "Professional grooming · spa",
-  "index.body.adopt": "Healthy family members vetted by our veterinarians, brought home with peace of mind",
   "index.body.location": "From routine checkups to 24-hour emergencies — medical service you can trust",
   "index.body.partners": "From premium kibble to thoughtfully made treats — a meticulously curated pet food selection",
   "index.body.product": "Premium products that fill every moment, safely and abundantly",
   "index.body.beauty": "Safe, refined medical-grade care tailored to each breed",
-
-  // ── Adopt species cards ────────────────────────────────────────
-  "adopt.species.large": "Large dogs",
-  "adopt.species.small": "Small dogs",
-  "adopt.species.cat": "Cats",
-  "adopt.cta.instagram": "Visit our Instagram",
 
   // ── Product cards ──────────────────────────────────────────────
   "product.card.care": "Care",

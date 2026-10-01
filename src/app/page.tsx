@@ -41,7 +41,7 @@ function animateScrollTo(container: HTMLElement, targetY: number, duration: numb
 }
 
 // Direct-children id-bearing sections only — the deck wraps panels that
-// each have their own id (#adopt, #location, …) but those live INSIDE the
+// each have their own id (#location, #product, …) but those live INSIDE the
 // horizontal track, not in the vertical scroll, so they shouldn't show up
 // as snap-jump targets or active-section candidates.
 // Also excludes responsive-hidden sections (display: none) — mobile-only
@@ -266,7 +266,7 @@ export default function Page() {
     setHeroResetTick((v) => v + 1);
   }, []);
 
-  // Routing — 카테고리(adopt/location/partners/product/beauty)는 이제
+  // Routing: 카테고리(location/partners/product/beauty/global)는 이제
   // 각자 풀-뷰포트 fp-section을 갖고 있어서 직접 점프한다. `#brand`만
   // ScrollHero 내부 stage 2 근처로 점프하기 위해 특수 처리. `#hero`는
   // 로고/베베펫 네비 클릭 시 처음 진입한 stage 1 상태로 복귀하도록
@@ -290,7 +290,7 @@ export default function Page() {
   //   hero            → stage 1 dark (vis.mp4 backdrop), other stages light
   //   index/beauty/contact → dark (photo bg with overlay)
   //   index w/ active preview → follow the previewed section's bg theme:
-  //     ADOPT/HOSPITALITY/FOOD/PRODUCT → light bg → black header
+  //     HOSPITALITY/FOOD/PRODUCT → light bg → black header
   //     BEAUTY&SPA → dark photo → white header (DARK_SECTIONS)
   //   else            → light by default
   const headerTheme: "light" | "dark" = (() => {
@@ -341,12 +341,7 @@ export default function Page() {
             그대로 떼어내 풀-뷰포트 섹션으로 펼친다. 사용자는 마퀴까지
             가지 않아도 스크롤만으로 각 카테고리 컴포지션을 차례로 본다.
             기존 마퀴는 이 5개 섹션 아래로 밀려 인덱스/네비 역할을 한다. */}
-        <CategorySection
-          categoryId="adopt"
-          isActive={activeSection === "adopt"}
-          onOpenRegister={() => setRegisterOpen(true)}
-          onAnchor={scrollToSection}
-        />
+        {/* 입양(adopt) 섹션은 2026-09-30 클라이언트 요청으로 삭제 */}
         <CategorySection
           categoryId="location"
           isActive={activeSection === "location"}

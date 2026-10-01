@@ -51,13 +51,6 @@ const PRODUCT_CARDS: Array<{ labelKey: string; photo: string }> = [
   { labelKey: "product.card.bedding", photo: "/images/category-product.jpg" },
 ];
 
-// ADOPT — 3종 입양 사진 (대형견, 소형견, 고양이) 실제 자산 입고.
-const ADOPT_SPECIES: Array<{ labelKey: string; photo: string }> = [
-  { labelKey: "adopt.species.large", photo: "/images/category-adopt-large.jpg" },
-  { labelKey: "adopt.species.small", photo: "/images/category-adopt-small.jpg" },
-  { labelKey: "adopt.species.cat", photo: "/images/category-adopt-cat.jpg" },
-];
-
 export type CategoryDetail = {
   visualSide: VisualSide;
   visual: CategoryVisualSpec;
@@ -69,31 +62,8 @@ export type CategoryDetail = {
   pointsByLang?: Record<Lang, Array<{ label: string; body: string }>>;
 };
 
+// 입양(adopt) 카테고리는 2026-09-30 클라이언트 요청으로 삭제
 export const CATEGORY_DETAILS: Record<string, CategoryDetail> = {
-  adopt: {
-    visualSide: "left",
-    visual: { type: "cards", cards: ADOPT_SPECIES },
-    label: "ADOPT",
-    captionKey: "index.caption.adopt",
-    bodyKey: "index.body.adopt",
-    cta: {
-      kind: "link",
-      href: "https://www.instagram.com/bebep_et/",
-      textKey: "adopt.cta.instagram",
-    },
-    pointsByLang: {
-      ko: [
-        { label: "라이프스타일 맞춤 상담", body: "보호자의 거주 환경과 일상을 종합적으로 고려하여 상담합니다" },
-        { label: "검증된 브리더 협력", body: "생명 존중 철학에 공감하는 올바른 환경의 브리더와만 안전하게 협력합니다" },
-        { label: "평생 안심 케어", body: "입양 후에도 평생 동안 전문 의료 서비스를 책임지고 제공합니다" },
-      ],
-      en: [
-        { label: "Lifestyle-matched consultation", body: "We consult comprehensively, taking your living environment and daily routine into account" },
-        { label: "Verified breeder partnership", body: "We partner only with ethical breeders who share our respect for life" },
-        { label: "Lifelong peace-of-mind care", body: "Professional veterinary care continues for life after adoption" },
-      ],
-    },
-  },
   location: {
     visualSide: "right",
     visual: {
@@ -103,7 +73,7 @@ export const CATEGORY_DETAILS: Record<string, CategoryDetail> = {
     label: "HOSPITALITY",
     captionKey: "index.caption.location",
     bodyKey: "index.body.location",
-    // 예약하기 CTA — RegisterModal 오픈. 입양 파트(인스타 link CTA)와 같은
+    // 예약하기 CTA: RegisterModal 오픈. 미용 파트(인스타 link CTA)와 같은
     // 버튼 위치/스타일 구조. 2026-05-30 클라이언트 요청으로 추가.
     cta: {
       kind: "register",

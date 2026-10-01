@@ -38,12 +38,10 @@ const NAV_ITEMS: NavItem[] = [
   { key: "nav.press", href: "/news" },
 ];
 
-// Service dropdown — 5 sub-items, each routed to the matching in-page anchor.
-// Order is tuned for the 2/2/1 vertical layout: rows are [입양, 병원],
-// [용품, 미용], [사료/간식] — the wider 사료/간식 label sits alone on the
-// last row so it has room to breathe instead of forcing the panel wider.
+// Service dropdown: 4 sub-items in one horizontal row, each routed to the
+// matching in-page anchor. Order matches the DOM order of the category
+// sections so clicking scrolls naturally downward. (입양은 2026-09-30 삭제)
 const SERVICE_ITEMS: { key: string; href: string }[] = [
-  { key: "nav.adopt", href: "#adopt" },
   { key: "nav.location", href: "#location" },
   { key: "nav.product", href: "#product" },
   { key: "nav.beauty", href: "#beauty" },
