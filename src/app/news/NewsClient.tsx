@@ -56,30 +56,6 @@ const FALLBACK_BILINGUAL: BilingualArticle[] = [
     },
   },
   {
-    id: "fallback-3",
-    date: "2026.03.28",
-    ko: {
-      title: "베베펫, 입양·진료·미용 원스톱 시스템으로 차별화",
-      source: "조선일보",
-    },
-    en: {
-      title: "BEBE PET differentiates with a one-stop adopt · vet · grooming system",
-      source: "The Chosun Ilbo",
-    },
-  },
-  {
-    id: "fallback-4",
-    date: "2026.03.20",
-    ko: {
-      title: "\"가족이 된 반려동물\"...베베펫의 책임 입양 철학",
-      source: "동아일보",
-    },
-    en: {
-      title: "\"Pets that become family\" — the responsible-adoption ethos at BEBE PET",
-      source: "Donga Ilbo",
-    },
-  },
-  {
     id: "fallback-5",
     date: "2026.03.12",
     ko: {

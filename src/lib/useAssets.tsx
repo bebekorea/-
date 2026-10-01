@@ -14,7 +14,7 @@ import type { AssetKey, AssetMap } from "./notion";
  *  useAsset(key, fallback) — 자산 URL을 반환. Notion에서 받아온 값이
  *    있으면 그걸, 없으면 fallback. 가장 일반적인 사용 패턴:
  *
- *      const photo = useAsset("category_adopt", "/images/adopt-default.jpg");
+ *      const photo = useAsset("category_location", "/images/category-location.jpg");
  *      <img src={photo} alt="..." />
  */
 

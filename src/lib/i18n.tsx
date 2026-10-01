@@ -30,7 +30,7 @@ const ko: Dict = {
   "intro.typing": "당신의 반려가족을 위한 모든것,\n베베펫입니다.",
   "hero.lines": [
     "베베펫에서 시작되는 평생의 동행",
-    "건강한 입양부터 의료, 사료, 미용까지",
+    "믿을 수 있는 의료부터 사료, 미용까지",
     "당신의 반려가족을 위한 모든 것",
   ],
   "hero.tagline": "평생 함께할 첫만남",
@@ -42,7 +42,7 @@ const ko: Dict = {
   "assets.label": "베베펫 6대 자산",
   "assets.medical.title": "의료자산",
   "assets.medical.summary": [
-    "단순한 입양을 넘어",
+    "단순한 진료를 넘어",
     "생명을 책임지는",
     "전문성을 상징합니다.",
   ],
@@ -182,7 +182,7 @@ const en: Dict = {
   "intro.typing": "Everything for your pet family. BEBE PET.",
   "hero.lines": [
     "A lifelong companionship begins at BEBE PET",
-    "From healthy adoption to medical, food, and grooming,",
+    "From trusted medical care to food and grooming,",
     "everything for your beloved pet family",
   ],
   "hero.tagline": "A first meeting that lasts forever",
@@ -195,7 +195,7 @@ const en: Dict = {
   "assets.medical.title": "Medical",
   "assets.medical.summary": [
     "Expertise beyond",
-    "simple adoption,",
+    "routine care,",
     "protecting every life.",
   ],
   "assets.global.title": "Global",

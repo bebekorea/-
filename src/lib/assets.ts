@@ -26,19 +26,19 @@ export const ASSET_DETAILS: AssetDetail[] = [
   {
     name: { ko: "의료 자산", en: "Medical" },
     tagline: {
-      ko: "단순한 입양을 넘어, 생명을 끝까지 책임지는 메디컬 전문성입니다.",
-      en: "Beyond simple adoption — medical expertise that takes responsibility for every life, to the very end.",
+      ko: "단순한 진료를 넘어, 생명을 끝까지 책임지는 메디컬 전문성입니다.",
+      en: "Beyond routine care, medical expertise that takes responsibility for every life, to the very end.",
     },
     points: {
       ko: [
-        { label: "자체 의료진의 밀착 케어", body: "자체 메디컬 센터 수의사가 입양 전 모든 아이들을 직접 검진하고 보증합니다." },
+        { label: "자체 의료진의 밀착 케어", body: "자체 메디컬 센터 수의사가 모든 아이들을 직접 진료하고 끝까지 책임집니다." },
         { label: "투명한 메디컬 데이터 공개", body: "검진 결과지와 예방접종 기록을 가감 없이 공개하여 초기 불안감을 해소합니다." },
-        { label: "평생 안심 의료 파트너십", body: "입양에 그치지 않고 반려생활 전반의 전문 의료 서비스를 지속적으로 지원합니다." },
+        { label: "평생 안심 의료 파트너십", body: "한 번의 진료에 그치지 않고 반려생활 전반의 전문 의료 서비스를 지속적으로 지원합니다." },
       ],
       en: [
-        { label: "In-house medical, hands-on", body: "Our in-house medical center vet personally examines and vouches for every animal before adoption." },
+        { label: "In-house medical, hands-on", body: "Our in-house medical center vets personally examine and care for every pet, start to finish." },
         { label: "Transparent medical data", body: "Checkup results and vaccination history are shared in full, easing every first-time worry." },
-        { label: "Lifelong medical partnership", body: "Professional medical service that extends well beyond adoption, supporting your pet's entire life." },
+        { label: "Lifelong medical partnership", body: "Professional medical service that extends well beyond a single visit, supporting your pet's entire life." },
       ],
     },
   },
@@ -90,12 +90,12 @@ export const ASSET_DETAILS: AssetDetail[] = [
       ko: [
         { label: "전문가 그룹의 협업 체계", body: "무역, 의료, 미용, 마케팅 등 고도화된 조직력으로 개인 숍과 차별화된 퀄리티를 만듭니다." },
         { label: "글로벌 스탠다드 매뉴얼", body: "어떤 채널에서 베베펫을 만나도 동일한 수준의 고품격 전문 서비스를 보장합니다." },
-        { label: "체계적인 멤버십 매니지먼트", body: "입양 이후에도 보호자와 반려동물의 생애 주기를 체계적으로 기록하고 관리하는 통합 시스템을 지향합니다." },
+        { label: "체계적인 멤버십 매니지먼트", body: "보호자와 반려동물의 생애 주기를 체계적으로 기록하고 관리하는 통합 시스템을 지향합니다." },
       ],
       en: [
         { label: "Specialist-group collaboration", body: "Trade, medical, grooming, and marketing teams collaborate at a level no individual shop can match." },
         { label: "Global-standard manuals", body: "Whatever channel you meet BEBE PET through, the same high-end professional service is guaranteed." },
-        { label: "Systematic membership management", body: "Beyond adoption, an integrated system that records and manages each pet's life stages alongside their family." },
+        { label: "Systematic membership management", body: "An integrated system that records and manages each pet's life stages alongside their family." },
       ],
     },
   },
@@ -108,13 +108,13 @@ export const ASSET_DETAILS: AssetDetail[] = [
     points: {
       ko: [
         { label: "리얼타임 현장 투명 공개", body: "SNS를 통해 아이들의 일상 케어와 매장 위생 소독 현황을 매일 실시간으로 공유합니다." },
-        { label: "보호자가 증명하는 가치", body: "실제 입양 가족들의 생생한 후기와 아이들의 성장 모습이 가장 확실한 신뢰의 증거입니다." },
-        { label: "축적된 빅데이터의 힘", body: "오픈 이후 축적된 방대한 입양 및 상담 기록은 지역사회가 신뢰하는 기반입니다." },
+        { label: "보호자가 증명하는 가치", body: "실제 보호자들의 생생한 후기와 아이들의 성장 모습이 가장 확실한 신뢰의 증거입니다." },
+        { label: "축적된 빅데이터의 힘", body: "오픈 이후 축적된 방대한 진료 및 상담 기록은 지역사회가 신뢰하는 기반입니다." },
       ],
       en: [
         { label: "Realtime on-site transparency", body: "Daily live updates across our social channels — pet care routines and store sanitation, all in the open." },
-        { label: "Value proven by families", body: "Honest reviews from real adopting families and our pets' growth — the strongest proof of trust." },
-        { label: "The power of accumulated data", body: "A vast archive of adoption and consultation records built since opening — the foundation of community trust." },
+        { label: "Value proven by families", body: "Honest reviews from real pet families and our pets' growth: the strongest proof of trust." },
+        { label: "The power of accumulated data", body: "A vast archive of care and consultation records built since opening, the foundation of community trust." },
       ],
     },
   },
